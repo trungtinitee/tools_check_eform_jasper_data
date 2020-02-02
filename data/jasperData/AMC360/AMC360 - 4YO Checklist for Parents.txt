@@ -1,0 +1,1486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.10.0.final using JasperReports Library version 6.10.0-unknown  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="3f9305c8-7403-4513-8415-e3a7e77ff67f123" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="46fa1fa4-7c97-4669-800c-93e85cfd2ae3">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="realPath" class="java.lang.String"/>
+	<parameter name="data" class="java.util.Hashtable">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+	</parameter>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="75" splitType="Stretch">
+			<frame>
+				<reportElement x="0" y="-10" width="555" height="85" uuid="4a165199-027b-4193-b395-5e00f5421030"/>
+				<staticText>
+					<reportElement x="310" y="30" width="245" height="30" uuid="b890ec04-f4ce-46f0-9a6b-69f6de381b7b"/>
+					<textElement textAlignment="Right" verticalAlignment="Bottom">
+						<font fontName="Serif" size="14" isBold="true" isItalic="false"/>
+						<paragraph lineSpacing="Single" rightIndent="3" spacingBefore="2"/>
+					</textElement>
+					<text><![CDATA[AMC 360 Four Years Old Checklist]]></text>
+				</staticText>
+				<frame>
+					<reportElement x="0" y="0" width="310" height="75" uuid="28d592e6-c9c7-47ee-8683-b7579d7b39d5"/>
+					<box>
+						<pen lineWidth="0.5"/>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<staticText>
+						<reportElement mode="Transparent" x="0" y="0" width="310" height="15" uuid="0b3edfae-b654-4871-915a-d9e9e089e1bf">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph lineSpacing="Single" leftIndent="2"/>
+						</textElement>
+						<text><![CDATA[Name:]]></text>
+					</staticText>
+					<textField>
+						<reportElement mode="Transparent" x="50" y="0" width="260" height="15" backcolor="#FFFFFF" uuid="5903b7e5-9ed0-44a8-abee-4b94acacec30">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement textAlignment="Justified" verticalAlignment="Middle">
+							<font fontName="OfficiaSans Basic" size="10"/>
+							<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="0"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$P{data}.get( "p_name" )!=null ? $P{data}.get( "p_name" ) : ""]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Transparent" x="0" y="15" width="130" height="15" uuid="5369d26a-9bcb-4a77-ad8f-648dfbd9a79e">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph lineSpacing="Single" leftIndent="2"/>
+						</textElement>
+						<text><![CDATA[DOB:]]></text>
+					</staticText>
+					<textField>
+						<reportElement mode="Transparent" x="50" y="15" width="80" height="15" backcolor="#FFFFFF" uuid="cc2ab449-f17b-46bb-9d99-32b15ab31d6e">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement textAlignment="Justified" verticalAlignment="Middle">
+							<font fontName="OfficiaSans Basic" size="10"/>
+							<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="0"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$P{data}.get( "p_dob" )!=null ? $P{data}.get( "p_dob" ) : ""]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Transparent" x="0" y="30" width="310" height="15" uuid="fcc7b48b-99e5-4fe4-ac38-1883ba106f42">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph lineSpacing="Single" leftIndent="2"/>
+						</textElement>
+						<text><![CDATA[Address:]]></text>
+					</staticText>
+					<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+						<reportElement mode="Transparent" x="50" y="30" width="260" height="15" backcolor="#FFFFFF" uuid="008c9d07-aa7f-4b02-938a-6282a6e21cb7">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement textAlignment="Justified" verticalAlignment="Middle">
+							<font fontName="OfficiaSans Basic" size="10"/>
+							<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="0"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$P{data}.get( "p_address" )!=null ? $P{data}.get( "p_address" ) : ""]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Transparent" x="130" y="15" width="150" height="15" uuid="51568852-5bae-40b0-bca6-1bf6a11b4f27">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph lineSpacing="Single" leftIndent="2"/>
+						</textElement>
+						<text><![CDATA[Age:]]></text>
+					</staticText>
+					<textField>
+						<reportElement mode="Transparent" x="160" y="15" width="150" height="15" backcolor="#FFFFFF" uuid="c2323bcb-2c76-45a7-8ec7-8d4759b97349">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement textAlignment="Justified" verticalAlignment="Middle">
+							<font fontName="OfficiaSans Basic" size="10"/>
+							<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="0"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$P{data}.get( "p_age" )!=null ? $P{data}.get( "p_age" ) : ""]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Transparent" x="0" y="45" width="310" height="15" uuid="d9a10f68-9a4c-4c8f-b49e-8b947a8f4f2f">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph lineSpacing="Single" leftIndent="2"/>
+						</textElement>
+						<text><![CDATA[Contact:]]></text>
+					</staticText>
+					<textField>
+						<reportElement mode="Transparent" x="50" y="45" width="260" height="15" backcolor="#FFFFFF" uuid="494db16b-55aa-4d6b-a276-39dbf563c839">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement textAlignment="Justified" verticalAlignment="Middle">
+							<font fontName="OfficiaSans Basic" size="10"/>
+							<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="0"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$P{data}.get( "p_phone" )!=null ? $P{data}.get( "p_phone" ) : ""]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Transparent" x="0" y="60" width="310" height="15" uuid="c585bf11-7877-46a2-842f-c9751994450a">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph lineSpacing="Single" leftIndent="2"/>
+						</textElement>
+						<text><![CDATA[Medicare details:]]></text>
+					</staticText>
+					<textField>
+						<reportElement mode="Transparent" x="85" y="60" width="225" height="15" backcolor="#FFFFFF" uuid="4cde9a3c-3b0c-4d17-a818-b78287b1bf05">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement textAlignment="Justified" verticalAlignment="Middle">
+							<font fontName="OfficiaSans Basic" size="10"/>
+							<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="0"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$P{data}.get( "p_medicareno" )!=null ? $P{data}.get( "p_medicareno" ) : ""]]></textFieldExpression>
+					</textField>
+				</frame>
+				<image scaleImage="FillFrame" hAlign="Center" vAlign="Middle">
+					<reportElement x="430" y="0" width="120" height="40" uuid="0591974b-6c0c-4737-89ac-fdfcb81f0330">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<imageExpression><![CDATA[$P{realPath}+"resources/Aboriginal+Medical+Care+360+Logo_Aboriginal+Madical+Care+360+logo.jpg"]]></imageExpression>
+				</image>
+			</frame>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="680">
+			<frame>
+				<reportElement positionType="Float" x="0" y="0" width="555" height="120" uuid="b78abc44-3912-4c37-8482-b11b791092ce"/>
+				<staticText>
+					<reportElement x="0" y="0" width="555" height="20" uuid="1d99687c-a33a-4b61-95b3-5a22d3188213"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Serif" isBold="true" isUnderline="true"/>
+						<paragraph lineSpacing="Single" spacingBefore="0" spacingAfter="0"/>
+					</textElement>
+					<text><![CDATA[Four years old growth and development checklist for parents/ carers]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="20" width="555" height="15" uuid="a8967e9b-315e-496f-8ecb-3569b80f51cc"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Serif" isBold="true" isItalic="true"/>
+						<paragraph leftIndent="0" spacingBefore="2"/>
+					</textElement>
+					<text><![CDATA[Dear parents, please complete this before seeing the doctor:]]></text>
+				</staticText>
+				<frame>
+					<reportElement x="0" y="35" width="555" height="20" uuid="e35a0d33-7ee1-43d7-97f1-b4364ad6f812"/>
+					<staticText>
+						<reportElement x="0" y="0" width="555" height="20" uuid="a0eacdfd-763b-4340-b194-af5c6078fda7"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="8" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[1. I am concerned about my child’s hearing]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="395" y="0" width="40" height="20" uuid="30729850-6145-412b-8dd2-efb88e5ba521"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Yes]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="385" y="5" width="10" height="10" uuid="56769783-5e30-4565-a8ce-aad20bf80a25"/>
+					</rectangle>
+					<image>
+						<reportElement x="385" y="5" width="10" height="10" uuid="7b0d404e-d9dd-4f88-bc59-1984c75d0755">
+							<printWhenExpression><![CDATA[$P{data}.get("child_hearing").equals("Yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<staticText>
+						<reportElement x="475" y="0" width="40" height="20" uuid="299e11e8-a070-4e6b-8f8b-d43ef265cda1"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[No]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="465" y="5" width="10" height="10" uuid="51675801-aef4-4659-8e59-03cd9998044b"/>
+					</rectangle>
+					<image>
+						<reportElement x="465" y="5" width="10" height="10" uuid="449bce0e-9e1b-4126-9ddd-06f20b499c10">
+							<printWhenExpression><![CDATA[$P{data}.get("child_hearing").equals("No")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="55" width="555" height="20" uuid="e3e54781-0e66-41d9-96e2-d4e873ee4b0c"/>
+					<staticText>
+						<reportElement x="0" y="0" width="555" height="20" uuid="711acda9-3bed-45e0-a5e6-611be677365a"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="8" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[2. Others have said they are concerned about my child’s hearing ]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="395" y="0" width="40" height="20" uuid="7fb08db9-96b4-4fcc-a670-1af36a7d2efd"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Yes]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="385" y="5" width="10" height="10" uuid="e3a4ded7-7b69-4c93-9531-280d3e7e5193"/>
+					</rectangle>
+					<image>
+						<reportElement x="385" y="5" width="10" height="10" uuid="26a3fb93-9750-4176-9fc0-83cc56c3df90">
+							<printWhenExpression><![CDATA[$P{data}.get("other_child_hearing").equals("Yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<staticText>
+						<reportElement x="475" y="0" width="40" height="20" uuid="d0ae0ac9-5ce5-4293-b173-c90b14460524"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[No]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="465" y="5" width="10" height="10" uuid="4f6f103b-5acc-45de-a2a9-0b5718455bdc"/>
+					</rectangle>
+					<image>
+						<reportElement x="465" y="5" width="10" height="10" uuid="e91f871e-f162-4d4c-b069-314f9de72e0e">
+							<printWhenExpression><![CDATA[$P{data}.get("other_child_hearing").equals("No")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="75" width="555" height="20" uuid="ac151699-54a1-4bad-a745-04e4d715cfc3"/>
+					<staticText>
+						<reportElement x="0" y="0" width="555" height="20" uuid="1ab55322-a06c-4921-90d9-611bdbd5b2c6">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</reportElement>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="8" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[3. I am concerned about my child’s vision ]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="395" y="0" width="40" height="20" uuid="976bf803-61ea-4ac7-8e09-bf6146d6318f"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Yes]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="385" y="5" width="10" height="10" uuid="6079eba0-ed70-41cc-b01f-7d7a7f3c9421"/>
+					</rectangle>
+					<image>
+						<reportElement x="385" y="5" width="10" height="10" uuid="9a377472-1a99-4994-b3af-a8e0426e90c0">
+							<printWhenExpression><![CDATA[$P{data}.get("child_vision").equals("Yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<staticText>
+						<reportElement x="475" y="0" width="40" height="20" uuid="94035b0d-0321-4998-ad33-1c9d69b8a755"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[No]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="465" y="5" width="10" height="10" uuid="fcf0695e-5e5a-4856-974b-03eef6f2ca05"/>
+					</rectangle>
+					<image>
+						<reportElement x="465" y="5" width="10" height="10" isPrintInFirstWholeBand="true" uuid="3c9bca18-7014-456c-8849-5e9d35ebff26">
+							<printWhenExpression><![CDATA[$P{data}.get("child_vision").equals("No")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="95" width="555" height="20" uuid="6eca8654-85b7-4057-b7e7-8c5518858ba4"/>
+					<staticText>
+						<reportElement x="0" y="0" width="555" height="20" uuid="85cec650-bd35-4684-a365-f390795c6a87">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</reportElement>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="8" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[4. My child has a turned or lazy eye (squint or strabismus) ]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="395" y="0" width="40" height="20" uuid="850874ff-cb5e-4017-b02c-50743ee1e2e5"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Yes]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="385" y="5" width="10" height="10" uuid="df8103db-9654-401d-8ccc-a4eaaad6da57"/>
+					</rectangle>
+					<image>
+						<reportElement x="385" y="5" width="10" height="10" isRemoveLineWhenBlank="true" uuid="661278dd-8894-4543-9711-fd0c7a61ed43">
+							<printWhenExpression><![CDATA[$P{data}.get("lazy_eye").equals("Yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<staticText>
+						<reportElement x="475" y="0" width="40" height="20" uuid="b09d187e-fb5a-428b-9b02-56729adfa155"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[No]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="465" y="5" width="10" height="10" uuid="979f0805-9c28-4b4d-83ce-7c1411fdb5f7"/>
+					</rectangle>
+					<image>
+						<reportElement x="465" y="5" width="10" height="10" isPrintInFirstWholeBand="true" uuid="de094d38-1dd0-4b94-915e-b779628f42dc">
+							<printWhenExpression><![CDATA[$P{data}.get("lazy_eye").equals("No")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="115" width="555" height="20" uuid="f186ecd2-8399-4cf4-a7a2-0d381e2fc256"/>
+					<staticText>
+						<reportElement x="0" y="0" width="555" height="20" uuid="5dc64cf0-dc26-4e4f-935b-679c2dac4bf1">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</reportElement>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="8" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[5. My child is exposed to smoking in the home/ car ]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="395" y="0" width="40" height="20" uuid="81b97ba0-d9f3-44a9-b25d-f4e4f4c5aa9a"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Yes]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="385" y="5" width="10" height="10" uuid="6abfdb09-38ab-42e7-8daf-fe0cad56b925"/>
+					</rectangle>
+					<image>
+						<reportElement x="385" y="5" width="10" height="10" isRemoveLineWhenBlank="true" uuid="84c3d722-21b3-4278-86ed-63de76256529">
+							<printWhenExpression><![CDATA[$P{data}.get("smoking_in_the_homecar").equals("Yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<staticText>
+						<reportElement x="475" y="0" width="40" height="20" uuid="629febc1-3914-4c17-b1c1-cae712bd7bb9"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[No]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="465" y="5" width="10" height="10" uuid="a87b3d36-cb2d-498d-ab1b-83e924968142"/>
+					</rectangle>
+					<image>
+						<reportElement x="465" y="5" width="10" height="10" isPrintInFirstWholeBand="true" uuid="177c1bc1-174d-4cc8-bbdd-0688af23e1b5">
+							<printWhenExpression><![CDATA[$P{data}.get("smoking_in_the_homecar").equals("No")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+			</frame>
+			<frame>
+				<reportElement positionType="Float" x="0" y="135" width="575" height="95" uuid="8e5c98ab-27e0-4104-8cac-e6a928735a9a"/>
+				<staticText>
+					<reportElement x="0" y="0" width="555" height="15" uuid="a1f75ab0-3384-49c8-82af-1b095036954a"/>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Serif" isBold="true" isUnderline="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="0" spacingAfter="0"/>
+					</textElement>
+					<text><![CDATA[Social/ emotional: ]]></text>
+				</staticText>
+				<frame>
+					<reportElement x="0" y="15" width="300" height="20" uuid="5e51dac6-4523-4a7f-804b-592308e7494b"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="20" uuid="e5a6394c-f69d-45f5-9fab-9455cadcac35"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Enjoys doing new things' ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="55dafc4c-a336-413a-97b1-8e2f847d0dcb"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="b42909bb-e6d8-45d8-b8cd-42887b073f3d">
+							<printWhenExpression><![CDATA[$P{data}.get("doing_new_things").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="35" width="300" height="20" uuid="fe4d3502-432e-4e04-ab5a-ea8dbefc3249"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="20" uuid="d871e470-9f79-4a19-b485-2d69ded323bb"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Plays “Mum” and “Dad”]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="c8586175-735f-4aed-9742-23e6d2246864"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="0f595b79-ea31-4809-9dca-e5e5842c4846">
+							<printWhenExpression><![CDATA[$P{data}.get("play_mun_and_dad").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="55" width="300" height="20" uuid="a3bd4d62-827d-4097-9057-fd0cc512a4bd"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="20" uuid="54369139-4b4c-4fb9-adaf-b6d2d757d5d0"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Is more and more creative with make-believe play]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="c8cd8a34-5fd9-4091-bcad-5ca08f9637c2"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="c4420184-66d7-4136-8378-adbd390e38d2">
+							<printWhenExpression><![CDATA[$P{data}.get("creative_with_make_believe_play").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="75" width="300" height="20" uuid="dddbe583-82a7-4002-9f5d-0d2518e5f329"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="20" uuid="191ed6f0-d127-486d-b36d-ed9c739f62d7"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Would rather play with other children than by self ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="41a8e8b5-5b1c-4d88-8c46-ada04002ca40"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="ad1fd60a-2a52-4583-b1de-350d89e6efcb">
+							<printWhenExpression><![CDATA[$P{data}.get("other_children_than_self").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="15" width="294" height="20" uuid="cec8593e-da25-4f54-b1b0-26e5024ea00f"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="20" uuid="92e35520-0e72-4737-923c-cffb1e76de93"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Cooperates with other children ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="6" width="10" height="10" uuid="70c29e88-d3db-4e75-a8ef-9c9ac26c0e64"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="6" width="10" height="10" uuid="585a0d0b-3cdf-48b6-a29f-7583816b9cdd">
+							<printWhenExpression><![CDATA[$P{data}.get("cooperates_with_other_children").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="35" width="294" height="20" uuid="9967030a-45ef-421c-be8a-5dc1070b26ea"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="20" uuid="781d9d37-655c-4c07-9b87-36ed4a35d923"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Often can’t tell what’s real and what’s make-believe ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="42ca4f23-fce3-49ea-b768-bc0c694799f3"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="360b30d0-08fd-4683-825c-5c1845e8ec4d">
+							<printWhenExpression><![CDATA[$P{data}.get("cant_tell_real_and_make_believe").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="55" width="294" height="30" uuid="011d855b-abad-4640-aeea-b697392fcc24"/>
+					<staticText>
+						<reportElement x="19" y="0" width="275" height="30" uuid="8f7d96e6-55f7-4539-8c3e-1c6376182877"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Talks about what she or he likes and what she or he is interested in]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="6" width="10" height="10" uuid="d528f1d0-6972-4b0b-b577-8bfaeecd2266"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="6" width="10" height="10" uuid="b363867e-22a8-43c6-8208-c6f5f7357c75">
+							<printWhenExpression><![CDATA[$P{data}.get("what_she_or_he_like").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+			</frame>
+			<frame>
+				<reportElement positionType="Float" x="0" y="230" width="575" height="65" uuid="b8cbe4c1-2dd5-43e1-8c34-490e5210ff92"/>
+				<staticText>
+					<reportElement x="0" y="0" width="575" height="15" uuid="6ef2d16e-d0b5-4b54-9a3f-7e9a27a5099f"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" isBold="true" isUnderline="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="2" spacingAfter="0"/>
+					</textElement>
+					<text><![CDATA[Language/ communication: 
+ ]]></text>
+				</staticText>
+				<frame>
+					<reportElement x="0" y="15" width="555" height="30" uuid="43664d0a-2674-49a9-a439-afa985c59b88"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="30" uuid="6bb9e604-a492-4ace-a38a-9e819e99d666"/>
+						<textElement verticalAlignment="Top">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Knows some basic rules of grammar, such as correctly using “he” and “she” ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="2" width="10" height="10" uuid="ab9bb105-8eba-43be-9d81-65676760813d"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="2" width="10" height="10" uuid="7378ba2d-a479-4deb-84e5-fb4acecb150c">
+							<printWhenExpression><![CDATA[$P{data}.get("such_as_correctly_using_he_she").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="15" width="294" height="50" uuid="ea3a1378-0e72-4d9e-8c69-f9cd2e90435d"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="30" uuid="00b278e1-f9e9-442f-97c8-f1121ff230e4"/>
+						<textElement verticalAlignment="Top">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Sings a song or says a poem from memory such as the “Itsy Bitsy Spider” or the “Wheels on the Bus” ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="2" width="10" height="10" uuid="a8db1c1f-a3ce-478a-a5aa-7489c6a14e61"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="2" width="10" height="10" uuid="0d642f29-6f5d-4902-af39-95a162ac12b5">
+							<printWhenExpression><![CDATA[$P{data}.get("sing_a_song_or_say").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="45" width="300" height="20" uuid="cac3408e-966c-4d1c-9f9b-7f91d7c21279"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="20" uuid="7b312494-5769-463c-bdba-f3cfc9ce8c06"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Tells stories ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="c7fa1668-85e4-4aca-b2e1-985c119460ae"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="f43c3f6a-3b01-48af-9e68-bbb6d5e57dbe">
+							<printWhenExpression><![CDATA[$P{data}.get("tells_stories").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="45" width="294" height="20" uuid="7bd0f66f-c037-4187-b753-dddc88b8723d"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="20" uuid="44c71573-b94a-4633-b80c-57d1d98b8482"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Can say first and last name]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="1fbc87e5-7514-4ebf-8fb9-024609fc7903"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="4a3ab469-85ad-479c-a22c-12c386485fd7">
+							<printWhenExpression><![CDATA[$P{data}.get("say_first_and_last_name").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+			</frame>
+			<frame>
+				<reportElement positionType="Float" x="0" y="295" width="575" height="123" uuid="11ffc602-2c85-4852-aa0b-c64a9d95622f"/>
+				<staticText>
+					<reportElement x="0" y="0" width="555" height="15" uuid="3c21c6ea-b5f8-459f-b842-f26bc1102ef2"/>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Serif" isBold="true" isUnderline="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="0" spacingAfter="0"/>
+					</textElement>
+					<text><![CDATA[Cognitive (learning, thinking, problem solving):]]></text>
+				</staticText>
+				<frame>
+					<reportElement x="0" y="15" width="555" height="20" uuid="5c57365b-57aa-4ea7-86ba-012e0aab2008"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="20" uuid="8076939a-c672-45ad-85f9-020f402d9c9d"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Names some colours and some numbers]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="f88ca0a9-ffb7-40dd-9f9c-ed61274db3ec"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="5bf426c8-9039-46f0-b0eb-8f26621760c0">
+							<printWhenExpression><![CDATA[$P{data}.get("colours_and_some_numbers").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="35" width="555" height="20" uuid="f45070be-bf06-49fb-ab68-1929f922dde8"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="20" uuid="9bdf3806-992c-491c-ba88-a93151f31590"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Understands the idea of counting ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="9a83aca7-8e2a-48e6-a8c4-8787fe792691"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="1674d4a4-3dde-4b85-993d-cee03773140b">
+							<printWhenExpression><![CDATA[$P{data}.get("understands_the_idea_of_counting ").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="15" width="294" height="20" uuid="6a71aa4f-3cec-428d-9040-2b001bf36752"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="20" uuid="2455b03a-c01c-4628-9f3f-4207d262085d"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Draws a person with 2 to 4 body parts ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="c3898cc5-23e5-48c2-9e00-689998fd4a4e"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="87eed1c4-09ef-45e6-aa82-8da15822e83d">
+							<printWhenExpression><![CDATA[$P{data}.get("person_with_body_parts").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="95" width="294" height="28" uuid="cd7b6c32-dcdd-4384-ac82-6f788a4583ee"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="30" uuid="50a39c3c-b140-48d5-a637-c1b305666d29">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacingSize="0.0" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Tells you what she or he thinks is going to happen next in a book]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="4" width="10" height="10" uuid="531a09b7-b9cb-4bfe-a669-69e414749665">
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						</reportElement>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="4" width="10" height="10" uuid="2eb06dbb-70fe-4b41-9e7c-1c0f751dd814">
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<printWhenExpression><![CDATA[$P{data}.get("going_to_happen_next_in").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="35" width="294" height="20" uuid="52acb0b7-1f91-4012-afdd-04eb09b47f42"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="20" uuid="f1816494-d98b-4e25-8a1a-9a59d6f1ffa4"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Uses scissors ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="887d1b1b-9123-42c7-8e00-543d58c63ba4"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="81e99a44-666f-4d29-83cc-6561239fcfb0">
+							<printWhenExpression><![CDATA[$P{data}.get("uses_scissors").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="55" width="300" height="20" uuid="b9a88ca5-aa43-4170-a6a1-3e9f042c814c"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="20" uuid="ba437e58-da8c-4ef4-a929-fc551bd47df2"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Starts to understand time ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="8088ed18-8102-408b-add5-bc11b7ad3390"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="584eb029-3407-4c97-99ef-5f8cc7d5e6a9">
+							<printWhenExpression><![CDATA[$P{data}.get("starts_to_understand_time ").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="75" width="300" height="20" uuid="5b20690d-951e-49f1-b096-e8c19f93539f"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="20" uuid="ac4197a1-d7bf-4829-92f1-bee872d0b8e0"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Remembers parts of a story ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="33887ebc-86f2-4118-8881-cfc5de5906ff"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="6acb43e4-a57c-4c18-8e6d-237e606b5f5c">
+							<printWhenExpression><![CDATA[$P{data}.get("remembers_parts_of_a_story").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="95" width="300" height="20" uuid="f1e016ae-f944-4175-b55f-37c6f50aa4f6"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="20" uuid="3838c7b9-a08a-40bd-a924-1cc6ed768f96"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Understands the idea of “same” and “different” ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="8e0533e7-4b07-46f6-a600-5f4710879a51"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="2c76bf84-1946-474f-b193-ad8a2ce220c9">
+							<printWhenExpression><![CDATA[$P{data}.get("idea_of_same_and_different").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="55" width="294" height="20" uuid="4873bfdd-a231-4e54-bb3e-7535d413c718"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="20" uuid="6151ced8-aa61-4ebf-b799-c39995f1e1f8"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Starts to copy some capital letters ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="744773c2-7813-4df1-a755-c4695ccb068f"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="ac8e4e62-0ee7-4e79-aa5d-a272a76d31c8">
+							<printWhenExpression><![CDATA[$P{data}.get("starts_to_copy_some_capital_letters").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="75" width="294" height="20" uuid="b2277763-a3af-4bf9-a952-c3a33937c03a"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="20" uuid="41bdb869-5bdf-4f08-8462-edf4d7b62a50"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Plays board or card games ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="e8f2920c-920b-47ef-9951-eda0db76ba53"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="87efd7af-db6b-472a-bbc9-1e6ad8020334">
+							<printWhenExpression><![CDATA[$P{data}.get("plays_board_or_card_games").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+			</frame>
+			<frame>
+				<reportElement positionType="Float" x="0" y="418" width="575" height="45" uuid="6d41e5fb-09bc-4eb3-8cd7-e1fda2031d8a"/>
+				<staticText>
+					<reportElement x="0" y="0" width="555" height="15" uuid="f324b052-53ea-4033-be24-744172eb1ee2"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" isBold="true" isUnderline="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="2" spacingAfter="0"/>
+					</textElement>
+					<text><![CDATA[Movement, physical development:]]></text>
+				</staticText>
+				<frame>
+					<reportElement x="0" y="15" width="555" height="33" uuid="7fabad0b-ba14-4eb8-a218-f34e36e0185b"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="17" uuid="1d72ca85-f40e-4414-b127-4a139e457384"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Hops and stands on one foot up to 2 seconds]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="2" width="10" height="10" uuid="222c235f-8a72-48b3-8390-91d07a31a759"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="2" width="10" height="10" uuid="7546ec37-158f-4180-a714-64cd97a36152">
+							<printWhenExpression><![CDATA[$P{data}.get("movement1").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<rectangle>
+						<reportElement x="10" y="20" width="10" height="10" uuid="f15375de-5c99-4f62-9bd5-35c88f830ce9"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="20" width="10" height="10" uuid="bbeacd0e-84b1-42c0-96e0-227b2055b988">
+							<printWhenExpression><![CDATA[$P{data}.get("catch_ball").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<staticText>
+						<reportElement x="25" y="18" width="251" height="15" uuid="b5f12729-34b8-40cb-81e9-20ba5a9fca60"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+						</textElement>
+						<text><![CDATA[Catches a bounced ball most of the time]]></text>
+					</staticText>
+				</frame>
+				<frame>
+					<reportElement x="281" y="15" width="294" height="30" uuid="6807c473-e569-4304-b330-27ce59b4a295"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="30" uuid="fb908bda-cb34-4fbc-a6a0-80c81fdccce5"/>
+						<textElement verticalAlignment="Top">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Pours, cuts with supervision, and mashes
+own food]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="2" width="10" height="10" uuid="f8c7063e-f356-420a-8fc1-2f237eed1398"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="2" width="10" height="10" uuid="90d4e7c2-a265-45cf-a645-829d8dadfade">
+							<printWhenExpression><![CDATA[$P{data}.get("movement2").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+			</frame>
+			<frame>
+				<reportElement positionType="Float" x="0" y="470" width="575" height="135" uuid="41d14ed1-5567-48f8-9a7c-0eb38cbf29fc">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement x="0" y="0" width="555" height="15" uuid="d28c3010-8498-4842-8d86-c96847c7befe"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" isBold="true" isUnderline="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="2" spacingAfter="0"/>
+					</textElement>
+					<text><![CDATA[Act Early by talking to your child’s Doctor or child and family health nurse if your child:]]></text>
+				</staticText>
+				<frame>
+					<reportElement x="0" y="15" width="300" height="20" uuid="92d5cdf6-8c21-4578-a1f6-cea3b8a96bb8"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="20" uuid="ca5e3a05-0f79-4119-88e2-cd17de0a3cf5"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Can’t jump in place ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="5850158f-f035-4342-9803-15759b541c2c"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="e6d8a05a-7256-40d0-b31d-42d07bebb720">
+							<printWhenExpression><![CDATA[$P{data}.get("cant_jump_in_place").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="35" width="300" height="20" uuid="40f1687a-c285-4872-974c-d41971689097"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="20" uuid="5ade3065-ca7d-4758-b0fb-49c3aeb3c33d"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Has trouble scribbling ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="8b4d0dbf-72ee-412f-8099-202f369b1232"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="c50f47fa-3c66-41be-8269-b9a43d7f6a93">
+							<printWhenExpression><![CDATA[$P{data}.get("has_trouble_scribbling").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="55" width="300" height="30" uuid="9941d275-713a-490e-ad45-260af3b4d773"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="30" uuid="89c9929f-eb46-4e4e-884d-afbf52ffc912"/>
+						<textElement verticalAlignment="Top">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Shows no interest in interactive games or make-believe ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="2" width="10" height="10" uuid="efa97455-c40a-43e2-a6c8-be0bbea0de97"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="2" width="10" height="10" uuid="52c36733-eace-4a8d-a2c2-22da2bff3f2d">
+							<printWhenExpression><![CDATA[$P{data}.get("games_or_make_believe").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="85" width="300" height="30" uuid="3d000e30-80b8-4fdb-8e89-0ba252d0a8cc"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="30" uuid="5e387ab5-c3f7-4b68-8015-4daa5b59b634"/>
+						<textElement verticalAlignment="Top">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Ignores other children or doesn’t respond to people outside the family ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="2" width="10" height="10" uuid="22b21821-d351-4f41-ad07-6602a70ad81a"/>
+					</rectangle>
+					<image>
+						<reportElement stretchType="RelativeToBandHeight" x="10" y="2" width="10" height="10" uuid="09d9f459-78df-4b1d-ad7f-8751bbf6897e">
+							<printWhenExpression><![CDATA[$P{data}.get("ignores_other_children").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="115" width="300" height="20" uuid="770691c8-dc14-4cb4-ba30-a748be927014"/>
+					<staticText>
+						<reportElement x="20" y="0" width="280" height="20" uuid="57896a63-f5e6-4a83-bed9-733b5d60e44c"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Double" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Resists dressing, sleeping or using the toilet ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="bd7d18fd-9e92-499a-bfd7-497c516b0fd2"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="90f3c6e8-a0e8-4d93-b418-a6586c21e103">
+							<printWhenExpression><![CDATA[$P{data}.get("using_the_toilet").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="15" width="294" height="20" uuid="710a305a-7d6e-4308-a1db-bb50b9db4d67"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="20" uuid="038e33f7-9fdb-4ed9-b577-2667850ce5f6"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Double" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Can’t retell a favourite story ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="4a891456-0845-417d-80bc-8a44a8bed64d"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="2e243b5f-cf2a-4417-b734-10bd6f7beea7">
+							<printWhenExpression><![CDATA[$P{data}.get("cant_retell_favourite_story").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="35" width="294" height="20" uuid="60a2a6cf-8228-4577-afe2-c1706f6a2d64"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="20" uuid="53c2409e-9249-4514-b584-cfd918a3bc2a"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Double" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Doesn’t follow three-part commands ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="1c5c1fe1-28b5-4499-b15b-90d8214c52aa"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="0092baec-7d29-4208-9eee-dea296576b82">
+							<printWhenExpression><![CDATA[$P{data}.get("three_part_commands").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="55" width="294" height="20" uuid="a87f15b9-164b-4724-8105-8de171cb765a"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="20" uuid="87832c52-278f-4d0f-8562-dcafd60021d9"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Double" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Doesn’t understand “same” and “different”]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="fc056b95-ca85-4586-8f50-b9b0e23c527d"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="678db9c1-fa0d-41e2-9274-e4c8ccf1c5b8">
+							<printWhenExpression><![CDATA[$P{data}.get("same_and_different").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="75" width="294" height="20" uuid="d30de1b3-e076-436c-ba91-3c6d24d2d5e7"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="20" uuid="5da0427d-3e20-4f43-b17c-7e7e51c6e8e0"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Double" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Doesn’t use “me” and “you” correctly ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="e28abd83-880c-4fd7-acbc-373f85e9eb48"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="daae4065-3548-4b17-8453-0df5178628c0">
+							<printWhenExpression><![CDATA[$P{data}.get("use_me_and_you_correctly").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="95" width="294" height="20" uuid="4477916b-9494-4852-884d-be1c6cf6df29"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="20" uuid="f96f0f14-a446-46d1-b41a-f80798c724f3"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Double" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Speaks unclearly ]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="345ae5dd-cdc2-4745-8d75-ee320655d3bc"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="4be91b8d-5685-40a0-bf2b-363ab17a2fee">
+							<printWhenExpression><![CDATA[$P{data}.get("speaks_unclearly").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="281" y="115" width="294" height="20" uuid="72392059-f193-44cc-bc70-f2b5d3f2c407"/>
+					<staticText>
+						<reportElement x="20" y="0" width="274" height="20" uuid="2afd0e9b-43f4-42b6-8bdb-cfcb1499f6f6"/>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Double" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Loses skills he/ she once had.]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="10" y="5" width="10" height="10" uuid="a8b4910d-0fd9-49b5-b0a2-56d82752e4a3"/>
+					</rectangle>
+					<image>
+						<reportElement x="10" y="5" width="10" height="10" uuid="bbb4596a-5841-4272-9261-341495b47d50">
+							<printWhenExpression><![CDATA[$P{data}.get("loses_skills_he_she_once_had").equals("yes")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+			</frame>
+			<frame>
+				<reportElement positionType="Float" x="0" y="612" width="575" height="68" uuid="f7d1f646-6e9a-4494-a9cf-e6ff0b00a38d"/>
+				<frame>
+					<reportElement positionType="Float" x="0" y="4" width="555" height="20" uuid="878fa809-9db4-49a8-8def-0449e3613ee9"/>
+					<staticText>
+						<reportElement x="0" y="0" width="190" height="20" uuid="4390a8b5-c212-4778-a4cf-04f9e21737ec"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif" isBold="true" isUnderline="false"/>
+							<paragraph leftIndent="0" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Health professional to complete:]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="301" y="4" width="70" height="20" uuid="c9b69ea1-243f-4a93-95da-23f232acada7"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Normal]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="291" y="9" width="10" height="10" uuid="ec78531d-8c37-4444-b5d9-69cc632b068d"/>
+					</rectangle>
+					<image>
+						<reportElement x="291" y="9" width="10" height="10" uuid="bcc0eb63-cade-4f2f-bb47-1229103e61a0">
+							<printWhenExpression><![CDATA[$P{data}.get("health_complete").equals("1")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<staticText>
+						<reportElement x="381" y="4" width="70" height="20" uuid="3c30e251-f1bb-4abb-9628-642e24741233"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Review]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="371" y="9" width="10" height="10" uuid="7df9f6dd-4e49-4595-ab1b-d0dafa0fdd90"/>
+					</rectangle>
+					<image>
+						<reportElement x="371" y="9" width="10" height="10" uuid="6fc43fc1-77af-4726-9290-b28479dc540d">
+							<printWhenExpression><![CDATA[$P{data}.get("health_complete").equals("2")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<staticText>
+						<reportElement x="462" y="4" width="70" height="20" uuid="1abae73e-6ea5-4906-99cb-b287221b61cf"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif"/>
+							<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="2"/>
+						</textElement>
+						<text><![CDATA[Refer]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="451" y="9" width="10" height="10" uuid="4b9245de-9330-4681-9d43-41cc7b16cc34"/>
+					</rectangle>
+					<image>
+						<reportElement x="451" y="9" width="10" height="10" uuid="93633c67-f763-45ae-b63b-a8f65fc377d7">
+							<printWhenExpression><![CDATA[$P{data}.get("health_complete").equals("3")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="0" y="24" width="555" height="40" uuid="799ba009-b65c-4251-a705-58a7fcbfe9ed"/>
+					<staticText>
+						<reportElement positionType="Float" x="0" y="4" width="175" height="40" uuid="7fc28311-4b8c-4d09-bf50-e78abfaa68be">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="true"/>
+							<paragraph lineSpacing="Single" leftIndent="5"/>
+						</textElement>
+						<text><![CDATA[GP Name:]]></text>
+					</staticText>
+					<staticText>
+						<reportElement positionType="Float" x="360" y="4" width="195" height="40" uuid="429450d3-269e-470e-b7cf-078ff3327c0e">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="true"/>
+							<paragraph lineSpacing="Single" leftIndent="5"/>
+						</textElement>
+						<text><![CDATA[Date:]]></text>
+					</staticText>
+					<staticText>
+						<reportElement positionType="Float" x="175" y="4" width="185" height="40" uuid="0f187ff1-b40c-47e6-9ce6-e195f43462bf">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="true"/>
+							<paragraph lineSpacing="Single" leftIndent="5"/>
+						</textElement>
+						<text><![CDATA[GP Signature:]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="395" y="4" width="160" height="40" backcolor="#FFFFFF" uuid="10670cba-2320-4f7a-b909-fa4eebdc6552">
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="OfficiaSans Basic" size="10"/>
+							<paragraph leftIndent="0" spacingBefore="0"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$P{data}.get( "date_sign" )!=null ? $P{data}.get( "date_sign" ) : ""]]></textFieldExpression>
+					</textField>
+					<textField>
+						<reportElement x="60" y="4" width="115" height="40" backcolor="#FFFFFF" uuid="e3bfc5b8-c419-4bac-b726-434f1c83df29">
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="OfficiaSans Basic" size="10"/>
+							<paragraph leftIndent="0" spacingBefore="0"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$P{data}.get( "gp_name" )!=null ? $P{data}.get( "gp_name" ) : ""]]></textFieldExpression>
+					</textField>
+					<image scaleImage="FillFrame" hAlign="Center" vAlign="Middle">
+						<reportElement x="250" y="7" width="100" height="34" uuid="ee91c9e6-3260-4523-af94-391089a2d08d">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<imageExpression><![CDATA[(java.awt.Image)$P{data}.get("gp_signature")]]></imageExpression>
+					</image>
+				</frame>
+			</frame>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="20">
+			<frame>
+				<reportElement mode="Transparent" x="0" y="0" width="555" height="20" uuid="3bfd5268-51a3-44c8-ba19-e72fb9a26156"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textField>
+					<reportElement mode="Transparent" x="480" y="0" width="69" height="20" uuid="8fb91aa7-76ae-4cc7-a80c-3c7104cd923c"/>
+					<box>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Page " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField evaluationTime="Report">
+					<reportElement mode="Transparent" x="510" y="0" width="44" height="20" uuid="84e8c516-40a1-4fb9-a846-6df5cc521dc5"/>
+					<box>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[" / " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="240" y="0" width="100" height="20" uuid="fba53900-92e1-4cfd-a5ad-07effdf8e247"/>
+					<textElement textAlignment="Center"/>
+					<text><![CDATA[AH 003 - CL3]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="0" width="230" height="20" uuid="7ccc44ad-7479-4986-b2b2-5903c16b4da2"/>
+					<text><![CDATA[©AMC360. Revised July 2019 ]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</pageFooter>
+</jasperReport>

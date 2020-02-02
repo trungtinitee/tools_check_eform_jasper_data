@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.10.0.final using JasperReports Library version 6.10.0-unknown  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="99c0c4db-bbac-41d4-bf1d-e09a7a489ba0">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="realPath" class="java.lang.String"/>
+	<parameter name="data" class="java.util.Hashtable">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+	</parameter>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="80" splitType="Stretch">
+			<frame>
+				<reportElement x="0" y="-10" width="555" height="90" uuid="cfcf2625-7f0b-442d-bcbe-db482e5cc6d1">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<image>
+					<reportElement x="405" y="0" width="150" height="30" uuid="e18ccc24-9f06-4255-87e2-1fdde704cf2b"/>
+					<imageExpression><![CDATA[$P{data}.get("client_logo_url")!=null ? $P{data}.get("client_logo_url") : ""]]></imageExpression>
+				</image>
+			</frame>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="668" splitType="Stretch">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="640" uuid="ec1d13e2-19c2-42fa-8972-9cd02d2c4977"/>
+				<staticText>
+					<reportElement x="0" y="0" width="555" height="30" uuid="7f66b6fa-38cb-4fa7-978b-a9091bae0354"/>
+					<textElement verticalAlignment="Top">
+						<font fontName="Serif" size="15" isBold="true"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[For Patient:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="30" width="546" height="20" uuid="054d7eb4-137d-4a12-b279-1591f63f1586"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Serif" size="12" isBold="true"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Patient Name:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="296" y="30" width="250" height="20" uuid="8eb3febf-b973-4aa2-b524-b93ca7be6c79"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Serif" size="12" isBold="true"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[DOB: ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="50" width="555" height="30" uuid="31e55ee3-81aa-44ce-9fe1-34da87e5b463"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Serif" size="12" isBold="true"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[K10 Mental Health Questionnaire]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="6" y="80" width="540" height="30" uuid="b52d4c2e-fb5c-43ac-9038-db6664df948f"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" size="10" isBold="false" isItalic="true"/>
+						<paragraph leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[These questions concern how you have been feeling over the past 30 days. Tick a box next to each question that best represents how you have been.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="270" y="110" width="55" height="50" uuid="19e8a962-53e3-4c2c-9d30-9b0f59b2d4b0"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Serif" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[All of
+the
+time
+(5)]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="325" y="110" width="55" height="50" uuid="2485c812-a255-4b52-ae17-284570cf6ee1"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Serif" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[Most
+of the
+time
+(4)]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="380" y="110" width="55" height="50" uuid="1607d7ec-c838-4dfe-a3e7-6b2ab127bb87"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Serif" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[Some
+of the
+time
+(3)]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="435" y="110" width="55" height="50" uuid="c2445d89-96f9-4bc4-8381-54c811f79309"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Serif" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[A little
+of the
+time
+(2)]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="490" y="110" width="55" height="50" uuid="c7f4b966-a944-421b-9ef1-90111523aded"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Serif" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[None
+of the
+time
+(1)]]></text>
+				</staticText>
+				<frame>
+					<reportElement x="10" y="160" width="535" height="40" uuid="9d422319-95e4-4e86-b68b-7c251c903e35"/>
+					<staticText>
+						<reportElement x="0" y="0" width="283" height="40" uuid="7c58dbeb-823c-4ded-bae8-d3df10a1c385"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph leftIndent="0"/>
+						</textElement>
+						<text><![CDATA[In the past 4 weeks, about how often did you feel tired
+out for no good reason?]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="283" y="15" width="10" height="10" uuid="f8b6bb9b-dc1d-4d1a-a84e-cb63d0afdf0d"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="337" y="15" width="10" height="10" uuid="8ea7a416-655e-4f98-9822-79c732b25bb7"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="393" y="15" width="10" height="10" uuid="bd4cd448-9109-4e6c-8a87-0024157f57b6"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="447" y="15" width="10" height="10" uuid="ba1858c5-8989-4860-9649-4a48a3a1eb82"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="503" y="15" width="10" height="10" uuid="c2bb656d-5b36-485a-8e2b-e966359f5801"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<image>
+						<reportElement x="283" y="15" width="10" height="10" uuid="46e284e1-085a-44cc-a027-4ee6edf40284">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("feel_tired_mental").equals("5")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="337" y="15" width="10" height="10" uuid="6b5b2fed-a5fa-44fb-a805-97d2d69cd8dd">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("feel_tired_mental").equals("4")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="393" y="15" width="10" height="10" uuid="0d2abd65-a380-4aee-a4da-d8d36966fff6">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("feel_tired_mental").equals("3")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="447" y="15" width="10" height="10" uuid="a38362ca-004b-4ccc-b6fd-ebf93f0477b4">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("feel_tired_mental").equals("2")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="503" y="15" width="10" height="10" uuid="7b6ac197-84d8-402a-9276-ad9bc43efde7">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("feel_tired_mental").equals("1")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="10" y="200" width="535" height="40" uuid="37165aeb-d5b5-4333-be8e-43a985ee7389"/>
+					<staticText>
+						<reportElement x="0" y="0" width="283" height="40" uuid="db1054d7-a499-40e8-81bf-203bf82a7e4e"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph leftIndent="0"/>
+						</textElement>
+						<text><![CDATA[In the past 4 weeks, about how often did you feel
+nervous?]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="393" y="15" width="10" height="10" uuid="b4763315-024a-46b9-b320-def62ffc4e7a"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="337" y="15" width="10" height="10" uuid="02e290ba-1577-4bd1-8b34-aa4df2e67a50"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="283" y="15" width="10" height="10" uuid="38535acb-f357-4935-891f-2c58f9bad6f8"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="503" y="15" width="10" height="10" uuid="377e5e6e-0f6d-4075-8863-c795540c257b"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="447" y="15" width="10" height="10" uuid="43bc095d-3c54-4a52-a4cf-fa7011edbbc0"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<image>
+						<reportElement x="283" y="15" width="10" height="10" uuid="0ef11704-103a-4b4b-9ffb-4124ddb90695">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("feel_nervous_mental").equals("5")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="393" y="15" width="10" height="10" uuid="1e36c68d-36b8-47bc-b666-f399fddabe11">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("feel_nervous_mental").equals("3")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="447" y="15" width="10" height="10" uuid="7a36e4cd-64e0-49db-b716-3cf797133f3f">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("feel_nervous_mental").equals("2")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="503" y="15" width="10" height="10" uuid="0484ab49-7331-4525-b265-cf45729f47c7">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("feel_nervous_mental").equals("1")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="337" y="15" width="10" height="10" uuid="d1d34225-a491-4959-8836-708fbf24a279">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("feel_nervous_mental").equals("4")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="10" y="240" width="535" height="40" uuid="52d8bc0b-6aef-465b-a29f-31cdf7e87a6a"/>
+					<rectangle>
+						<reportElement x="393" y="15" width="10" height="10" uuid="af9ae7a9-41fc-4c17-98b6-bfe80d2fe12c"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="337" y="15" width="10" height="10" uuid="c05022b1-5f55-4d0b-b027-171efdfd3dcf"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<staticText>
+						<reportElement x="0" y="0" width="283" height="40" uuid="66a393c6-f6c8-4207-a2cf-6cdecf496f0f"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph leftIndent="0"/>
+						</textElement>
+						<text><![CDATA[In the past 4 weeks, about how often did you feel so
+nervous that nothing could calm you down?]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="283" y="15" width="10" height="10" uuid="e359a174-8783-4095-a18f-caa5add093f4"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="503" y="15" width="10" height="10" uuid="33f80f4c-4fd8-4cb0-b18e-526255581f2c"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="447" y="15" width="10" height="10" uuid="130802b3-5845-48c9-b39f-0993d90ceca4"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<image>
+						<reportElement x="393" y="15" width="10" height="10" uuid="66942b41-5b2a-483d-8f97-1ba90138abc0">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("calm_mental").equals("3")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="447" y="15" width="10" height="10" uuid="3e39f38e-8517-4dd5-8609-1e8418f688ec">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("calm_mental").equals("2")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="503" y="15" width="10" height="10" uuid="6e69dc90-1499-489e-8b60-8d40fd633e13">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("calm_mental").equals("1")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="337" y="15" width="10" height="10" uuid="af80df45-ffb6-4120-bf6f-2f4f2a7d9519">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("calm_mental").equals("4")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="283" y="15" width="10" height="10" uuid="b62a9d71-3f24-41b9-97bb-00690c9c85e4">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("calm_mental").equals("5")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="10" y="280" width="535" height="40" uuid="04477d2a-3fd4-4e61-90bf-751f31d8a37b"/>
+					<rectangle>
+						<reportElement x="447" y="15" width="10" height="10" uuid="256e1736-6957-4154-8c6d-0614b25005c4"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<staticText>
+						<reportElement x="0" y="0" width="283" height="40" uuid="051ebe97-957d-453d-a8a7-fe35f7c12965"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph leftIndent="0"/>
+						</textElement>
+						<text><![CDATA[In the past 4 weeks about how often did you feel
+hopeless?]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="393" y="15" width="10" height="10" uuid="d4be2624-2a5c-4306-868c-4ead991aff7a"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="337" y="15" width="10" height="10" uuid="2c841e50-9062-4c76-893e-92098ad7097b"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="283" y="15" width="10" height="10" uuid="3c915cae-c81e-44a6-ac55-e30e2b48655c"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="503" y="15" width="10" height="10" uuid="2197b60d-123b-443d-a26c-2743e6989546"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<image>
+						<reportElement x="393" y="15" width="10" height="10" uuid="cbe0e31e-18a8-46d4-ae62-5b6570e2f8e1">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("hopeless_mental_1").equals("3")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="447" y="15" width="10" height="10" uuid="c39b30b0-6da8-428e-bd43-0b93f28ab686">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("hopeless_mental_1").equals("2")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="503" y="15" width="10" height="10" uuid="6ce264b5-7057-416b-b286-b92903877c2c">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("hopeless_mental_1").equals("1")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="337" y="15" width="10" height="10" uuid="05d66008-ad9a-4517-b1d1-e129351aa268">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("hopeless_mental_1").equals("4")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="283" y="15" width="10" height="10" uuid="8c867307-95e9-4ec5-b402-773b115a087f">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("hopeless_mental_1").equals("5")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="10" y="320" width="535" height="40" uuid="ee3398b4-ea4b-4666-baa1-87f69422c838"/>
+					<rectangle>
+						<reportElement x="337" y="15" width="10" height="10" uuid="ba494ade-19a8-460d-92e0-a5b2cdce8fe6"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="447" y="15" width="10" height="10" uuid="8ea896a6-c858-4c47-a6d3-139584aa5a9f"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<staticText>
+						<reportElement x="0" y="0" width="283" height="40" uuid="b0b49b3f-d779-4505-b12d-8e780577a944"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph leftIndent="0"/>
+						</textElement>
+						<text><![CDATA[In the past 4 weeks, about how often did you feel restless
+or fidgety?]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="393" y="15" width="10" height="10" uuid="b8833d8d-ee05-40cc-a025-522ee3efa682"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="283" y="15" width="10" height="10" uuid="b80e3938-114d-4684-8991-e051ddc8be52"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="503" y="15" width="10" height="10" uuid="74a4e4bf-1761-4444-96bd-036b33a99f8b"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<image>
+						<reportElement x="393" y="15" width="10" height="10" uuid="548a4bcc-42a7-42a5-ad1c-ac2c303ba20c">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("restless_or_fidgety_mental").equals("3")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="447" y="15" width="10" height="10" uuid="758cd73b-1d24-4f58-b5d7-e3f119212cd7">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("restless_or_fidgety_mental").equals("2")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="503" y="15" width="10" height="10" uuid="ac968cfd-9f7f-423e-b721-c04644fd82c8">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("restless_or_fidgety_mental").equals("1")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="337" y="15" width="10" height="10" uuid="5067e0a3-5b63-44ae-b83c-8c2a9d9fd6f4">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("restless_or_fidgety_mental").equals("4")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="283" y="15" width="10" height="10" uuid="db0a15ac-652d-4ef8-97cd-35b59e413370">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("restless_or_fidgety_mental").equals("5")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="10" y="360" width="535" height="40" uuid="ea4336cc-8c7d-4e70-aad8-f7f4c23853e9"/>
+					<rectangle>
+						<reportElement x="447" y="15" width="10" height="10" uuid="b1ad19fa-20e9-4599-be2c-1288ed686944"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<staticText>
+						<reportElement x="0" y="0" width="283" height="40" uuid="7ab83fdd-7049-4da4-92fa-35ad93fdcd7f"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph leftIndent="0"/>
+						</textElement>
+						<text><![CDATA[In the past 4 weeks, about how often did you feel 
+so restless you could not sit still?]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="393" y="15" width="10" height="10" uuid="7665b5a6-72f3-4093-8105-361cb2ff4115"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="337" y="15" width="10" height="10" uuid="194f1447-15e9-4734-a7fa-d9fcef5bec78"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="283" y="15" width="10" height="10" uuid="3fcd3d38-0a6c-43dc-b9fe-9ed49ce9e44e"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="503" y="15" width="10" height="10" uuid="625e1f3e-edb9-4b14-b56d-6465882b2d4b"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<image>
+						<reportElement x="393" y="15" width="10" height="10" uuid="357e8b16-7aab-4650-916d-6e87e162fc41">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("restless_still").equals("3")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="447" y="15" width="10" height="10" uuid="add07218-ede2-443b-9c4f-1c4a6b006a76">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("restless_still").equals("2")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="503" y="15" width="10" height="10" uuid="bd11f72c-d8a5-4493-9f5e-200ff7095054">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("restless_still").equals("1")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="337" y="15" width="10" height="10" uuid="8938a162-1dce-4f51-a5a7-f21ae085c7e3">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("restless_still").equals("4")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="283" y="15" width="10" height="10" uuid="f8205e36-e0cf-4169-85d5-60ab72fa5f18">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("restless_still").equals("5")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="10" y="400" width="535" height="40" uuid="07ccb44d-027f-49ba-a083-25cd84d42f5d"/>
+					<rectangle>
+						<reportElement x="447" y="15" width="10" height="10" uuid="f5ff37ba-982e-4d63-8569-0f00795cfe6e"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<staticText>
+						<reportElement x="0" y="0" width="283" height="40" uuid="1ca169c1-2c05-439f-bfb2-9f03180c81a8"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph leftIndent="0"/>
+						</textElement>
+						<text><![CDATA[In the past 4 weeks, about how often did you feel
+depressed?]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="393" y="15" width="10" height="10" uuid="35407bb2-e80d-4498-a8bc-133780b70c7c"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="283" y="15" width="10" height="10" uuid="f11a1a2d-5fa7-4184-90e1-b44f9f23c17b"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="337" y="15" width="10" height="10" uuid="e3b71bf4-6983-4ac2-9d77-4065e7ebbaa1"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="503" y="15" width="10" height="10" uuid="643db34d-7fb0-46bf-a47d-5d43f2e0bada"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<image>
+						<reportElement x="393" y="15" width="10" height="10" uuid="f134aaac-9aab-4cbe-8c56-3ac7a67a0423">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("depressed_mental").equals("3")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="447" y="15" width="10" height="10" uuid="4e335b99-2b93-47ca-b437-ab7cad9011d4">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("depressed_mental").equals("2")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="503" y="15" width="10" height="10" uuid="d702121b-135f-435e-848d-08d72ccf4020">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("depressed_mental").equals("1")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="337" y="15" width="10" height="10" uuid="30159329-ac89-4b4c-a8aa-1acc8a162282">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("depressed_mental").equals("4")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="283" y="15" width="10" height="10" uuid="e55ec66c-fe35-477b-ba9e-b3ac53864808">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("depressed_mental").equals("5")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="10" y="440" width="535" height="40" uuid="717066dd-4117-42b6-b942-00a27a28bb5b"/>
+					<rectangle>
+						<reportElement x="447" y="15" width="10" height="10" uuid="a179cd32-b7b1-4909-a4f3-2b112903b30a"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<staticText>
+						<reportElement x="0" y="0" width="283" height="40" uuid="357ba62f-30bd-40d4-8b38-3f94350ce8e5"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph leftIndent="0"/>
+						</textElement>
+						<text><![CDATA[In the past 4 weeks, about how often did you feel that
+everything was an effort?]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="393" y="15" width="10" height="10" uuid="217e6c65-3d51-4a8a-8b98-acfffff783c8"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="283" y="15" width="10" height="10" uuid="86ded81d-6005-4775-af25-ee43fc3cecd1"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="337" y="15" width="10" height="10" uuid="8c6aca27-1b84-403c-9529-1c374a4b4961"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="503" y="15" width="10" height="10" uuid="f1a8a501-392f-40dd-8aa5-d0feb8dd5d0c"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<image>
+						<reportElement x="393" y="15" width="10" height="10" uuid="d341771e-229d-49d3-a2fb-549241b8192d">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("effort_mental").equals("3")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="447" y="15" width="10" height="10" uuid="f774c9bc-ce90-4263-9f35-90f750de2190">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("effort_mental").equals("2")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="503" y="15" width="10" height="10" uuid="10f510fe-f19d-4f20-8d3c-e55e7dc85d1f">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("effort_mental").equals("1")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="337" y="15" width="10" height="10" uuid="77aebd7a-cdbb-4561-a9e1-96e12a3c7c68">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("effort_mental").equals("4")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="283" y="15" width="10" height="10" uuid="1d858ae0-e53a-4899-9225-8f918c716987">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("effort_mental").equals("5")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="10" y="480" width="535" height="40" uuid="bf1fc275-ee51-4e71-afa9-3e3e5861c932"/>
+					<rectangle>
+						<reportElement x="447" y="15" width="10" height="10" uuid="06ed0e31-7fad-4fcd-b65c-c26765cd4781"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="337" y="15" width="10" height="10" uuid="60902589-4fc2-4b9a-8c56-d39cef93f0ac"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<staticText>
+						<reportElement x="0" y="0" width="283" height="40" uuid="4e475460-b6e0-4f9a-9b3e-a4d1a671f0cb"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph leftIndent="0"/>
+						</textElement>
+						<text><![CDATA[In the past 4 weeks, about how often did you feel so sad
+that nothing could cheer you up?]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="393" y="15" width="10" height="10" uuid="ef24c597-1f0a-4c6e-9554-03fa53e19c8f"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="283" y="15" width="10" height="10" uuid="6dfed0f0-2168-40c1-ae78-4feda85362c5"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="503" y="15" width="10" height="10" uuid="746276e3-4a43-4a91-8e73-1205af5bc552"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<image>
+						<reportElement x="393" y="15" width="10" height="10" uuid="28ca86bf-7751-4ba5-ae2e-abd0e45a7e7c">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("cheer_mental").equals("3")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="447" y="15" width="10" height="10" uuid="d0d95fa6-df4d-4377-836a-c2a6dd5f5561">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("cheer_mental").equals("2")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="503" y="15" width="10" height="10" uuid="18e2ef26-090b-43fd-91d4-3338f457f969">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("cheer_mental").equals("1")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="337" y="15" width="10" height="10" uuid="719e4458-11dd-437e-b4cd-2aafcdca5ebf">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("cheer_mental").equals("4")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="283" y="15" width="10" height="10" uuid="cfe5a887-70a8-47a5-b370-ab163e55facb">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("cheer_mental").equals("5")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<frame>
+					<reportElement x="10" y="520" width="535" height="40" uuid="6060d8fb-eabf-4213-a43a-3966d159864d"/>
+					<rectangle>
+						<reportElement x="447" y="15" width="10" height="10" uuid="6f02b5af-0308-4446-b259-095133e0e155"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<staticText>
+						<reportElement x="0" y="0" width="283" height="40" uuid="e9e44c0e-df2c-437b-83da-8df6d4db2039"/>
+						<textElement textAlignment="Left" verticalAlignment="Middle">
+							<font fontName="Serif" size="10" isBold="false"/>
+							<paragraph leftIndent="0"/>
+						</textElement>
+						<text><![CDATA[In the past 4 weeks, about how often did you feel
+worthless?]]></text>
+					</staticText>
+					<rectangle>
+						<reportElement x="393" y="15" width="10" height="10" uuid="d7eda818-9aa8-4693-955e-46e0941cb409"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="283" y="15" width="10" height="10" uuid="63b96651-544b-44df-9f66-51b7ca09334d"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="337" y="15" width="10" height="10" uuid="bf0cfaef-86fa-46cc-87b8-37b0283ad92f"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<rectangle>
+						<reportElement x="503" y="15" width="10" height="10" uuid="972bb152-045e-4e92-8d46-cfe99f47833d"/>
+						<graphicElement>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						</graphicElement>
+					</rectangle>
+					<image>
+						<reportElement x="393" y="15" width="10" height="10" uuid="fb69e021-2494-4608-b27a-e380356c88a1">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("worthless_mental").equals("3")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="447" y="15" width="10" height="10" uuid="411f5e22-91d3-408b-8ded-55fd1ef9ba83">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("worthless_mental").equals("2")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="503" y="15" width="10" height="10" uuid="b01bb039-ff34-4127-88cd-d723d7f358a1">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("worthless_mental").equals("1")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="337" y="15" width="10" height="10" uuid="562713e5-c672-4d0f-b6c3-7b57f8e47e1e">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("worthless_mental").equals("4")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+					<image>
+						<reportElement x="283" y="15" width="10" height="10" uuid="2c8350aa-9be6-4ea8-ae80-3109ec527281">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<printWhenExpression><![CDATA[$P{data}.get("worthless_mental").equals("5")]]></printWhenExpression>
+						</reportElement>
+						<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+					</image>
+				</frame>
+				<textField>
+					<reportElement mode="Transparent" x="89" y="26" width="207" height="20" backcolor="#FFFFFF" uuid="8a496886-30b7-4a98-9939-098a04a263d0">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#7A7A7A"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic" size="12"/>
+						<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="0"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "patient_name" )!=null ? $P{data}.get( "patient_name" ) : ""]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement mode="Transparent" x="337" y="26" width="203" height="20" backcolor="#FFFFFF" uuid="1a4868b8-ea1e-4e91-ad78-160dcc0a7b54">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#7A7A7A"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic" size="12"/>
+						<paragraph lineSpacing="Single" leftIndent="6" spacingBefore="0"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "patient_dob" )!=null ? $P{data}.get( "patient_dob" ) : ""]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="668" splitType="Prevent">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="668" uuid="edd240d9-0240-4d9e-9dc7-20a619d1714c"/>
+				<staticText>
+					<reportElement x="90" y="90" width="465" height="30" uuid="79b62818-5841-4fbb-940a-bdd6a7f5e587"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Serif" size="10" isBold="false"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="90" y="60" width="70" height="60" uuid="813bbeb6-a886-4e43-b1c3-a086c8fa7248"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Serif" size="10" isBold="false"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="120" y="65" width="10" height="10" uuid="c9988e83-6bf3-4297-81b5-e460ad2f4c7b"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					</graphicElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="120" y="95" width="10" height="10" uuid="7ffc89f9-253f-4674-bd9f-48e9cd4a9485"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					</graphicElement>
+				</rectangle>
+				<staticText>
+					<reportElement x="0" y="0" width="555" height="30" uuid="682304e8-270f-4a47-b423-4adbc50c3d75"/>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Serif" size="15" isBold="true"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[For Practitioner only- do not give to Candidate]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="30" width="540" height="30" uuid="6406974c-3712-46ef-a0e4-212c1e3beeb8"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" size="10" isBold="true"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Scoring Matrix
+]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="60" width="90" height="30" uuid="0e220e29-a913-4793-ac5d-011e7c1cd1c7"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Serif" size="10" isBold="false"/>
+						<paragraph leftIndent="6" spacingBefore="3"/>
+					</textElement>
+					<text><![CDATA[Less than 20]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="90" width="90" height="30" uuid="83a84730-995a-4b54-9af2-757513b06a3c"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Serif" size="10" isBold="false"/>
+						<paragraph leftIndent="6" spacingBefore="3"/>
+					</textElement>
+					<text><![CDATA[Greater than 20]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="160" y="60" width="395" height="30" uuid="32034e79-6813-4e22-926e-7fafc974cd29"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Serif" size="10" isBold="false"/>
+						<paragraph leftIndent="6" spacingBefore="3"/>
+					</textElement>
+					<text><![CDATA[Candidate is likely to be mentally well]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="166" y="90" width="385" height="30" uuid="fcbb2c9f-0e28-40a3-9415-702c466ae9c8"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Justified" verticalAlignment="Top">
+						<font fontName="Serif" size="10" isBold="false"/>
+						<paragraph leftIndent="0" spacingBefore="3"/>
+					</textElement>
+					<text><![CDATA[If Score of 20+ candidate is considered likely to have a mild mental disorder and follow up with GP is recommended]]></text>
+				</staticText>
+				<image>
+					<reportElement x="120" y="65" width="10" height="10" uuid="0b37276c-69b2-44d5-89cb-afcc80c84cac">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("total_score").equals("20") ? true :
+$P{data}.get("total_score").equals("19") ? true :
+$P{data}.get("total_score").equals("18") ? true :
+$P{data}.get("total_score").equals("17") ? true :
+$P{data}.get("total_score").equals("16") ? true :
+$P{data}.get("total_score").equals("15") ? true :
+$P{data}.get("total_score").equals("14") ? true :
+$P{data}.get("total_score").equals("13") ? true :
+$P{data}.get("total_score").equals("12") ? true :
+$P{data}.get("total_score").equals("11") ? true :
+$P{data}.get("total_score").equals("10") ? true :
+$P{data}.get("total_score").equals("9") ? true :
+$P{data}.get("total_score").equals("8") ? true :
+$P{data}.get("total_score").equals("7") ? true :
+$P{data}.get("total_score").equals("6") ? true :
+$P{data}.get("total_score").equals("5") ? true :
+$P{data}.get("total_score").equals("4") ? true :
+$P{data}.get("total_score").equals("3") ? true :
+$P{data}.get("total_score").equals("2") ? true :
+$P{data}.get("total_score").equals("1") ? true : false]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="120" y="95" width="10" height="10" uuid="88d9d9e0-f228-4acf-9fbd-135f8543acb9">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("total_score").equals("20") ? false :
+$P{data}.get("total_score").equals("19") ? false :
+$P{data}.get("total_score").equals("18") ? false :
+$P{data}.get("total_score").equals("17") ? false :
+$P{data}.get("total_score").equals("16") ? false :
+$P{data}.get("total_score").equals("15") ? false :
+$P{data}.get("total_score").equals("14") ? false :
+$P{data}.get("total_score").equals("13") ? false :
+$P{data}.get("total_score").equals("12") ? false :
+$P{data}.get("total_score").equals("11") ? false :
+$P{data}.get("total_score").equals("10") ? false :
+$P{data}.get("total_score").equals("9") ? false :
+$P{data}.get("total_score").equals("8") ? false :
+$P{data}.get("total_score").equals("7") ? false :
+$P{data}.get("total_score").equals("6") ? false :
+$P{data}.get("total_score").equals("5") ? false :
+$P{data}.get("total_score").equals("4") ? false :
+$P{data}.get("total_score").equals("3") ? false :
+$P{data}.get("total_score").equals("2") ? false :
+$P{data}.get("total_score").equals("1") ? false : true]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="0" y="130" width="540" height="30" uuid="c21c3997-8c2f-42fa-89c2-3a1a0854e00d"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" size="10" isBold="true"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Please refer candidate to GP as required.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="160" width="540" height="30" uuid="fde2d06d-b483-4176-a6e2-404987a5daa7"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" size="10" isBold="false"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Please call REDIMED on 9230 0990 for any queries regarding this assessment.
+]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="45" splitType="Stretch">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="45" uuid="84acaff0-d8e3-4149-997a-9f00547406ac"/>
+				<textField>
+					<reportElement mode="Transparent" x="442" y="25" width="69" height="20" uuid="ab6dded9-15bb-489e-8150-b17068a54404"/>
+					<box>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Right" verticalAlignment="Bottom">
+						<font fontName="Serif" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Page " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField evaluationTime="Report">
+					<reportElement mode="Transparent" x="511" y="25" width="44" height="20" uuid="a25c328c-d8be-4ba0-91ca-f86b1246ce59"/>
+					<box>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[" of " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="230" y="25" width="100" height="20" uuid="fefa4285-2200-4d48-89e1-a79e566e3260"/>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font fontName="Segoe UI" size="10" isBold="false"/>
+						<paragraph leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[HW27]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="25" width="230" height="20" uuid="b935496a-f53e-4052-9e88-cdae35778e32"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
+						<font fontName="Segoe UI" size="9.5" isBold="false"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[30<sup>th</sup>  June 2017]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="0" width="260" height="29" uuid="d35585ab-5e9c-4793-8ad2-e484e095fce1"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
+						<font fontName="Arial" size="7" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="8.0" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Kessler, R.C., Andrews, G., Colpe, .et al (2002) Short screening scales to monitor 
+population prevalences and trends in non-specific psychological distress. 
+<b>Psychological Medicine, 32</b>, 959-956.
+]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</pageFooter>
+</jasperReport>

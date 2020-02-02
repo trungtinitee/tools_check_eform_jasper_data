@@ -1,0 +1,503 @@
+xml version=1.0 encoding=UTF-8
+!-- Created with Jaspersoft Studio version 6.10.0.final using JasperReports Library version 6.10.0-unknown  --
+jasperReport xmlns=httpjasperreports.sourceforge.netjasperreports xmlnsxsi=httpwww.w3.org2001XMLSchema-instance xsischemaLocation=httpjasperreports.sourceforge.netjasperreports httpjasperreports.sourceforge.netxsdjasperreport.xsd name=Blank_A4_1 pageWidth=595 pageHeight=842 columnWidth=555 leftMargin=20 rightMargin=20 topMargin=20 bottomMargin=20 uuid=00175384-4932-4a4c-b6db-511ee4217ea6
+	property name=com.jaspersoft.studio.data.defaultdataadapter value=One Empty Record
+	parameter name=realPath class=java.lang.String
+	parameter name=data class=java.util.Hashtable
+		parameterDescription![CDATA[]]parameterDescription
+	parameter
+	queryString
+		![CDATA[]]
+	queryString
+	background
+		band splitType=Stretch
+	background
+	pageHeader
+		band height=98
+			frame
+				reportElement x=0 y=-10 width=555 height=95 uuid=87fc5a52-5678-4ae1-ab29-ee1865a299ab
+				staticText
+					reportElement x=290 y=35 width=264 height=60 uuid=215b4e45-7908-4990-9ef2-cc3b2a94adad
+					textElement textAlignment=Right verticalAlignment=Middle
+						font fontName=Serif size=16 isBold=true isItalic=false
+						paragraph lineSpacing=Single rightIndent=5
+					textElement
+					text![CDATA[Fitness for Work 
+Epworth Sleepiness Scale]]text
+				staticText
+				image
+					reportElement x=405 y=0 width=150 height=30 uuid=454dffb8-b773-4c46-841c-b49f52931c56
+					imageExpression![CDATA[$P{data}.get(client_logo_url)!=null  $P{data}.get(client_logo_url)  ]]imageExpression
+				image
+				frame
+					reportElement x=0 y=0 width=282 height=45 uuid=988ceea6-e978-4785-9f8c-ae5c319fcd83
+					box
+						pen lineWidth=0.5
+						topPen lineWidth=0.5 lineStyle=Solid lineColor=#7A7A7A
+						leftPen lineWidth=0.5 lineStyle=Solid lineColor=#7A7A7A
+						bottomPen lineWidth=0.5 lineStyle=Solid lineColor=#7A7A7A
+						rightPen lineWidth=0.5 lineStyle=Solid lineColor=#7A7A7A
+					box
+					textField
+						reportElement mode=Transparent x=67 y=0 width=212 height=15 backcolor=#FFFFFF uuid=5b9debde-a799-43dc-92f2-ed612de40cde
+							property name=com.jaspersoft.studio.unit.height value=pixel
+							property name=com.jaspersoft.studio.unit.width value=pixel
+						reportElement
+						box
+							pen lineWidth=0.5 lineColor=#7A7A7A
+							topPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+							leftPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+							bottomPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+							rightPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						box
+						textElement textAlignment=Justified verticalAlignment=Middle
+							font fontName=OfficiaSans Basic size=10
+							paragraph lineSpacing=Single leftIndent=0 spacingBefore=0
+						textElement
+						textFieldExpression![CDATA[($P{data}.get( p_first_name )!=null  $P{data}.get( p_first_name )  )+ +($P{data}.get( p_surname )!=null  $P{data}.get( p_surname )  )]]textFieldExpression
+					textField
+					staticText
+						reportElement mode=Transparent x=0 y=0 width=65 height=15 uuid=60f26140-25d0-4361-af73-413c28dc9f23
+							property name=com.jaspersoft.studio.unit.height value=pixel
+							property name=com.jaspersoft.studio.unit.width value=pixel
+						reportElement
+						box
+							pen lineWidth=0.5 lineColor=#7A7A7A
+							topPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+							leftPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+							bottomPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+							rightPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						box
+						textElement verticalAlignment=Middle
+							font fontName=Serif size=10 isBold=false
+							paragraph lineSpacing=Single leftIndent=2
+						textElement
+						text![CDATA[Name]]text
+					staticText
+					staticText
+						reportElement mode=Transparent x=0 y=15 width=90 height=15 uuid=fdba4095-58c5-4994-a9aa-71ff1d5aee48
+							property name=com.jaspersoft.studio.unit.height value=pixel
+							property name=com.jaspersoft.studio.unit.width value=pixel
+						reportElement
+						box
+							pen lineWidth=0.5 lineColor=#7A7A7A
+							topPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+							leftPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+							bottomPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+							rightPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						box
+						textElement verticalAlignment=Middle
+							font fontName=Serif size=10 isBold=false
+							paragraph lineSpacing=Single leftIndent=2
+						textElement
+						text![CDATA[Date of Birth]]text
+					staticText
+					textField
+						reportElement mode=Transparent x=67 y=15 width=212 height=15 backcolor=#FFFFFF uuid=f30e01a3-99fc-49a6-ae50-afebf394fe43
+							property name=com.jaspersoft.studio.unit.height value=pixel
+							property name=com.jaspersoft.studio.unit.width value=pixel
+						reportElement
+						box
+							pen lineWidth=0.5 lineColor=#7A7A7A
+							topPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+							leftPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+							bottomPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+							rightPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						box
+						textElement textAlignment=Justified verticalAlignment=Middle
+							font fontName=OfficiaSans Basic size=10
+							paragraph lineSpacing=Single leftIndent=0 spacingBefore=0
+						textElement
+						textFieldExpression![CDATA[$P{data}.get( p_dob )!=null  $P{data}.get( p_dob )  ]]textFieldExpression
+					textField
+				frame
+			frame
+		band
+	pageHeader
+	detail
+		band height=555 splitType=Prevent
+			frame
+				reportElement x=0 y=0 width=555 height=555 uuid=6e3dd95b-549f-4da1-aabd-57907b6c6347
+				box
+					topPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+					leftPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+					bottomPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+					rightPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+				box
+				staticText
+					reportElement x=0 y=341 width=555 height=20 uuid=90abafb1-fdfe-4e47-aea0-c95322e93cfc
+					textElement textAlignment=Left verticalAlignment=Bottom
+						font fontName=Serif size=9 isBold=false
+						paragraph leftIndent=6 spacingBefore=0
+					textElement
+					text![CDATA[Sitting quietly after a lunch without alcohol]]text
+				staticText
+				staticText
+					reportElement x=0 y=221 width=555 height=20 uuid=a272d34c-588c-43e5-8da5-154c9c2d64b2
+					textElement textAlignment=Left verticalAlignment=Bottom
+						font fontName=Serif size=9 isBold=false
+						paragraph leftIndent=6 spacingBefore=0
+					textElement
+					text![CDATA[Sitting and reading]]text
+				staticText
+				staticText
+					reportElement x=405 y=201 width=150 height=180 uuid=06a8b03f-3c64-46d3-a8f9-6d1e2c7b8425
+					textElement textAlignment=Center verticalAlignment=Top
+						font fontName=Serif size=10 isBold=true
+						paragraph leftIndent=0 spacingBefore=3
+					textElement
+					text![CDATA[Chance of Dozing (0-3)]]text
+				staticText
+				staticText
+					reportElement x=0 y=241 width=555 height=20 uuid=76793801-e25a-499f-aa8d-e4f3b596a5cd
+					textElement textAlignment=Left verticalAlignment=Bottom
+						font fontName=Serif size=9 isBold=false
+						paragraph leftIndent=6 spacingBefore=0
+					textElement
+					text![CDATA[Watching TV]]text
+				staticText
+				staticText
+					reportElement x=0 y=301 width=555 height=20 uuid=6095bab3-8653-4081-b885-fa41c8886645
+					textElement textAlignment=Left verticalAlignment=Bottom
+						font fontName=Serif size=9 isBold=false
+						paragraph leftIndent=6 spacingBefore=0
+					textElement
+					text![CDATA[Lying down to rest in the afternoon when circumstances permit]]text
+				staticText
+				staticText
+					reportElement x=0 y=261 width=555 height=20 uuid=61c13a8f-4147-49f0-b494-162d8ea89437
+					textElement textAlignment=Left verticalAlignment=Bottom
+						font fontName=Serif size=9 isBold=false
+						paragraph leftIndent=6 spacingBefore=0
+					textElement
+					text![CDATA[Sitting, inactive in a public place [e.g. a theatre or a meeting)]]text
+				staticText
+				staticText
+					reportElement x=0 y=321 width=555 height=20 uuid=ebfc5913-508f-4d6b-b242-a2bddd876394
+					textElement textAlignment=Left verticalAlignment=Bottom
+						font fontName=Serif size=9 isBold=false
+						paragraph leftIndent=6 spacingBefore=0
+					textElement
+					text![CDATA[Sitting and talking to someone]]text
+				staticText
+				staticText
+					reportElement x=0 y=281 width=555 height=20 uuid=d5b00975-f604-4a2c-b169-9c759fc1ea2d
+					textElement textAlignment=Left verticalAlignment=Bottom
+						font fontName=Serif size=9 isBold=false
+						paragraph leftIndent=6 spacingBefore=0
+					textElement
+					text![CDATA[As a passenger in a car for an hour without a break]]text
+				staticText
+				staticText
+					reportElement x=0 y=361 width=555 height=20 uuid=e29b2b1a-3fde-4d8a-ad13-20b2f00d2ade
+					textElement textAlignment=Left verticalAlignment=Bottom
+						font fontName=Serif size=9 isBold=false
+						paragraph leftIndent=6 spacingBefore=0
+					textElement
+					text![CDATA[In a car, while stopped for a few minutes in the traffic]]text
+				staticText
+				staticText
+					reportElement x=0 y=21 width=555 height=20 uuid=93f8240f-4cf3-45b3-a1f7-f133ab785363
+					textElement textAlignment=Left verticalAlignment=Middle markup=none
+						font fontName=Serif size=10
+						paragraph leftIndent=6 spacingBefore=0
+					textElement
+					text![CDATA[How likely are you to dose off or fall asleep in the following situations, in contrast to feeling just tired]]text
+				staticText
+				staticText
+					reportElement x=0 y=126 width=555 height=15 uuid=e69010fd-5b70-4582-88d0-4a60c0dd6883
+					textElement textAlignment=Left verticalAlignment=Middle markup=html
+						font fontName=Serif size=10 isBold=false
+						paragraph leftIndent=250 spacingBefore=0
+					textElement
+					text![CDATA[1 = bslight chanceb of dozing]]text
+				staticText
+				staticText
+					reportElement x=0 y=181 width=555 height=20 uuid=0850838b-410a-4e98-9603-0b3429f37a78
+					textElement textAlignment=Center verticalAlignment=Middle
+						font fontName=Serif size=10 isBold=true isItalic=true
+						paragraph leftIndent=0 spacingBefore=0
+					textElement
+					text![CDATA[It is important that you answer each question as best you can.]]text
+				staticText
+				staticText
+					reportElement x=0 y=201 width=555 height=20 uuid=844b2ba4-3130-440d-9153-4be4f576f7fb
+					textElement textAlignment=Left verticalAlignment=Middle
+						font fontName=Serif size=10 isBold=true
+						paragraph leftIndent=6 spacingBefore=0
+					textElement
+					text![CDATA[Situation ]]text
+				staticText
+				staticText
+					reportElement x=0 y=0 width=555 height=20 uuid=eaff9d58-092f-40ba-8e09-1589dbd03b55
+					textElement textAlignment=Center verticalAlignment=Middle markup=none
+						font fontName=Serif size=12 isBold=true
+						paragraph leftIndent=0 spacingBefore=0
+					textElement
+					text![CDATA[Epworth Sleepiness Scale]]text
+				staticText
+				staticText
+					reportElement x=0 y=41 width=555 height=20 uuid=b93d2c5d-c24c-42e0-81a2-e7afb794faea
+					textElement textAlignment=Left verticalAlignment=Middle markup=none
+						font fontName=Serif size=10
+						paragraph leftIndent=6 spacingBefore=0
+					textElement
+					text![CDATA[This refers to your usual way of life in recent times.]]text
+				staticText
+				staticText
+					reportElement x=0 y=61 width=555 height=20 uuid=06304076-db40-4c6a-95ae-4a0c2052522e
+					textElement textAlignment=Left verticalAlignment=Middle markup=none
+						font fontName=Serif size=10
+						paragraph leftIndent=6 spacingBefore=0
+					textElement
+					text![CDATA[Even if you haven‘t done some of these things recently try' to work out how they would have affected you.]]text
+				staticText
+				staticText
+					reportElement x=0 y=81 width=555 height=20 uuid=cfd72e2b-df91-4527-8659-4ef935096335
+					textElement textAlignment=Left verticalAlignment=Middle markup=html
+						font fontName=Serif size=10
+						paragraph leftIndent=6 spacingBefore=0
+					textElement
+					text![CDATA[Use the following scale to choose bthe most appropriate numberb for each situation]]text
+				staticText
+				staticText
+					reportElement x=0 y=141 width=555 height=15 uuid=00866ec4-d581-4cf2-a3b7-e9680d43db7c
+					textElement textAlignment=Left verticalAlignment=Middle markup=html
+						font fontName=Serif size=10 isBold=false
+						paragraph leftIndent=250 spacingBefore=0
+					textElement
+					text![CDATA[2 = bmoderate chanceb of dozing
+]]text
+				staticText
+				staticText
+					reportElement x=0 y=111 width=555 height=15 uuid=b807d25d-bcab-4035-a07b-7f4dac9b53f3
+					textElement textAlignment=Left verticalAlignment=Middle markup=html
+						font fontName=Serif size=10 isBold=false
+						paragraph leftIndent=250 spacingBefore=0
+					textElement
+					text![CDATA[0 = would bneverb doze]]text
+				staticText
+				staticText
+					reportElement x=0 y=156 width=555 height=15 uuid=8f11d813-dcf4-41b0-b21e-0d6eaf9d3e5d
+					textElement textAlignment=Left verticalAlignment=Middle markup=html
+						font fontName=Serif size=10 isBold=false
+						paragraph leftIndent=250 spacingBefore=0
+					textElement
+					text![CDATA[3 = bhigh chanceb of dozing]]text
+				staticText
+				textField isStretchWithOverflow=true isBlankWhenNull=true
+					reportElement key=LastName mode=Transparent x=460 y=389 width=20 height=20 backcolor=#FFFFFF uuid=d6e62a8f-1666-4002-81cc-b24f5b1f72a9
+					box
+						pen lineWidth=0.0 lineColor=#000000
+						topPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						leftPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						bottomPen lineWidth=0.5 lineStyle=Solid lineColor=#7A7A7A
+						rightPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+					box
+					textElement textAlignment=Center verticalAlignment=Top
+						font fontName=OfficiaSans Basic size=10
+						paragraph leftIndent=5 rightIndent=1 spacingBefore=2
+					textElement
+					textFieldExpression![CDATA[$P{data}.get( total_score )!=null  $P{data}.get( total_score )  ]]textFieldExpression
+				textField
+				textField isStretchWithOverflow=true isBlankWhenNull=true
+					reportElement key=LastName mode=Transparent x=460 y=221 width=20 height=20 backcolor=#FFFFFF uuid=6d02609c-9475-484c-8d7b-fec7d80444bc
+					box
+						pen lineWidth=0.0 lineColor=#000000
+						topPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						leftPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						bottomPen lineWidth=0.5 lineStyle=Solid lineColor=#7A7A7A
+						rightPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+					box
+					textElement textAlignment=Center verticalAlignment=Middle
+						font fontName=OfficiaSans Basic size=10
+						paragraph leftIndent=5 rightIndent=1 spacingBefore=2
+					textElement
+					textFieldExpression![CDATA[$P{data}.get( sit_and )!=null  $P{data}.get( sit_and )  ]]textFieldExpression
+				textField
+				textField isStretchWithOverflow=true isBlankWhenNull=true
+					reportElement key=LastName mode=Transparent x=460 y=241 width=20 height=20 backcolor=#FFFFFF uuid=f1dbe90a-ae29-447f-8429-ed7d115e08e7
+					box
+						pen lineWidth=0.0 lineColor=#000000
+						topPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						leftPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						bottomPen lineWidth=0.5 lineStyle=Solid lineColor=#7A7A7A
+						rightPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+					box
+					textElement textAlignment=Center verticalAlignment=Middle
+						font fontName=OfficiaSans Basic size=10
+						paragraph leftIndent=5 rightIndent=1 spacingBefore=2
+					textElement
+					textFieldExpression![CDATA[$P{data}.get( wat_tv )!=null  $P{data}.get( wat_tv )  ]]textFieldExpression
+				textField
+				textField isStretchWithOverflow=true isBlankWhenNull=true
+					reportElement key=LastName mode=Transparent x=460 y=281 width=20 height=20 backcolor=#FFFFFF uuid=dedf0afc-98d4-4f1b-b127-572bc2de415f
+					box
+						pen lineWidth=0.0 lineColor=#000000
+						topPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						leftPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						bottomPen lineWidth=0.5 lineStyle=Solid lineColor=#7A7A7A
+						rightPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+					box
+					textElement textAlignment=Center verticalAlignment=Middle
+						font fontName=OfficiaSans Basic size=10
+						paragraph leftIndent=5 rightIndent=1 spacingBefore=2
+					textElement
+					textFieldExpression![CDATA[$P{data}.get( as_a )!=null  $P{data}.get( as_a )  ]]textFieldExpression
+				textField
+				textField isStretchWithOverflow=true isBlankWhenNull=true
+					reportElement key=LastName mode=Transparent x=460 y=261 width=20 height=20 backcolor=#FFFFFF uuid=faade031-26ab-48cd-a385-c9882e178d42
+					box
+						pen lineWidth=0.0 lineColor=#000000
+						topPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						leftPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						bottomPen lineWidth=0.5 lineStyle=Solid lineColor=#7A7A7A
+						rightPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+					box
+					textElement textAlignment=Center verticalAlignment=Middle
+						font fontName=OfficiaSans Basic size=10
+						paragraph leftIndent=5 rightIndent=1 spacingBefore=2
+					textElement
+					textFieldExpression![CDATA[$P{data}.get( sit_ina )!=null  $P{data}.get( sit_ina )  ]]textFieldExpression
+				textField
+				textField isStretchWithOverflow=true isBlankWhenNull=true
+					reportElement key=LastName mode=Transparent x=460 y=321 width=20 height=20 backcolor=#FFFFFF uuid=8011c983-a065-497c-b71d-ca62c482747d
+					box
+						pen lineWidth=0.0 lineColor=#000000
+						topPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						leftPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						bottomPen lineWidth=0.5 lineStyle=Solid lineColor=#7A7A7A
+						rightPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+					box
+					textElement textAlignment=Center verticalAlignment=Middle
+						font fontName=OfficiaSans Basic size=10
+						paragraph leftIndent=5 rightIndent=1 spacingBefore=2
+					textElement
+					textFieldExpression![CDATA[$P{data}.get( sit_to_som )!=null  $P{data}.get( sit_to_som )  ]]textFieldExpression
+				textField
+				textField isStretchWithOverflow=true isBlankWhenNull=true
+					reportElement key=LastName mode=Transparent x=460 y=301 width=20 height=20 backcolor=#FFFFFF uuid=647f074c-c8a2-43a8-b194-86dae8e19f6e
+					box
+						pen lineWidth=0.0 lineColor=#000000
+						topPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						leftPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						bottomPen lineWidth=0.5 lineStyle=Solid lineColor=#7A7A7A
+						rightPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+					box
+					textElement textAlignment=Center verticalAlignment=Middle
+						font fontName=OfficiaSans Basic size=10
+						paragraph leftIndent=5 rightIndent=1 spacingBefore=2
+					textElement
+					textFieldExpression![CDATA[$P{data}.get( lyi_dow )!=null  $P{data}.get( lyi_dow )  ]]textFieldExpression
+				textField
+				textField isStretchWithOverflow=true isBlankWhenNull=true
+					reportElement key=LastName mode=Transparent x=460 y=361 width=20 height=20 backcolor=#FFFFFF uuid=a12732d2-148a-4afa-a3fd-7b3d5dfc3932
+					box
+						pen lineWidth=0.0 lineColor=#000000
+						topPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						leftPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						bottomPen lineWidth=0.5 lineStyle=Solid lineColor=#7A7A7A
+						rightPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+					box
+					textElement textAlignment=Center verticalAlignment=Middle
+						font fontName=OfficiaSans Basic size=10
+						paragraph leftIndent=5 rightIndent=1 spacingBefore=2
+					textElement
+					textFieldExpression![CDATA[$P{data}.get( in_a_car )!=null  $P{data}.get( in_a_car )  ]]textFieldExpression
+				textField
+				textField isStretchWithOverflow=true isBlankWhenNull=true
+					reportElement key=LastName mode=Transparent x=460 y=341 width=20 height=20 backcolor=#FFFFFF uuid=5bca318c-3ddc-402a-940c-f06552315719
+					box
+						pen lineWidth=0.0 lineColor=#000000
+						topPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						leftPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+						bottomPen lineWidth=0.5 lineStyle=Solid lineColor=#7A7A7A
+						rightPen lineWidth=0.0 lineStyle=Solid lineColor=#000000
+					box
+					textElement textAlignment=Center verticalAlignment=Middle
+						font fontName=OfficiaSans Basic size=10
+						paragraph leftIndent=5 rightIndent=1 spacingBefore=2
+					textElement
+					textFieldExpression![CDATA[$P{data}.get( sit_qui )!=null  $P{data}.get( sit_qui )  ]]textFieldExpression
+				textField
+				staticText
+					reportElement x=3 y=394 width=64 height=20 uuid=f2ce75ec-1a34-464d-a139-b9a195705c2e
+					textElement
+						paragraph leftIndent=6
+					textElement
+					text![CDATA[Total]]text
+				staticText
+				staticText
+					reportElement x=3 y=430 width=90 height=20 uuid=4bbb52c6-70dd-4ae6-84fb-02b6acfb4c0f
+					text![CDATA[Score]]text
+				staticText
+				rectangle
+					reportElement x=100 y=435 width=10 height=10 uuid=1c2d0e07-55e0-4369-8e18-18c55e11b341
+					graphicElement
+						pen lineWidth=0.5 lineColor=#7A7A7A
+					graphicElement
+				rectangle
+				image
+					reportElement mode=Opaque x=100 y=435 width=10 height=10 backcolor=#FFFFFF uuid=368a40c9-47a0-4e75-9ee7-fef4d64d59e4
+						property name=com.jaspersoft.studio.unit.width value=pixel
+						property name=com.jaspersoft.studio.unit.height value=pixel
+						printWhenExpression![CDATA[$P{data}.get(score_range).equals(Normal)]]printWhenExpression
+					reportElement
+					box
+						pen lineWidth=0.5 lineColor=#7A7A7A
+					box
+					imageExpression![CDATA[$P{realPath}+resourcescheck.png]]imageExpression
+				image
+				staticText
+					reportElement x=119 y=430 width=162 height=20 uuid=d78adb74-0d61-4699-8825-6d88cf82f036
+					textElement verticalAlignment=Middle
+					text![CDATA[0-10 Normal range]]text
+				staticText
+				rectangle
+					reportElement x=100 y=461 width=10 height=10 uuid=cf248ce4-d59c-48c9-a633-efc1b1e6aecf
+					graphicElement
+						pen lineWidth=0.5 lineColor=#7A7A7A
+					graphicElement
+				rectangle
+				image
+					reportElement mode=Opaque x=100 y=461 width=10 height=10 backcolor=#FFFFFF uuid=45769f83-85fd-42e5-9fff-8863dd748f5e
+						property name=com.jaspersoft.studio.unit.width value=pixel
+						property name=com.jaspersoft.studio.unit.height value=pixel
+						printWhenExpression![CDATA[$P{data}.get(score_range).equals(Borderline)]]printWhenExpression
+					reportElement
+					box
+						pen lineWidth=0.5 lineColor=#7A7A7A
+					box
+					imageExpression![CDATA[$P{realPath}+resourcescheck.png]]imageExpression
+				image
+				staticText
+					reportElement x=118 y=456 width=162 height=20 uuid=bb2128fa-2a3e-43cd-a472-6b8bbe1a47e5
+					textElement verticalAlignment=Middle
+					text![CDATA[10-12 Borderline]]text
+				staticText
+				rectangle
+					reportElement x=100 y=487 width=10 height=10 uuid=ec8a1646-4a59-4d91-9b38-ba612e8ee851
+					graphicElement
+						pen lineWidth=0.5 lineColor=#7A7A7A
+					graphicElement
+				rectangle
+				image
+					reportElement mode=Opaque x=100 y=487 width=10 height=10 backcolor=#FFFFFF uuid=aa6ac670-20c0-47cd-a32b-6b84540bc2a1
+						property name=com.jaspersoft.studio.unit.width value=pixel
+						property name=com.jaspersoft.studio.unit.height value=pixel
+						printWhenExpression![CDATA[$P{data}.get(score_range).equals(Abnormal)]]printWhenExpression
+					reportElement
+					box
+						pen lineWidth=0.5 lineColor=#7A7A7A
+					box
+					imageExpression![CDATA[$P{realPath}+resourcescheck.png]]imageExpression
+				image
+				staticText
+					reportElement x=119 y=483 width=162 height=20 uuid=b8349b55-775e-4393-acdb-945307d2cedf
+					textElement verticalAlignment=Middle
+					text![CDATA[12-24 – Abnormal]]text
+				staticText
+			frame
+		band
+	detail
+jasperReport

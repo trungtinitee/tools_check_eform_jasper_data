@@ -1,0 +1,1798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.10.0.final using JasperReports Library version 6.10.0-unknown  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="58a87eeb-c8d3-4fa7-8dee-cb27fcf5b74f" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="36f4112e-5aec-4c00-93f7-899da282682e">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="realPath" class="java.lang.String"/>
+	<parameter name="data" class="java.util.Hashtable">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+	</parameter>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<pageHeader>
+		<band height="15">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="15" uuid="9142b677-1e61-4542-ae29-61bacdb932fe">
+					<printWhenExpression><![CDATA[$V{PAGE_NUMBER} >= 2]]></printWhenExpression>
+				</reportElement>
+				<staticText>
+					<reportElement x="0" y="0" width="555" height="15" forecolor="#0D2B6D" uuid="38108ef2-c6a1-4f4d-8133-7ef4427fbced"/>
+					<box>
+						<pen lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" size="10" isBold="true"/>
+					</textElement>
+					<text><![CDATA[WorkCover NSW – certificate of capacity]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="55">
+			<image>
+				<reportElement x="0" y="0" width="157" height="45" uuid="a0302320-e1fc-4732-9810-51927620c221"/>
+				<imageExpression><![CDATA[$P{realPath}+"resources/NSW-Government-WorkCover-Logo.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="101">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="101" backcolor="#0D2B6D" uuid="bd1b82f6-bb47-468d-aabe-7c3dbabc0690"/>
+				<staticText>
+					<reportElement mode="Opaque" x="0" y="0" width="555" height="42" backcolor="#0D2B6D" uuid="272acd92-2993-44c0-a93e-35435d73f14d"/>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="42" width="555" height="40" forecolor="#231F20" uuid="88094aae-e267-4363-9b7a-26b8411c7487"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" size="25" isBold="false"/>
+						<paragraph lineSpacing="Double" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[WorkCover NSW – certificate of capacity]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="0" y="82" width="555" height="4" backcolor="#AE1229" uuid="d8085db3-0a77-42f8-8f19-ee46b49d4453"/>
+					<text><![CDATA[Static Text]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="0" y="86" width="555" height="15" forecolor="#231F20" uuid="87a9002b-1dd6-4292-877d-a785f1858318"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" isBold="true"/>
+						<paragraph lineSpacing="Single"/>
+					</textElement>
+					<text><![CDATA[Please ensure all sections are completed. Tick if this is the initial certificate for this claim]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="430" y="89" width="10" height="10" uuid="5daa8f1a-4ea9-465b-9db6-f603f21ea747"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="430" y="89" width="10" height="10" uuid="53ba3fa7-95bb-4291-a5b8-2c14a41021c2">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("cert").equals("yes")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+			</frame>
+		</band>
+		<band height="342">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="342" uuid="7794070a-9921-43e7-aff6-88da4af83963"/>
+				<staticText>
+					<reportElement x="0" y="0" width="555" height="15" forecolor="#0D2B6D" uuid="a8c9bf14-d970-48dd-8153-b83b4c6a4e71"/>
+					<box>
+						<pen lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" size="8.5"/>
+					</textElement>
+					<text><![CDATA[PART A – MAY BE COMPLETED BY PATIENT]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="15" width="555" height="153" uuid="c2cde8cc-e56b-43e0-8cc9-79c10e767010"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="15" width="280" height="15" forecolor="#231F20" uuid="a9aa5b5b-fcce-4711-a40e-1921f4a7d4ed"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Patient’s first name]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="280" y="15" width="275" height="15" forecolor="#231F20" uuid="19046948-0496-4675-80b3-d2fbb145e7cb"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Last name]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="6" y="30" width="264" height="15" uuid="f0413af2-1359-4f41-a737-732207fdb70e"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "p_firstname" )!=null ? $P{data}.get( "p_firstname" ) : ""]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="286" y="30" width="262" height="15" uuid="af5e9339-70d9-4dc7-87ff-917fa0df03f0"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "p_lastname" )!=null ? $P{data}.get( "p_lastname" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="45" width="555" height="15" forecolor="#231F20" uuid="b3ee2385-14de-4e4a-9a0e-7d3b93b3b02d"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Date of birth (DD/MM/YYYY)]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="6" y="60" width="164" height="15" uuid="37579096-749b-4e60-bbb8-a67b0f70afed"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "p_dob" )!=null ? $P{data}.get( "p_dob" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="75" width="555" height="15" forecolor="#231F20" uuid="42c7f3d9-61cc-41d1-b282-8484f47b14be"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Patient’s address]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="6" y="90" width="542" height="15" uuid="556ce701-e8c8-4bc6-be84-4480944c55a7"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "p_address" )!=null ? $P{data}.get( "p_address" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="105" width="555" height="15" forecolor="#231F20" uuid="1ee0826a-c4c4-4f73-990a-af1fa489f116"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Claim number]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="6" y="120" width="420" height="15" uuid="fb525486-ad1a-4238-a143-401b542c8627"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "p_claim" )!=null ? $P{data}.get( "p_claim" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="135" width="555" height="15" forecolor="#231F20" uuid="e3a40ccd-729b-4abc-9b45-3428e821e60d"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Medicare number]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="6" y="150" width="360" height="15" uuid="ffa05d68-80c6-4209-b46f-d267c44e71f6"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "p_medi" )!=null ? $P{data}.get( "p_medi" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement mode="Opaque" x="0" y="168" width="555" height="174" backcolor="#E6E7E9" uuid="1726532e-7c5d-4dfb-90d1-a0874ad232ee"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" isBold="false"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="168" width="555" height="15" forecolor="#231F20" uuid="7f1890ac-bbab-4e07-9705-80a0ad8f7ffd"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif" isBold="true"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Shaded areas to be completed for initial certificate only]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="183" width="555" height="15" forecolor="#231F20" uuid="aeae43bc-f520-4900-9a9f-5386786486b2"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Patient’s occupation/ job title]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="6" y="198" width="542" height="15" uuid="8d8f38a2-a520-4344-8775-bd54fd6decad"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "p_job" )!=null ? $P{data}.get( "p_job" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="213" width="555" height="15" forecolor="#231F20" uuid="4a6651ac-aee6-4783-a552-f167b5aedd77"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Employer’s name and contact details
+]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="6" y="228" width="542" height="15" uuid="bd7a7cce-0770-4137-b290-e63c0df3d64c"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "e_name" )!=null ? $P{data}.get( "e_name" ) : ""]]></textFieldExpression>
+				</textField>
+				<image scaleImage="FillFrame">
+					<reportElement mode="Opaque" x="6" y="305" width="222" height="30" uuid="d127a741-3e10-4d07-9ad9-59b62ee7eb95">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#000000"/>
+					</box>
+					<imageExpression><![CDATA[(java.awt.Image)$P{data}.get("p_signature")]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="0" y="289" width="280" height="15" forecolor="#231F20" uuid="67952fbe-076c-4719-bac8-138d0f6699c2"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Signature of patient]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="280" y="289" width="268" height="15" forecolor="#231F20" uuid="8d973490-d83a-4a1e-87e0-3a78b4c84a58"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Date (DD/MM/YYYY)]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="286" y="305" width="164" height="15" uuid="fb4e8e50-1e62-4044-88ae-abaae15e9e45"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "p_sig" )!=null ? $P{data}.get( "p_sig" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="6" y="243" width="542" height="60" forecolor="#231F20" uuid="3209c948-4a7f-4e2b-b3ad-c2663e891da7"/>
+					<textElement textAlignment="Justified" verticalAlignment="Middle">
+						<font fontName="Serif" isBold="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[I consent to my treating medical practitioner, my employer, the insurer, other treating practitioners, workplace rehabilitation providers and WorkCover exchanging information for the purposes of managing my injury and workers compensation claim. I understand that this information will be used by WorkCover and insurers to fulfil their functions under the workers compensation legislation.]]></text>
+				</staticText>
+			</frame>
+		</band>
+		<band height="275">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="275" uuid="fcec6ef2-6094-4d54-910c-64332107a8ad"/>
+				<staticText>
+					<reportElement x="0" y="0" width="555" height="15" forecolor="#0B2D6D" uuid="dde797d5-748f-4aab-bab7-86463d18ee23"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" size="8.5"/>
+						<paragraph lineSpacing="Single"/>
+					</textElement>
+					<text><![CDATA[PART B – TO BE COMPLETED BY NOMINATED TREATING DOCTOR OR TREATING SPECIALIST MEDICAL PRACTITIONER]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="0" y="15" width="555" height="20" forecolor="#FFFFFF" backcolor="#0D2B6D" uuid="ab38d1a3-1e83-4cdc-b0cf-f8d7b7b4c963"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" isBold="false"/>
+						<paragraph leftIndent="3"/>
+					</textElement>
+					<text><![CDATA[MEDICAL CERTIFICATION]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="0" y="15" width="555" height="69" uuid="0e8a140c-e68d-4c87-906d-0ad81b62e224"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="35" width="555" height="15" forecolor="#231F20" uuid="fb57a8ec-0fb6-4d87-b872-908c1f910376"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif" isBold="false"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Diagnosis of work related injury/ disease]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="6" y="50" width="542" height="15" uuid="e6d22b0a-f9fa-4bd9-a7b6-b735c03e6ab4"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "med_diagnosis" )!=null ? $P{data}.get( "med_diagnosis" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="69" width="555" height="15" forecolor="#231F20" uuid="85e2b5f6-1fd8-4cff-b0cf-d7d5058b876e"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif" isBold="false"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Patient stated date of injury]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="140" y="67" width="160" height="15" uuid="fcd6f9df-5ff4-4420-8785-887ca43a34c2"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "doi" )!=null ? $P{data}.get( "doi" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement mode="Opaque" x="0" y="84" width="555" height="145" backcolor="#E6E7E9" uuid="c2123c46-2512-415c-9cae-ed11586e406f"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="86" width="555" height="15" forecolor="#231F20" uuid="eadc9786-cba7-48f0-bb7c-efc6376c8e2e"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" isBold="true"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Shaded areas to be completed for initial certificate only]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="103" width="555" height="15" forecolor="#231F20" uuid="f30d8c37-4869-469a-aec1-c19648063dd8"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Patient was first seen at this practice/ hospital for this injury/ disease on]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="330" y="101" width="160" height="15" uuid="c77f463b-5c02-4bb7-a8d6-6a8351f88787"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "seen" )!=null ? $P{data}.get( "seen" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="118" width="555" height="15" forecolor="#231F20" uuid="97b82566-3372-4ab0-95bb-bad4c88085be"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Injury/ disease is consistent with patient’s description of cause]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="293" y="121" width="10" height="10" uuid="dd62cad4-780e-48aa-b6a4-3bb95cc3d268"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#000000"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="293" y="121" width="10" height="10" uuid="1dfe05d9-c862-43e6-bdd9-00631d739785">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("is_consistent").equals("yes")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="303" y="118" width="39" height="15" uuid="13436e26-9d66-4e8b-9a2f-f0b4ab7a2c7e"/>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Yes]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="342" y="121" width="10" height="10" uuid="ab126588-add9-44b1-b9d8-ed22067e6d25"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#000000"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="342" y="121" width="10" height="10" uuid="4ef5e39c-2100-4302-a2a3-7a4a5f869f92">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("is_consistent").equals("no")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="352" y="118" width="39" height="15" uuid="7500708f-2dac-49a0-ad93-39b60df063ca"/>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[No]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="391" y="121" width="10" height="10" uuid="00fc7a6c-d8a7-4deb-9659-09e366b690c5"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#000000"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="391" y="121" width="10" height="10" uuid="5e3bc4c5-ab78-42ec-a8e7-539217ea1d17">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("is_consistent").equals("uncertain")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="401" y="118" width="70" height="15" uuid="4d223a18-bb25-45e8-b819-b0b9efae84eb"/>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Uncertain]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="133" width="555" height="15" forecolor="#231F20" uuid="4d26f495-e4e7-413c-8db8-d0b2c6766dc6"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[How is the injury/ disease related to work?]]></text>
+				</staticText>
+				<textField>
+					<reportElement positionType="Float" mode="Opaque" x="6" y="148" width="542" height="30" backcolor="#FFFFFF" uuid="28c993bc-d281-4f87-9950-2a49f9746d5c">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#7A7A7A"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#7A7A7A"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#7A7A7A"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#7A7A7A"/>
+					</box>
+					<textElement verticalAlignment="Top">
+						<font fontName="OfficiaSans Basic" size="9.55"/>
+						<paragraph lineSpacing="Single" leftIndent="5" spacingBefore="0"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "work_related" )!=null ? $P{data}.get( "work_related" ) : ""]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement positionType="Float" mode="Opaque" x="6" y="193" width="542" height="30" backcolor="#FFFFFF" uuid="925e4d43-0497-471c-a299-7ba0fc739522">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#7A7A7A"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#7A7A7A"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#7A7A7A"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#7A7A7A"/>
+					</box>
+					<textElement verticalAlignment="Top">
+						<font fontName="OfficiaSans Basic" size="9.55"/>
+						<paragraph lineSpacing="Single" leftIndent="5" spacingBefore="0"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "condition_related" )!=null ? $P{data}.get( "condition_related" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="178" width="555" height="15" forecolor="#231F20" uuid="57608ec2-f292-4f78-bff0-c51712f19c33"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Detail any pre-existing factors which may be relevant to this condition]]></text>
+				</staticText>
+				<image>
+					<reportElement x="455" y="240" width="100" height="30" uuid="a6e7a45b-f51e-408b-8ec9-b9a2c317944a"/>
+					<box>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#7A7A7A"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#7A7A7A"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#7A7A7A"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#7A7A7A"/>
+					</box>
+					<imageExpression><![CDATA[$P{realPath}+"resources/WCC-safework-homesafe.png"]]></imageExpression>
+				</image>
+			</frame>
+		</band>
+		<band height="17">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="17" uuid="5fc915d0-09c8-4751-bc52-eb3a26ad1866"/>
+				<staticText>
+					<reportElement x="0" y="2" width="280" height="15" forecolor="#0D2B6D" uuid="ee2b84a1-5fe6-4a59-98c6-2cfcc33f1cf2"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[Claimant name]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="70" y="0" width="200" height="15" uuid="0d1cee03-9d5f-4b67-9cf5-078f75faf9f7"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "c_name" )!=null ? $P{data}.get( "c_name" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="280" y="2" width="275" height="15" forecolor="#0D2B6D" uuid="7fba98bf-3aca-43a6-a2ba-fa4f0e097bc4"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[Claim number
+]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="345" y="0" width="210" height="15" uuid="d79b6914-986c-4001-95e1-36a5474b98eb"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "c_no" )!=null ? $P{data}.get( "c_no" ) : ""]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="116">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="116" uuid="3d674368-963b-41d9-90bb-d9126eebe254"/>
+				<staticText>
+					<reportElement mode="Opaque" x="0" y="3" width="555" height="20" forecolor="#FFFFFF" backcolor="#0D2B6D" uuid="db4ca459-0e9d-4115-9e97-3936adccf75c"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" isBold="false"/>
+						<paragraph leftIndent="3"/>
+					</textElement>
+					<text><![CDATA[MANAGEMENT PLAN FOR THIS PERIOD]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="3" width="555" height="113" uuid="ca900632-9ba9-49ab-a723-8699090c4705"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="6" y="23" width="542" height="15" forecolor="#231F20" uuid="7b26bbfd-e6c6-4849-8ed3-261d1f89093f"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif" size="8"/>
+						<paragraph lineSpacing="Single" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[Treatment/ medication type and duration (Duration: short term = < 6 weeks, medium term = 6–12 weeks, long term = > 12 weeks)]]></text>
+				</staticText>
+				<textField>
+					<reportElement positionType="Float" mode="Opaque" x="6" y="38" width="542" height="30" backcolor="#FFFFFF" uuid="2585da12-6a81-4e93-9bbd-93dc4091896d">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement verticalAlignment="Top">
+						<font fontName="OfficiaSans Basic" size="9.55"/>
+						<paragraph lineSpacing="Single" leftIndent="5" spacingBefore="0"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "duration" )!=null ? $P{data}.get( "duration" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="6" y="68" width="543" height="15" forecolor="#231F20" uuid="8f97d43a-c577-4a1e-a92a-ff0d37867bb0"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif" size="8"/>
+						<paragraph leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[Referral to another health care provider (provide details of provider and service requested, duration and frequency when relevant)]]></text>
+				</staticText>
+				<textField>
+					<reportElement positionType="Float" mode="Opaque" x="6" y="83" width="542" height="30" backcolor="#FFFFFF" uuid="060ff9c8-3548-44d0-bd65-bea88c4de3a6">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement verticalAlignment="Top">
+						<font fontName="OfficiaSans Basic" size="9.55"/>
+						<paragraph lineSpacing="Single" leftIndent="5" spacingBefore="0"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "provider" )!=null ? $P{data}.get( "provider" ) : ""]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="171">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="171" uuid="eb2f33b9-0205-413a-b8b0-0e0784939566"/>
+				<staticText>
+					<reportElement mode="Opaque" x="0" y="3" width="555" height="20" forecolor="#FFFFFF" backcolor="#0D2B6D" uuid="d6c5dbdd-55f1-48a7-8542-5e9ba563324c"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" isBold="false"/>
+						<paragraph leftIndent="3"/>
+					</textElement>
+					<text><![CDATA[CAPACITY FOR EMPLOYMENT (Please consider the health benefits of work when completing this section)]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="3" width="555" height="168" uuid="a943201a-2ee5-4634-9c52-f75482f03dd5"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="23" width="555" height="15" forecolor="#231F20" uuid="93047e65-bd95-4aff-a82d-2a51ba2954a7"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Do you require a copy of the position description/ work duties?]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="293" y="26" width="10" height="10" uuid="3759bcd3-bbc8-493e-9c41-5afa7e32f7ef"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="293" y="26" width="10" height="10" uuid="0ec62513-38f4-4ac0-bd3e-fadd79f2b4b8">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("copy_require").equals("yes")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="303" y="23" width="39" height="15" forecolor="#231F20" uuid="e2b3c58b-8e8c-41d2-8528-fa6dbef14d7a"/>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Yes]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="342" y="26" width="10" height="10" uuid="27d53b20-0d18-49e1-bafd-4501f1ed8ac7"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="342" y="26" width="10" height="10" uuid="8decc51f-c54c-40ca-be82-1257a9c4c622">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("copy_require").equals("no")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="352" y="23" width="39" height="15" forecolor="#231F20" uuid="78ea1a7c-687a-4a54-b59b-92d43e3f62b1"/>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[No]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="38" width="555" height="15" forecolor="#231F20" uuid="15ee7639-8847-4a62-9c60-c8370f199b88"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Patient:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="16" y="53" width="539" height="15" forecolor="#231F20" uuid="da556797-3e6c-48d0-8841-0094cee41d40"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[is fit for pre-injury duties]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="6" y="56" width="10" height="10" uuid="e6a051a5-a7d9-40b1-a48b-904f25ec5d26"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="6" y="56" width="10" height="10" uuid="def06c26-c35b-45cd-ab53-36acae53892c">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("fit").equals("yes")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<rectangle>
+					<reportElement x="6" y="73" width="10" height="10" uuid="21ee0210-1b37-4435-b0c4-273d492f195d"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="6" y="73" width="10" height="10" uuid="1e71e010-fa72-4eca-8afe-195a0b7681eb">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("capacity").equals("yes")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="16" y="70" width="363" height="15" forecolor="#231F20" uuid="64b4eeb5-f607-4e37-83d9-717955ff4990"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[has capacity for some type of employment from]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="240" y="68" width="125" height="15" forecolor="#231F20" uuid="05367582-8713-4403-a549-87f746bf9faa"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "capa_from" )!=null ? $P{data}.get( "capa_from" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="365" y="70" width="20" height="15" uuid="474f1ea3-6a76-404e-b2a7-ee6aeaf1fd01"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[to]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="385" y="68" width="125" height="15" forecolor="#231F20" uuid="117c8133-ba85-424b-b607-ca0578f64d41"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "capa_to" )!=null ? $P{data}.get( "capa_to" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="16" y="87" width="34" height="15" forecolor="#231F20" uuid="36079295-1c32-4453-9d27-1b77304c3e08"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[for]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="40" y="85" width="50" height="15" forecolor="#231F20" uuid="319dd136-abf9-4f32-b2a8-6611244a46ff"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "capa_hours" )!=null ? $P{data}.get( "capa_hours" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="90" y="87" width="86" height="15" forecolor="#231F20" uuid="2e7e8366-0410-4c75-a716-5dd8feb6aa3b"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[hours/ day]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="145" y="85" width="50" height="15" forecolor="#231F20" uuid="52a9e905-3a13-4e72-828c-a8eccd1e5ed7"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "capa_days" )!=null ? $P{data}.get( "capa_days" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="195" y="87" width="74" height="15" forecolor="#231F20" uuid="e358d113-fab4-4a18-89e7-bb9584671291"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[days/ week
+]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="6" y="107" width="10" height="10" uuid="68bb40ae-2ad8-499a-9542-347f284dcf5e"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="6" y="107" width="10" height="10" uuid="5bcbca41-6c51-4edd-8368-f17734574dc7">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("no_capa").equals("yes")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="16" y="104" width="363" height="15" forecolor="#231F20" uuid="4ec55803-e285-40a0-9aea-2df9d16bb9c9"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[has no current work capacity for any employment from]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="280" y="102" width="125" height="15" forecolor="#231F20" uuid="76fa1ad3-8d72-44cc-807e-b3519804fd0e"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "no_from" )!=null ? $P{data}.get( "no_from" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="405" y="104" width="20" height="15" forecolor="#231F20" uuid="cf86741c-f86c-4985-b468-47e59593652c"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[to]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="425" y="102" width="124" height="15" forecolor="#231F20" uuid="e4a80fb0-d0b9-4351-8da4-36a981c88fec"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "no_to" )!=null ? $P{data}.get( "no_to" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="121" width="555" height="15" forecolor="#231F20" uuid="a6daac16-1495-4937-8dc5-8aa4f7df972e"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[If no current work capacity, estimated time to return to any type of employment]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="365" y="119" width="184" height="15" forecolor="#231F20" uuid="38813125-0d3f-4571-906d-9d29fba65a63"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "return_time" )!=null ? $P{data}.get( "return_time" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="138" width="555" height="15" forecolor="#231F20" uuid="7e9d4de3-e90f-40b2-ae73-bc76222e3ca5"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Factors delaying recovery]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="130" y="136" width="419" height="15" forecolor="#231F20" uuid="e407157b-e279-4a84-9915-2828548db3ee"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "delay" )!=null ? $P{data}.get( "delay" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="153" width="555" height="15" forecolor="#231F20" uuid="618d7583-b579-41ee-a050-7f77a2e1bbc0"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Do you recommend referral to workplace rehabilitation provider?]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="298" y="156" width="10" height="10" uuid="bb63ca8a-2d2b-44d8-bd8b-d03d687fd0b5"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="298" y="156" width="10" height="10" uuid="d2058b27-14d7-4a1d-a267-32cd0797ccb7">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("is_referral").equals("yes")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="308" y="153" width="39" height="15" forecolor="#231F20" uuid="26d2848c-a3d3-45d9-ba24-78d8866d36ac"/>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Yes]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="347" y="156" width="10" height="10" uuid="3ff38007-1fa0-4d91-a9b3-62180651f103"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="347" y="156" width="10" height="10" uuid="e424a1b0-bdb7-461c-8d6e-0ef9a6e02182">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("is_referral").equals("no")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="357" y="153" width="39" height="15" forecolor="#231F20" uuid="f2a4d160-c1fa-4c18-86e3-7188f143c50d"/>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[No]]></text>
+				</staticText>
+			</frame>
+		</band>
+		<band height="217">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="217" uuid="a65b6514-d3be-4a58-a483-0ec38c6bfb93"/>
+				<staticText>
+					<reportElement x="0" y="3" width="555" height="214" uuid="079b0088-5af2-430d-beec-f6289760f5b6"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="6" y="3" width="541" height="30" forecolor="#231F20" uuid="b59a2100-9e31-4a7a-a21b-615016da5dff"/>
+					<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[<b>Capacity</b> – If the patient is fit for pre-injury duties this section does not need to be completed. For all other patients please consider activities of daily living currently being performed.
+]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="35" width="555" height="15" forecolor="#231F20" uuid="33edab87-6fda-4627-b305-4dd01240c30e"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Lifting/ carrying capacity]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="180" y="33" width="369" height="15" uuid="420784c3-64c8-4967-b467-32e9787e25fc"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "lift_capa" )!=null ? $P{data}.get( "lift_capa" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="52" width="555" height="15" forecolor="#231F20" uuid="d63210ef-d080-4585-a468-ffdf1b54668c"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Sitting tolerance]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="180" y="50" width="369" height="15" uuid="4283eb29-0eaa-46e5-a949-bbeaf3ed1e75"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "sit_capa" )!=null ? $P{data}.get( "sit_capa" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="69" width="555" height="15" forecolor="#231F20" uuid="bd4a702e-2bf0-4728-b802-b5afdd7cd91c"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Standing tolerance]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="180" y="67" width="369" height="15" uuid="f6613e06-5486-42eb-aa9d-c97d317655c4"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "stand_capa" )!=null ? $P{data}.get( "stand_capa" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="86" width="555" height="15" forecolor="#231F20" uuid="5c38d313-53e2-4e4c-ba59-b212c01a6c09"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Pushing/ pulling ability]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="180" y="84" width="369" height="15" uuid="ea0cdb63-7612-4316-9e5e-dc7a090c6cc1"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "push_capa" )!=null ? $P{data}.get( "push_capa" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="103" width="555" height="15" forecolor="#231F20" uuid="09d452b4-34e0-4ffd-9c63-8fd79135e63f"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Bending/ twisting/ squatting ability]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="180" y="101" width="369" height="15" uuid="62af8efc-ea57-4dc9-a13d-ea27b8cac372"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "bend_capa" )!=null ? $P{data}.get( "bend_capa" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="120" width="555" height="15" forecolor="#231F20" uuid="c976b91b-8189-4ea2-a8c6-16426b38b831"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Driving ability]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="180" y="118" width="369" height="15" uuid="97e8db1b-0e0f-4490-a969-2e594d298ae8"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "drive_capa" )!=null ? $P{data}.get( "drive_capa" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="135" width="555" height="15" forecolor="#231F20" uuid="1bd2de70-700e-48ad-9b4e-30436f5c5131"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Other (please specify) eg psychological considerations, keep wound clean and dry]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="6" y="150" width="543" height="15" uuid="d1269e57-545a-47b7-86a0-9f7dac2b0c19"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "other_capa" )!=null ? $P{data}.get( "other_capa" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="169" width="229" height="15" forecolor="#231F20" uuid="d3521528-e6e1-4103-b00b-a1e41eac2e90"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Next review date]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="89" y="167" width="125" height="15" uuid="4528e64f-245d-4bce-a023-6a5d0480bd99"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "review_on" )!=null ? $P{data}.get( "review_on" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="214" y="169" width="335" height="15" forecolor="#231F20" uuid="91bcc412-0296-4e6a-bff9-9891854a310a"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[(if greater than 28 days, please provide clinical reasoning)]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="184" width="555" height="15" forecolor="#231F20" uuid="7a6ec257-fce9-49a6-aebd-815b934e48df"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Comments]]></text>
+				</staticText>
+				<textField>
+					<reportElement positionType="Float" mode="Opaque" x="6" y="199" width="543" height="15" backcolor="#FFFFFF" uuid="cc7835e4-e4ba-4b75-a4e0-1e45ffca0513">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic" size="9.55"/>
+						<paragraph lineSpacing="Single" leftIndent="5" spacingBefore="0"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "review_cmt" )!=null ? $P{data}.get( "review_cmt" ) : ""]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="158">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="158" uuid="a7b30264-e746-4f30-9129-fd13e8a17874"/>
+				<staticText>
+					<reportElement x="0" y="3" width="555" height="155" uuid="14905c1e-14d1-4fc6-a302-87abba9b9e1b"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Justified" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="0" y="3" width="555" height="20" forecolor="#FFFFFF" backcolor="#0D2B6D" uuid="838cddef-e5e9-4cc6-b973-b9c142014dde"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" isBold="false"/>
+						<paragraph leftIndent="3"/>
+					</textElement>
+					<text><![CDATA[TREATING MEDICAL PRACTITIONER DETAILS]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="6" y="27" width="10" height="10" uuid="4fd5f9af-4f67-41cb-8d3a-ba277d8b0d8a"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="6" y="27" width="10" height="10" uuid="cc8b47c3-08fe-4ed7-b9e2-70c4b67b02c0">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("agree").equals("yes")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="22" y="29" width="533" height="20" forecolor="#231F20" uuid="ace136b9-8d90-46be-89ee-89aeab5da6c9"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" size="8.5" isBold="false"/>
+						<paragraph lineSpacing="Single" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[Please tick if you agree to be the nominated treating doctor for the ongoing management of this worker’s injury and return to work.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="6" y="34" width="542" height="45" forecolor="#231F20" uuid="6d32235b-bbea-4490-ab19-53a9f25589af"/>
+					<textElement textAlignment="Justified" verticalAlignment="Bottom">
+						<font fontName="Serif" isBold="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[                                                                                                                                            (please tick) and I have examined this patient. The information and medical opinions contained in this certificate of capacity are, to the best of my knowledge, true and correct.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="6" y="41" width="146" height="15" forecolor="#231F20" uuid="f846ba81-2ab2-48f8-921e-e444cc135b38"/>
+					<textElement textAlignment="Justified" verticalAlignment="Bottom">
+						<font fontName="Serif" isBold="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[I certify that I am the]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="110" y="44" width="10" height="10" uuid="c87e32f5-7e41-457e-ab18-535a78978db6"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="110" y="44" width="10" height="10" uuid="5837f95a-5b65-4b09-b223-ae78c5c6d2d5">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("who_am_i").equals("doctor")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="120" y="41" width="176" height="15" forecolor="#231F20" uuid="7829bf07-e39f-41c3-aed8-581dcd5aa8c7"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif" isBold="true"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[nominated treating doctor or]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="268" y="44" width="10" height="10" uuid="e3de51d7-d1c8-4963-a6b2-877ca67b707a"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="268" y="44" width="10" height="10" uuid="786add40-95e2-4270-987d-6015f3ad59b7">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("who_am_i").equals("specialist")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="278" y="41" width="176" height="15" forecolor="#231F20" uuid="a3011bc7-37ca-4cb1-b71f-073927bd3238"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif" isBold="true"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[treating specialist or]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="400" y="41" width="148" height="15" forecolor="#231F20" uuid="e5431cd3-fd46-4e84-9e9d-cd5c0940ec66"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif" isBold="true"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[other* ]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="390" y="44" width="10" height="10" uuid="c72192f0-2cc3-421a-9676-4ac26531a504"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="390" y="44" width="10" height="10" uuid="8f71bd35-c29c-499c-a1d2-cc5a012eecac">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("who_am_i").equals("other")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="0" y="77" width="280" height="15" forecolor="#231F20" uuid="cbc497b0-5605-40a8-9984-edd1f2fe2168"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Signature]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="280" y="77" width="268" height="15" forecolor="#231F20" uuid="ff16a4a9-43ae-4522-97e2-26b96783efad"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Date (DD/MM/YYYY)]]></text>
+				</staticText>
+				<image scaleImage="FillFrame">
+					<reportElement mode="Opaque" x="6" y="93" width="230" height="30" uuid="416d1b3c-94c7-4f81-bf97-202fa73b7dce">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<imageExpression><![CDATA[(java.awt.Image)$P{data}.get("treat_signature")]]></imageExpression>
+				</image>
+				<textField>
+					<reportElement mode="Opaque" x="286" y="93" width="164" height="15" uuid="1f2338db-b585-476d-885a-2156497cc088"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "treat_sign" )!=null ? $P{data}.get( "treat_sign" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="125" width="555" height="15" forecolor="#231F20" uuid="d22028b6-bba6-4889-b419-fde56e8521b1"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[*If ‘other’, please specify]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="6" y="140" width="543" height="15" uuid="392a2f2c-3555-40b8-8f0c-a976079bfdd0"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "other_spec" )!=null ? $P{data}.get( "other_spec" ) : ""]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="90">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="90" uuid="948a39e4-dd1f-44cb-92c3-44514094be82"/>
+				<staticText>
+					<reportElement x="0" y="3" width="555" height="87" uuid="4cd67c8f-b0de-4d39-a946-c2d104300d0f"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Justified" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="3" width="555" height="13" forecolor="#231F20" uuid="30ef640f-b170-4add-8eb3-ab08155edb91"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Name                                                                                          (practice stamp if available)]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="6" y="16" width="543" height="15" uuid="39c045f0-f61e-45b3-8a00-71f136b6c573"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "treat_name" )!=null ? $P{data}.get( "treat_name" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="31" width="555" height="13" forecolor="#231F20" uuid="e90f9724-5e50-46ad-aa30-b1cde43252bf"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Address]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="6" y="44" width="543" height="15" uuid="77120580-8444-409e-bd9a-72d5fa722a58"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "treat_address" )!=null ? $P{data}.get( "treat_address" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="59" width="229" height="13" forecolor="#231F20" uuid="09c3465b-802f-4d26-b4c1-dde4640ab8df"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Telephone number]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="229" y="59" width="325" height="13" forecolor="#231F20" uuid="56d9206a-3c03-48e0-aced-7a08ba31a908"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[Provider number
+]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="229" y="72" width="320" height="15" uuid="b38f1aa6-6ebd-4ce8-b1af-1e9e4721db2f"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "treat_no" )!=null ? $P{data}.get( "treat_no" ) : ""]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="6" y="72" width="189" height="15" uuid="bd1a08eb-1409-4586-9cdc-5fe97fc143d3"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "treat_phone" )!=null ? $P{data}.get( "treat_phone" ) : ""]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="765">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="765" uuid="688e530f-fb63-49d0-bfac-951d8d668c9e"/>
+				<staticText>
+					<reportElement x="0" y="0" width="548" height="30" forecolor="#0B2D6D" uuid="0fd88aa3-b636-45ba-8ad2-ff0018c08066"/>
+					<textElement textAlignment="Justified" verticalAlignment="Middle">
+						<font fontName="Serif" size="8.5"/>
+					</textElement>
+					<text><![CDATA[PART C – TO BE COMPLETED BY THE WORKER PRIOR TO SENDING TO THE EMPLOYER OR INSURER (this does not involve the nominated treating doctor/ treating specialist)]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="30" width="555" height="673" uuid="14b36af9-4a54-44fd-ab21-28690baab02b"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Justified" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="0" y="30" width="555" height="20" forecolor="#FFFFFF" backcolor="#0D2B6D" uuid="c99119e4-4af8-4d60-8b99-4a5aa6ead5f5"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Serif" isBold="false"/>
+						<paragraph leftIndent="3"/>
+					</textElement>
+					<text><![CDATA[WORKER DECLARATION]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="50" width="280" height="15" forecolor="#231F20" uuid="78b7e26d-399a-4e72-a715-3c8563c1b86c"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Worker’s first name]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="280" y="50" width="275" height="15" forecolor="#231F20" uuid="a19a3b25-69e7-47a5-bb56-2eb7d61d3f2a"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Last name]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="6" y="65" width="264" height="15" uuid="6f39833b-83f3-45e0-b08d-94ba99183630"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "w_firstname" )!=null ? $P{data}.get( "w_firstname" ) : ""]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="286" y="65" width="262" height="15" uuid="6a672cc5-d198-4eef-b52f-37a1324a8147"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "w_lastname" )!=null ? $P{data}.get( "w_lastname" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="80" width="555" height="15" forecolor="#231F20" uuid="137bc6f8-d1fc-41e6-b3c5-8fd4c1bf0995"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Date of birth (DD/MM/YYYY)]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="6" y="95" width="164" height="15" uuid="53190969-84df-4bc8-ae90-cc7f76a807e2"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "w_dob" )!=null ? $P{data}.get( "w_dob" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="110" width="555" height="15" forecolor="#231F20" uuid="707aad81-f0d9-459c-b862-513239c96b59"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Worker’s address]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="6" y="125" width="542" height="15" uuid="8e82101a-6576-4629-aca0-5f51fab0341c"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "w_address" )!=null ? $P{data}.get( "w_address" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="140" width="555" height="15" forecolor="#231F20" uuid="5f8b417d-d6dd-49a5-b52c-2d9814f6b708"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Claim number]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="6" y="155" width="420" height="15" uuid="927716d3-00ba-4e30-b40e-51ed61215067"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "w_claim_no" )!=null ? $P{data}.get( "w_claim_no" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="170" width="70" height="15" forecolor="#231F20" uuid="72ce283c-f5c3-48db-82f0-6dea0225ee05"/>
+					<textElement textAlignment="Justified" verticalAlignment="Bottom">
+						<font fontName="Serif" isBold="false"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[I]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="16" y="173" width="10" height="10" uuid="ded662d8-539a-4206-aac9-b54c806ff719"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="16" y="173" width="10" height="10" uuid="e25a4ee9-6438-4fa6-921e-09fa3b7cbd9a">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("w_is_have").equals("have")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="26" y="170" width="44" height="15" forecolor="#231F20" uuid="4a63067a-fd42-406f-8403-f1da4dc1164b"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif" isBold="false"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[have]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="70" y="173" width="10" height="10" uuid="8f46977e-93cc-4c3a-9f79-109822cf060e"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</graphicElement>
+				</rectangle>
+				<image>
+					<reportElement x="70" y="173" width="10" height="10" uuid="693bf45c-2543-40d7-818c-21545b8499b0">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<printWhenExpression><![CDATA[$P{data}.get("w_is_have").equals("havenot")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="80" y="170" width="475" height="15" forecolor="#231F20" uuid="c1cd44a6-ce7f-4f30-ba3a-71e049ee175f"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif" isBold="false"/>
+						<paragraph lineSpacing="Single" leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[have not (tick appropriate box)]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="6" y="185" width="542" height="45" forecolor="#231F20" uuid="99a42689-0907-4b60-9a44-3ddcc79995ee"/>
+					<textElement textAlignment="Justified" verticalAlignment="Bottom">
+						<font fontName="Serif" isBold="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[engaged in any form of paid employment, self employment or voluntary work for which I have received or am entitled to receive payment in money or otherwise since the last certificate was provided, that I have not yet declared to the insurer.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="6" y="230" width="542" height="30" forecolor="#231F20" uuid="21f7f989-28df-4955-8d90-42abb4d6f57c"/>
+					<textElement textAlignment="Justified" verticalAlignment="Bottom">
+						<font fontName="Serif" isBold="false"/>
+						<paragraph lineSpacing="Single" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[If you have been engaged in any form of paid employment or voluntary work, please provide details below (or attach when you forward this certificate to your employer or insurer).
+]]></text>
+				</staticText>
+				<textField>
+					<reportElement positionType="Float" mode="Opaque" x="6" y="261" width="542" height="360" backcolor="#FFFFFF" uuid="112aff49-5033-4ed5-b050-dc7cdee72776">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement verticalAlignment="Top">
+						<font fontName="OfficiaSans Basic" size="9.55"/>
+						<paragraph lineSpacing="Single" leftIndent="5" spacingBefore="0"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "w_details" )!=null ? $P{data}.get( "w_details" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="6" y="621" width="542" height="30" forecolor="#231F20" uuid="a0c2be70-4229-493e-89b6-a6215d43f119"/>
+					<textElement textAlignment="Justified" verticalAlignment="Bottom">
+						<font fontName="Serif" isBold="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[I declare that the details I have given on this declaration are true and correct, knowing that false declarations are punishable by law.
+]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="651" width="280" height="15" forecolor="#231F20" uuid="1b2e3557-aeba-48f0-9a70-23bc98b27616"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Signature of worker]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="280" y="651" width="268" height="15" forecolor="#231F20" uuid="ccfff589-3291-4a1d-9099-8ebe508781db"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Serif"/>
+						<paragraph leftIndent="6"/>
+					</textElement>
+					<text><![CDATA[Date (DD/MM/YYYY)]]></text>
+				</staticText>
+				<image scaleImage="FillFrame">
+					<reportElement mode="Opaque" x="6" y="667" width="230" height="30" uuid="6c7c6427-47bd-4a6a-b8a4-9a43b645309f">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<imageExpression><![CDATA[(java.awt.Image)$P{data}.get("w_signature")]]></imageExpression>
+				</image>
+				<textField>
+					<reportElement mode="Opaque" x="286" y="667" width="164" height="15" uuid="d9d674cc-9719-4704-8f43-7a05f1d468c5"/>
+					<box>
+						<pen lineWidth="0.5" lineColor="#0D2B6D"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "w_sign" )!=null ? $P{data}.get( "w_sign" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="719" width="555" height="36" forecolor="#231F20" uuid="f460cc5f-5f16-4945-8ca3-33da302eaded"/>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Serif" size="7"/>
+						<paragraph leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[Catalogue No. WC01300 WorkCover Publications Hotline 1300 799 003
+WorkCover NSW, 92-100 Donnison Street, Gosford, NSW 2250
+Locked Bag 2906, Lisarow, NSW 2252 | WorkCover Assistance Service 13 10 50
+Website workcover.nsw.gov.au]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="755" width="555" height="10" forecolor="#231F20" uuid="fecbfb59-c152-4f7d-8661-4a29b18028d8"/>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Serif" size="7"/>
+						<paragraph leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[ISBN 978 1 74341 191 9 ©Copyright WorkCover NSW 1112]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="10" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="26" height="10" forecolor="#0D2B6D" uuid="d77270cd-81b0-412f-b3d1-ad45c711d6a1"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Serif" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="26" y="0" width="28" height="10" forecolor="#0D2B6D" uuid="9f33baad-1bef-41b1-aa6e-22ba23286bed"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" of " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

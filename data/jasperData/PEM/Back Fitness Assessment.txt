@@ -1,0 +1,2812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.11.0.final using JasperReports Library version 6.11.0-0c4056ccaa4d25a5a8c45672d2f764ea3498bebb  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_2" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="bfa3886c-6309-4d04-9a70-3e8f09967dc2">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<parameter name="data" class="java.util.Hashtable"/>
+	<parameter name="realPath" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<detail>
+		<band height="821">
+			<rectangle>
+				<reportElement mode="Transparent" x="21" y="16" width="265" height="105" uuid="0f78616e-d4ff-4f1a-b8f4-cb8a7449b3cf">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="25" y="15" width="55" height="15" uuid="4cc8950e-c3cf-408c-8a89-24a353e84b25">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fullname:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="81" y="45" width="205" height="15" uuid="bbe6f5b8-54ca-4bfb-803c-0a2f35c6d0f3"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("eaddress")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="25" y="30" width="55" height="15" uuid="fea5473b-e4d0-4bf2-a73f-71c8d4dd2e2f">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Gender:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="175" y="30" width="30" height="15" uuid="87788c44-6e51-4bb3-a281-05a83ddc219f"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[DOB:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="25" y="45" width="55" height="15" uuid="44f0c171-c7d3-497e-b9be-53cb298dc4f0">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Email:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="25" y="60" width="55" height="15" uuid="22f31229-539b-4d77-8c66-0c89f0ee1247">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Address:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="81" y="30" width="95" height="15" uuid="691798cb-f1e2-4a59-9f15-9e370319aeb6"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("sex")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="205" y="30" width="75" height="15" uuid="37628f95-54ab-4b19-9230-ace8219b884e"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("dob")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="80" y="15" width="200" height="15" uuid="231fa028-978e-47d3-aaaa-c438bf7504f4">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("surname")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="81" y="60" width="205" height="15" uuid="ddd2704a-2ce8-4a25-802e-62ef10fdaf21"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("homeaddress")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="25" y="75" width="55" height="15" uuid="7b3c7792-38ea-4a92-b91a-a08015a3ea96">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Phone:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="81" y="75" width="205" height="15" uuid="00a53244-f0bc-44e7-b3e7-4e3f972dbcbc"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("cno")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="138" width="550" height="106" uuid="ac524b2f-470c-4789-b641-54229e71dc7b"/>
+				<textElement textAlignment="Justified">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[This assessment is designed to test your functional capacity in relation to the required physical demands to complete your proposed role. You will not be required to complete any task that you feel you are unable to perform safely and or confidently. The evaluator will cease the assessment if they are of the opinion that you are either unable or unsafe to proceed. You are expected to set your own limits and cease any task if you experience pain or fear that the task will exacerbate any pre-existing injuries or conditions. You will be given a comprehensive set of instructions prior to commencing each task and you may ask for clarification at any point prior attempting the task. ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="242" width="422" height="32" uuid="8d1321a2-d7d8-4616-b79a-a5ef413b0e69"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Is there any reason that you could not perform the work fitness assessment today?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="298" width="52" height="21" uuid="30449f2e-1fd8-4c9a-be7e-7801b8e5464e"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Signed:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="396" y="370" width="174" height="28" uuid="0213f497-9a06-4c8f-8ee7-bf275722c9ba">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="true" isUnderline="true"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Comments]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="370" width="101" height="28" uuid="5918f7b0-7424-47aa-b3c6-e244e03eb51c">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="12" isBold="true" isUnderline="true"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="10" spacingBefore="5" tabStopWidth="40"/>
+				</textElement>
+				<text><![CDATA[Region]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="396" y="398" width="174" height="28" uuid="bd15745b-e8ac-4840-8f7c-c40005a2e15d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="19" y="398" width="101" height="106" uuid="92a32bfe-e3cb-4b0a-aa30-b168a1134838">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="1.0" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="29" y="395" width="51" height="30" uuid="26a88984-efd2-4c68-9d87-338f1aa1cc33">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Cervical]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="370" width="156" height="28" uuid="935a810f-450c-4b99-bc93-c8d022d4a7d5">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="true" isUnderline="true"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Movement]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="370" width="166" height="28" uuid="f7686154-7ccc-4ec2-8167-c2f31167317b">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="true" isUnderline="true"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Measurement]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="121" y="398" width="189" height="28" uuid="e8add9ae-1878-4863-8d00-5f6303bd68f2">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Flexion]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="426" width="189" height="25" uuid="7bf6eb93-b894-44b1-9e7f-9fceed4cdd1f">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Extension]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="478" width="189" height="26" uuid="985d74a4-cb5d-4755-b8f8-cf986b0cd24b">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Rotation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="451" width="189" height="27" uuid="82a6e4e9-2cc9-41f2-a991-63468c560b53">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Lateral flexion ]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="396" y="426" width="174" height="25" uuid="8a49c32a-6f64-400a-969e-abf2c1c7c681">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="396" y="451" width="174" height="27" uuid="20d299c5-da32-4d1b-bfa2-3652279e5abd">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="396" y="478" width="174" height="26" uuid="e8d1da7a-c292-4594-b640-99443fc60909">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="230" y="426" width="189" height="25" uuid="27546dcf-6fdf-4795-887e-f7c503c2164c">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="11" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="398" width="189" height="28" uuid="c51da4f2-bf9d-4b33-ae93-614ce28c3290">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="11" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="451" width="189" height="27" uuid="b5da4a7a-69b9-4c0b-a232-416c5ba04912">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[L:                  R:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="478" width="189" height="26" uuid="3725a7de-da60-4761-a3a5-32d0d2a8d822">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[L:                  R:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="240" y="405" width="148" height="16" uuid="ab8fb845-8d2c-4204-8b74-38534daae152"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("tb_flexion9_1a_1b")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="240" y="432" width="149" height="16" uuid="fffdae1e-fddc-4621-8c9b-9d7d8cb08b1f"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("tb_flexion9_1a_2")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="250" y="457" width="53" height="16" uuid="b9ac982a-a161-4ed1-b90f-040fed71d437"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("rd_lateral_flexional")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="318" y="457" width="80" height="16" uuid="f8efb8ef-6c37-499b-9483-f55971b45d2a"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("rd_lateral_flexionar")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="250" y="484" width="53" height="16" uuid="7c31de97-1b18-476b-9ccd-16f4b127b7b9"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("rd_rotation_1al")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="318" y="484" width="77" height="16" uuid="a8a6b93c-abba-4caf-9a49-246fdfc70a90"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("rd_rotation_1a")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="401" y="405" width="169" height="16" uuid="1bca251b-41b0-48e5-8de4-6b33ae2d243e">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("tb_flexion9")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="401" y="432" width="169" height="16" uuid="b636d386-7fc9-4cb3-bdaa-562cab301795"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("tb_extension_a")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="401" y="457" width="169" height="16" uuid="8811e801-85a4-41ae-9e7a-5be8c2e2d592">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("tb_lateral_flexionb")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="401" y="484" width="169" height="16" uuid="b0b6f263-1f37-4287-a7ec-7015ead791aa">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("tb_rotation_8")]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Transparent" x="19" y="611" width="101" height="24" uuid="e810eefe-41a6-48b7-b688-1738eff8ef6c">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="1.0" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="120" y="611" width="156" height="24" uuid="f38f8959-d594-41b9-8d1b-03cabccc1210">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Flexion]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="396" y="611" width="174" height="24" uuid="00f87ddd-6b48-45a9-9a85-5808a43b4b62">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="230" y="611" width="166" height="24" uuid="19f38827-2bf2-4f68-8e26-d60d49924ba3">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[L:                  R:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="250" y="617" width="53" height="16" uuid="61bca5fd-4063-424e-9f54-7bb286d10622"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("hf_lateral_flexionar")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="318" y="617" width="74" height="16" uuid="27d237a5-918d-40c9-82ea-8fe624ed3ff4"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("hf_lateral_flexionar1")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="401" y="617" width="169" height="16" uuid="da24a937-6554-4eb7-a9ae-f164d41e1566"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("hf_lateral_flexionartxt")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="28" y="605" width="51" height="30" uuid="e7dc8228-d37a-481d-a3a6-3a5750e2c6a3">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Hip]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="396" y="504" width="174" height="28" uuid="dc72ef9d-0eaa-4720-aab7-78388cd0963a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="19" y="504" width="101" height="107" uuid="f37030ce-1917-4cdf-ac35-cc9db6f8d927">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="1.0" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="29" y="504" width="51" height="30" uuid="5ed9f7d0-e63b-4277-9c24-1863802019e8">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Trunk]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="504" width="189" height="28" uuid="8881cf73-3575-46ca-a424-f82056190ce7">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Flexion]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="532" width="189" height="25" uuid="2baa168d-fc6b-4d2b-b634-8a9f325bad93">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Extension]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="585" width="189" height="26" uuid="43263d70-1dd7-4bf8-8cee-63610542f2ea">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Rotation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="557" width="189" height="28" uuid="23d23628-c130-4b05-b90b-373a99526ccd">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Lateral flexion ]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="396" y="532" width="174" height="25" uuid="e1d5649e-fb72-44dd-bbdb-6f1d70cf0c04">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="396" y="557" width="174" height="28" uuid="dedf7f09-ad21-4114-9c41-1ff76ef1054c">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="396" y="585" width="174" height="26" uuid="2a90e4d3-243e-4f84-8927-acd3fdf2fa6b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="230" y="532" width="189" height="25" uuid="1208d914-ca44-4dba-adbe-9d9729d4e283">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="11" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="504" width="189" height="28" uuid="6b7146d3-81aa-41e1-9ddd-11b1e601314f">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="11" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="557" width="165" height="28" uuid="a188d9a3-f349-4bcc-8aea-1fc09dac61ab">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[L:                  R:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="585" width="189" height="26" uuid="795fe8cc-d71a-456b-91ac-313689d7be3c">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[L:                  R:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="240" y="510" width="151" height="16" uuid="2432b52a-9624-4dc6-a776-b35f866f0bde"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("cb_flexion9_1a")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="240" y="536" width="151" height="16" uuid="0262fb42-4e5a-4a34-9302-87d7f103d7c7"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("cb_flexion9_1a_2")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="250" y="563" width="53" height="16" uuid="8cf53279-528c-444f-bc07-852d3390cb8c"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("lf_lateral_flexional")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="318" y="563" width="73" height="16" uuid="2af9653e-eeb6-4147-8c20-e6f3739fb8c5"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("lf_lateral_flexionar")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="250" y="591" width="53" height="16" uuid="91009627-2fa1-4279-9bd5-cfb75c36db20"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("rl_rotation_1al")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="318" y="591" width="73" height="16" uuid="1cec994c-a110-4e67-9cd1-726b7240461b"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("rl_rotation_1a")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="401" y="510" width="169" height="16" uuid="bff7a2b5-68ea-4bb2-a3d6-34a24f090854">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("cb_flexion9")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="401" y="536" width="169" height="16" uuid="4f0f7f30-3436-4e69-88aa-afa467af26d9"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("cb_extension_a")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="401" y="563" width="169" height="16" uuid="027295a3-9926-408f-9e54-11dc4b18d5e4"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("lf_lateral_flexionb")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="401" y="591" width="169" height="16" uuid="48d3fae2-0bd8-42d3-863e-962ca6315892">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("rl_rotation_8")]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Transparent" x="448" y="242" width="15" height="15" uuid="613e45ac-efdb-4f65-88a7-dc92243f9ccc">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="448" y="242" width="15" height="15" uuid="4385bcb4-c4f1-423d-b3da-dad01d3f8f04">
+					<printWhenExpression><![CDATA[$P{data}.get("radcs011").toString().equals("1")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="472" y="242" width="32" height="15" uuid="57ce3aa4-77d3-451e-a4ee-1dfdb571da6e">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="515" y="242" width="15" height="15" uuid="eeac4cb9-bee8-4dc3-93a3-3f71918c22b9">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="516" y="242" width="15" height="15" uuid="dfdfd75a-facd-4869-9393-9ad09b25a6ae">
+					<printWhenExpression><![CDATA[$P{data}.get("radcs011").toString().equals("2")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="535" y="242" width="32" height="15" uuid="4d613010-98ec-4d9c-b47c-9bb34e183331">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="318" y="95" width="249" height="21" uuid="e7f9ff40-9ed7-4e48-94f0-193dc8be8881"/>
+				<textElement textAlignment="Right">
+					<font fontName="OfficiaSans Basic" size="16" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Back Fitness Assessment]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="801" width="551" height="20" uuid="1c30174f-2f6f-4896-8a64-94c35017c24a"/>
+				<text><![CDATA[©REDiMED Pty Ltd. Revised August 2018         HWMSA460                                                        Page 1 of 3 ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="421" y="306" width="36" height="18" uuid="bb24533c-9d16-42cb-a1a2-5acc243f916b"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Date:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="462" y="305" width="78" height="19" uuid="127b6b4a-0d7e-4bdd-b6c2-9d3408eaf711"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("dt_datea3")]]></textFieldExpression>
+			</textField>
+			<image scaleImage="FillFrame">
+				<reportElement mode="Opaque" x="85" y="282" width="198" height="71" uuid="4cd8c0ca-8666-43b4-9a42-e45c258b18a3"/>
+				<imageExpression><![CDATA[(java.awt.Image)$P{data}.get("signature_signedaa")]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement x="382" y="27" width="166" height="49" uuid="72d13bf1-2c46-4bd7-b9b6-0e4f2f8aff02">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA[$P{data}.get("client_logo_url")!=null ? $P{data}.get("client_logo_url") : ""]]></imageExpression>
+			</image>
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<reportElement x="81" y="90" width="205" height="15" uuid="0a8baad2-6c30-40aa-b2d4-5f1cb5dfdda6">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("p_occupation")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<reportElement x="81" y="105" width="205" height="15" uuid="828de10a-83d8-4bf4-9988-7fa06151bc7e"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("p_company")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="25" y="90" width="55" height="15" uuid="ff704e81-5954-4a72-a9b6-30de9e361165">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Position:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="25" y="105" width="261" height="15" uuid="ee891408-b049-4bfd-94a5-cc12d10faed5">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Company:]]></text>
+			</staticText>
+		</band>
+		<band height="841">
+			<staticText>
+				<reportElement x="21" y="160" width="159" height="30" uuid="4b6da3da-1fd5-4abb-ae2f-444bef260ee3">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="12" isBold="true" isUnderline="true"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Hamstring Flexibility]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="353" y="126" width="214" height="20" uuid="73b9565c-81c2-413f-b26a-580294f70ad0"/>
+				<textElement textAlignment="Right">
+					<font fontName="OfficiaSans Basic" size="16" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Back Fitness Assessment]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="168" y="267" width="410" height="32" uuid="6077f426-a09a-4feb-86f3-aad1bd134c33"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[1                         2                        3                         4]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="20" y="296" width="400" height="15" uuid="0ddaff39-02cb-4b4c-887a-1c5332ee15fc">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="420" y="296" width="148" height="15" uuid="00eb3bd8-b2f8-43bc-9b30-32df8ac22105"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="438" y="297" width="121" height="18" uuid="90437d6d-a732-43a1-971e-1eeb041a76c4"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[RATING (CIRCLE)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="175" y="298" width="105" height="18" uuid="c4615128-ff81-4ce0-8003-4445b2b33b74"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PERFORMANCE]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement key="" mode="Transparent" x="20" y="311" width="400" height="16" uuid="08870042-3743-4942-b27e-40e7e692bbed"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="420" y="311" width="148" height="16" uuid="90600eb0-b9f9-4f45-8d48-8e0053f5536b"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="25" y="314" width="380" height="18" uuid="7c9e5f96-ace3-4104-bdca-c12a57c003a9"/>
+				<textElement>
+					<font size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Able to achieve >110o ]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement key="" mode="Transparent" x="20" y="327" width="400" height="16" uuid="9dee0fda-736a-47bb-87f6-1b5e3933c445"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="420" y="327" width="148" height="16" uuid="4148878d-a166-4b9a-acf2-096f38150ef8"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="25" y="329" width="380" height="18" uuid="59edf171-7598-4ba1-ae5e-f9330bbf465e"/>
+				<textElement>
+					<font size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Able to achieve 80-110o ]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement key="" mode="Transparent" x="20" y="343" width="400" height="16" uuid="020ebf35-c827-4978-8a41-71476cfcd89d"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="420" y="343" width="148" height="16" uuid="0cdbc6c6-30fb-42a4-a1c9-9881e8cbdc80"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="25" y="345" width="380" height="18" uuid="bb88ad8d-b048-4839-94fb-4607508a06b4"/>
+				<textElement>
+					<font size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Able to achieve 60-79o]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement key="" mode="Transparent" x="20" y="359" width="400" height="16" uuid="8ae16a42-f572-4cd9-846d-f56839bc8296"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="420" y="359" width="148" height="16" uuid="95b1db8c-7381-492f-b181-48edd91d82de"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="25" y="361" width="380" height="18" uuid="cc38bcff-a924-447b-8409-a6917b996ed9"/>
+				<textElement>
+					<font size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Able to achieve <60o]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="457" y="309" width="60" height="20" uuid="438101fc-23bf-4df9-8073-967677e70c99">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Excellent]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="457" y="324" width="60" height="20" uuid="308d7bfa-9dbe-44f5-a91d-0916b2e1b4b2">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Good]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="457" y="340" width="60" height="20" uuid="a1a8c1f9-fd32-4263-8452-85b5f1183d14">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Fair]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="457" y="356" width="60" height="20" uuid="fcc1fa7c-6d65-45e5-a56f-549915b66540">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Poor]]></text>
+			</staticText>
+			<ellipse>
+				<reportElement mode="Transparent" x="457" y="311" width="60" height="16" uuid="7ca15875-79b3-4508-917c-0d218416189e">
+					<printWhenExpression><![CDATA[$P{data}.get("rate").toString().toLowerCase().equals("4")]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</ellipse>
+			<ellipse>
+				<reportElement mode="Transparent" x="457" y="327" width="60" height="16" uuid="a61868af-1f6d-4813-80bf-c44088e75c92">
+					<printWhenExpression><![CDATA[$P{data}.get("rate").toString().toLowerCase().equals("3")]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</ellipse>
+			<ellipse>
+				<reportElement mode="Transparent" x="457" y="343" width="60" height="16" uuid="68ffae54-c377-4fc1-8ccf-088da7a5db09">
+					<printWhenExpression><![CDATA[$P{data}.get("rate").toString().toLowerCase().equals("2")]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</ellipse>
+			<ellipse>
+				<reportElement mode="Transparent" x="457" y="359" width="60" height="16" uuid="42b3cc70-53a1-4054-b0d0-feb00b8408c4">
+					<printWhenExpression><![CDATA[$P{data}.get("rate").toString().toLowerCase().equals("1")]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</ellipse>
+			<staticText>
+				<reportElement x="230" y="390" width="30" height="20" uuid="7bdf6a06-485f-49ef-9905-0b422b363a50"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[L:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="368" y="390" width="30" height="20" uuid="398a4750-88b9-48ec-b63e-5ab17c67f31e"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[R:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="246" y="390" width="106" height="21" uuid="fbb14a3e-233d-41ff-b1a3-e845a1e28aa9"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("rd_performance_a")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="382" y="390" width="106" height="21" uuid="876b144e-067c-4ea1-91be-6a60d7fb954e"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("rd_performance_b")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="820" width="547" height="20" uuid="1f9ba570-a6e0-43d2-9afc-e7fc413ae0de"/>
+				<text><![CDATA[©REDiMED Pty Ltd. Revised August 2018         HWMSA460                                                        Page 2 of 3 ]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="206" y="577" width="15" height="15" uuid="df19a6f3-3e4f-4b80-867f-ba9f22ee99c0">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="206" y="640" width="15" height="15" uuid="d8e01435-5720-428d-904f-8a2b4c751509">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="432" width="180" height="22" uuid="cf237625-3891-4e58-82cf-620bba0f5b81">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[TEST]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="348" y="432" width="218" height="22" uuid="8d588f84-e287-4ff0-9423-c01d9912449e">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[COMMENTS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="198" y="432" width="150" height="22" uuid="bd6724f7-4cd5-4453-980f-c6ca6bdb322a">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[PERFORMANCE]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="198" y="454" width="150" height="41" uuid="30397cea-59ca-4378-b9b9-b3d26f46bc5e">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="348" y="454" width="218" height="41" uuid="00caddf0-8228-435c-82b1-91b233a7b38f">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="206" y="458" width="15" height="15" uuid="8ceab61c-8253-46f6-92c4-a87222c9f126">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="206" y="458" width="15" height="15" uuid="4483a566-b9dd-4a20-b755-544a6856116e">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_right_lateral_a").toString().equals("1")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="224" y="458" width="118" height="15" uuid="c53ddc07-b4a8-4654-8440-5d871fc946cb">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Normal]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="206" y="475" width="15" height="15" uuid="cfb15e36-9d52-4af1-b938-e84477c7df6c">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="206" y="475" width="15" height="15" uuid="859c1598-f4fb-4957-8e73-9c000d945982">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_right_lateral_a").toString().equals("2")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="224" y="475" width="118" height="15" uuid="04a3b9dd-a0e2-4ae0-9190-f542d142cf32">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Abnormal]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="359" y="458" width="15" height="15" uuid="ac28aa43-afa6-440f-a8c0-9814c2a052f2">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="359" y="458" width="15" height="15" uuid="403d6955-78bc-4f40-b6a4-1659b98329ad">
+					<printWhenExpression><![CDATA[$P{data}.get("rightlateral_bb").toString().equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="377" y="458" width="100" height="15" uuid="782d9df9-32eb-489a-8f15-7e5883cacc2b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Pain/Discomfort]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="359" y="475" width="15" height="15" uuid="329f0c7c-d007-4697-a375-42ea15387858">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="359" y="475" width="15" height="15" uuid="275c4a2b-57e6-4f09-8c57-3131155b2713">
+					<printWhenExpression><![CDATA[$P{data}.get("rightlateral_bb1").toString().equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="377" y="475" width="35" height="15" uuid="71e57e2d-2f40-4fc5-8f44-c7f32adc3d47">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Other:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="415" y="475" width="150" height="15" uuid="e72c230a-3cef-461d-960e-2288dc84530d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$P{data}.get("rd_right_lateral_bb")]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Transparent" x="18" y="454" width="180" height="41" uuid="f41d8a9c-5154-439b-bcc1-6ded57436f21">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="28" y="449" width="170" height="50" uuid="d8b74fd3-7ece-4d61-bc33-6627420e5dd9">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Right Lateral Bridge
+Able to hold position for 60
+seconds]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="198" y="495" width="150" height="41" uuid="21b201b4-3e78-4875-9876-0bd4d7e09717">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="348" y="495" width="218" height="41" uuid="f73defd1-541b-4900-83cd-f5f4df574761">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="206" y="499" width="15" height="15" uuid="e02e568b-7ca7-466d-9968-f0570866ea86">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="206" y="499" width="15" height="15" uuid="0c3fb0a9-5061-4dc7-b073-1775cc161b83">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_left_lateral_2b").toString().equals("1")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="224" y="499" width="118" height="15" uuid="e3b24ca6-a77c-43e9-8a0c-6bd72c79ac5d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Normal]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="206" y="516" width="15" height="15" uuid="65f71f54-0b0a-40a3-a679-eb9ab89eb16a">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="206" y="516" width="15" height="15" uuid="d3c31872-8856-4f30-af0b-d0b3a3b7c5bc">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_left_lateral_2b").toString().equals("2")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="224" y="516" width="118" height="15" uuid="e94a6d5c-9799-4d73-a941-11e9b4ab4e1f">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Abnormal]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="359" y="499" width="15" height="15" uuid="63e9f72a-3230-4fc8-a03e-865e75a96c45">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="359" y="499" width="15" height="15" uuid="c7fee855-70cf-4f87-8c04-76cf6a3ea064">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_left_lateral_2c").toString().equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="377" y="499" width="100" height="15" uuid="a59ebea7-7b49-4343-b6d8-a82fbfad3971">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Pain/Discomfort]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="359" y="516" width="15" height="15" uuid="ee104760-b921-4fb1-b5ff-6759d5f271f7">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="359" y="516" width="15" height="15" uuid="004c8f75-1737-4371-aa11-cc535846bbde">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_left_lateral_2c1").toString().equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="377" y="516" width="35" height="15" uuid="c9a5b2ef-b330-4e48-b68f-4a1ce825f648">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Other:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="18" y="495" width="180" height="41" uuid="509097a1-5e9b-4eab-ba16-cf2f4a67de99">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="28" y="490" width="170" height="50" uuid="ce0e5f75-f736-4d73-beb1-c41e2911e712">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Left Lateral Bridge
+Able to hold position for 60
+seconds]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="198" y="536" width="150" height="63" uuid="7f055752-48ac-434c-a851-412a9eec7b20">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="348" y="536" width="218" height="63" uuid="0ff10457-80f5-4f9b-86dd-1717ef55b452">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="206" y="540" width="15" height="15" uuid="175f35ec-79b2-493f-9b98-a58d0e0fd0da">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="206" y="540" width="15" height="15" uuid="4192cbcf-3c99-4e77-9541-585ffe7b8abb">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_extensor_endu_aa").toString().equals("1")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="224" y="540" width="118" height="15" uuid="31973f70-6dfb-452e-8064-c228d9bd7e14">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Able (>90seconds)]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="206" y="557" width="15" height="15" uuid="bd0669bd-b120-4634-ad6c-88cc2a6f06b2">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="206" y="557" width="15" height="15" uuid="abbd423a-a6ab-40ea-8db7-49de6fddbd01">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_extensor_endu_aa").toString().equals("2")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="224" y="557" width="118" height="15" uuid="5d6582f4-42da-4e45-8cf8-f45de68e5a7a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Partial (30-90 seconds)]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="359" y="540" width="15" height="15" uuid="88f7304b-0e34-498b-b50d-a18c27f7cc58">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="359" y="540" width="15" height="15" uuid="64984477-6b81-45fb-875e-3fbadb8100e4">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_extensor_endu_bb").toString().equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="377" y="540" width="100" height="15" uuid="5ae3cc96-709d-49aa-a139-826dabcf78af">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Pain/Discomfort]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="359" y="557" width="15" height="15" uuid="99c0f0e5-9077-4e36-b696-a9ade48323ac">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="359" y="557" width="15" height="15" uuid="3b4dd182-9153-4881-8662-68e1bb55a657">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_extensor_endu_bb1").toString().equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="377" y="557" width="35" height="15" uuid="fcbbd076-21d3-44c6-85d7-a1a1be948b9d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Other:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="18" y="536" width="180" height="63" uuid="960a7d53-43b8-4aae-8a78-547eec983e10">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="28" y="531" width="170" height="50" uuid="2fb77997-3f09-4c44-a1f8-12f6a9be2e6f">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Extensor endurance test
+Sustained hold over bench]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="224" y="577" width="118" height="15" uuid="760cde8c-b461-4dab-ab4e-05c723e9cbf3">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Unable (<30seconds)]]></text>
+			</staticText>
+			<image>
+				<reportElement x="206" y="577" width="15" height="15" uuid="2ae1926d-a545-44d8-a1a1-2730802470e3">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_extensor_endu_aa").toString().equals("3")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement mode="Transparent" x="198" y="599" width="150" height="63" uuid="f077fe31-e1ec-439a-8331-22f135a54502">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="348" y="599" width="218" height="63" uuid="00c0073c-51f2-42da-aacd-2f9ab4e8f825">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="206" y="603" width="15" height="15" uuid="e6bbea79-62bb-40ba-8f22-1697aaf3761a">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="224" y="603" width="118" height="15" uuid="747282ab-aeaa-4d31-a63e-2994fa55fde6">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Able (>90seconds)]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="206" y="620" width="15" height="15" uuid="a301ffd0-50f7-4aea-bfaa-bcc46f09f9a1">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="206" y="620" width="15" height="15" uuid="4a4d92ca-13af-473f-8318-5ddde6274be9">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_flexor_enduran_88").toString().equals("2")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="224" y="620" width="118" height="15" uuid="0a17a62f-7d13-40ac-adfb-794880d858dd">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Partial (30-90 seconds)]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="359" y="603" width="15" height="15" uuid="041f1acd-6390-44db-8170-21208cba3b08">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="377" y="603" width="100" height="15" uuid="fc1b2feb-1030-487c-bfdb-c63bf6b6f733">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Pain/Discomfort]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="359" y="620" width="15" height="15" uuid="9df9db90-cda3-401b-b203-14d7162a5100">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="359" y="620" width="15" height="15" uuid="5ed881da-7ef1-4443-8a6e-5ddfe8785afd">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_flexor_enduran_991").toString().equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="377" y="620" width="35" height="15" uuid="c9107813-76b8-43a2-a940-900053fcf636">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Other:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="18" y="599" width="180" height="63" uuid="a3941825-4f91-4bae-a075-76aa2046dc60">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="28" y="599" width="170" height="50" uuid="ff372c6d-8a68-4f22-801d-c0e0de2d34b3">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Flexor endurance test
+Sustained hip and knee 90
+degree hold]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="224" y="640" width="118" height="15" uuid="a4612c3a-489b-4579-89a9-b3181a383efb">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Unable (<30seconds)]]></text>
+			</staticText>
+			<image>
+				<reportElement x="206" y="640" width="15" height="15" uuid="23a36eec-48aa-4f9a-8033-ac7570042d78">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_flexor_enduran_88").toString().equals("3")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="206" y="603" width="15" height="15" uuid="40ca01ce-1bb4-4e18-bdbd-556f05bdba49">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_flexor_enduran_88").toString().equals("1")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="359" y="603" width="15" height="15" uuid="81622cd9-0459-44cb-91da-3cceee9d2fd8">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_flexor_enduran_99").toString().equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="415" y="516" width="150" height="15" uuid="612c5889-ace9-4bdc-ba18-db44afebe5b8">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$P{data}.get("tb_othera_1")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="418" y="557" width="150" height="42" uuid="4b59047f-e65d-4cc9-8bcb-a87b010f9128">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$P{data}.get("tb_othera_2")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="419" y="620" width="150" height="42" uuid="f4bba7fa-2260-44dc-b76b-283da54acb98">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$P{data}.get("tb_othera_3")]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement mode="Transparent" x="140" y="200" width="338" height="50" uuid="c8574c6d-b92c-424f-a79a-5c27d95963e4"/>
+				<imageExpression><![CDATA[$P{realPath}+"resources/Posture.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="18" y="10" width="575" height="20" uuid="516e9fa6-6fce-47b4-aa75-9f3d34749baf"/>
+				<text><![CDATA[   ]]></text>
+			</staticText>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement x="386" y="34" width="166" height="49" uuid="9ef540fc-d099-4659-9238-bec04d9e880b">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/Redimed_Logo.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement mode="Transparent" x="21" y="32" width="265" height="105" uuid="c722bae7-4346-42b3-bdcf-513760e551b7">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="25" y="31" width="55" height="15" uuid="79853e23-e8e7-4fd9-b73d-6928a96b0735">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fullname:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="81" y="61" width="205" height="15" uuid="75cc0c4a-d10e-4a87-8d86-af2e93c05b7f"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("eaddress")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="25" y="46" width="55" height="15" uuid="1eb72e83-13f5-4c74-877d-ade57fa3e395">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Gender:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="175" y="46" width="30" height="15" uuid="1bb2d433-2ca9-49c4-be06-686f13374773"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[DOB:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="25" y="61" width="55" height="15" uuid="957bfd05-ea6a-4d16-8110-36e03ed7c626">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Email:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="25" y="76" width="55" height="15" uuid="1be48da1-9fe2-47bc-8c60-f670cb860e73">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Address:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="81" y="46" width="95" height="15" uuid="276f5669-9a6b-462c-8efa-5182c82a8517"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("sex")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="205" y="46" width="75" height="15" uuid="06073f29-c6fd-49ed-8bc0-403ec865319d"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("dob")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="80" y="31" width="200" height="15" uuid="f2309f99-0003-4a07-af61-de2c12bf5dd5">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("surname")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="81" y="76" width="205" height="15" uuid="ea7bc2ca-bb31-4e20-b8b6-f15750697d0a"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("homeaddress")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="25" y="91" width="55" height="15" uuid="a806cf60-b3c1-4b06-88c7-6aaf755739c4">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Phone:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="81" y="91" width="205" height="15" uuid="500b88c3-2887-4c64-ad99-288bb157912b"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("cno")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<reportElement x="81" y="106" width="205" height="15" uuid="72d2b23d-eb70-4501-bb77-e545f2afacfb">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("p_occupation")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<reportElement x="81" y="121" width="205" height="15" uuid="aa21bbaa-8794-49a6-8cf7-856e736e56bf"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("p_company")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="25" y="106" width="55" height="15" uuid="f7cf93e6-f0c9-486a-88f9-6465fb7c9793">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Position:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="25" y="121" width="261" height="15" uuid="77f6fe90-f8c8-4103-80d9-62a4433512d5">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Company:]]></text>
+			</staticText>
+		</band>
+		<band height="841">
+			<staticText>
+				<reportElement x="168" y="150" width="312" height="20" uuid="318f92f5-64fa-4d6c-9c4a-dc95cf7e3739"/>
+				<textElement textAlignment="Left">
+					<font fontName="OfficiaSans Basic" size="13" isBold="false" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[FUNCTIONAL ASSESSMENT SUMMARY]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="20" y="177" width="550" height="63" uuid="6949227c-55fd-4fed-a460-fee1e2b61471"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="20" y="177" width="550" height="23" uuid="1fc77e53-4f1a-4749-9213-8e92e5b79fe1"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="270" width="548" height="20" uuid="7b7dbe31-7938-4152-a158-a1ec589682c7"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Range of Motion:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="26" y="203" width="535" height="36" uuid="bd919a8d-6e20-435e-b12e-f1aefaae84b6"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("tb_is_there_historyaa")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="29" y="178" width="461" height="21" uuid="984e53e1-22eb-4817-bd49-362bc5d5701e"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Is there a history of previous injury? If yes, please list:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="353" y="125" width="214" height="20" uuid="b5fe434e-b0f3-46c7-8113-a4498bf93dd6"/>
+				<textElement textAlignment="Right">
+					<font fontName="OfficiaSans Basic" size="16" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Back Fitness Assessment]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="18" y="300" width="552" height="120" uuid="ed874964-22b6-474b-9d70-80b55fe7ba36"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="18" y="300" width="552" height="23" uuid="e92dd24a-8db0-41dc-9f63-0edc8b13ce3f"/>
+			</rectangle>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="21" y="323" width="535" height="81" uuid="95fa9d72-4531-4b49-984f-8b9f79f59cf6"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("tb_comments_zc")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="24" y="304" width="391" height="21" uuid="afdd378c-cf3d-4405-a7bd-58c191fe277c"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Normal pain-free ROM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="820" width="547" height="20" uuid="60db1dda-7214-434b-b2a5-594eaa945399"/>
+				<text><![CDATA[©REDiMED Pty Ltd. Revised August 2018         HWMSA460                                                        Page 3 of 3 ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="440" width="548" height="20" uuid="b63bca52-4322-4fee-a5a3-d4086f7f0b83"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Risk rating]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="460" width="190" height="40" uuid="b232f3cd-92c0-408c-b8f6-ef84543926e5">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="18" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Low risk]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="211" y="460" width="180" height="40" uuid="6f1c53d9-8460-4de3-9925-34a0c5116d45">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="18" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Medium risk]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="391" y="460" width="178" height="40" uuid="32a62cd9-8008-46bf-953f-101f2e17079d">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="18" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[High risk]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="21" y="500" width="548" height="199" uuid="17529c4a-a41c-49ca-a4dc-d519d972dd79"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="21" y="500" width="209" height="20" uuid="dec15cbe-e3ad-4db6-b636-50590c64844c">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Comments/Recommendations:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="677" width="250" height="20" uuid="e8ae5f73-e61c-4976-8f99-51b8c3d9d8b2">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Health & rehab coordinator review recommended]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="289" y="677" width="32" height="20" uuid="a8f20a67-015b-4e85-b960-18b2b146092c">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="344" y="677" width="30" height="20" uuid="127f8c2f-628e-4bfa-90be-149e77c68805">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<ellipse>
+				<reportElement mode="Transparent" x="21" y="460" width="190" height="40" uuid="27a5c388-8bca-4e7d-b136-09da397d0b9c">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_risk_rating_zk").toString().toLowerCase().equals("low")]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</ellipse>
+			<ellipse>
+				<reportElement mode="Transparent" x="211" y="460" width="180" height="40" uuid="357fadd5-fac4-4ffa-8dd3-4961ba9a29ef">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_risk_rating_zk").toString().toLowerCase().equals("medium")]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</ellipse>
+			<ellipse>
+				<reportElement mode="Transparent" x="391" y="460" width="178" height="40" uuid="33556dbd-4229-4f3f-a575-21525004db27">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_risk_rating_zk").toString().toLowerCase().equals("high")]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</ellipse>
+			<rectangle>
+				<reportElement mode="Transparent" x="271" y="680" width="15" height="15" uuid="d769652b-7bc2-4216-9e13-fc1969cf190b">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="271" y="680" width="15" height="15" uuid="893f53e7-0b6c-4e80-9cc2-894bcd402bcf">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_heath_rahab_a").toString().toLowerCase().equals("1")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement mode="Transparent" x="326" y="680" width="15" height="15" uuid="54ea3325-2f14-4949-9153-969d9fd907bd">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="326" y="680" width="15" height="15" uuid="1f743c77-7a35-4d08-99b5-305382cfa086">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_heath_rahab_a").toString().toLowerCase().equals("2")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="28" y="521" width="535" height="149" uuid="078ac337-25b2-4306-96c0-a5815e9be6e0"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("tb_risk_rating_z4")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="21" y="740" width="546" height="20" uuid="86af8e3a-a2e9-4f36-9a4c-46ac5adb4d6f">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="OfficiaSans Basic" size="11" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="10" spacingBefore="5"/>
+				</textElement>
+				<text><![CDATA[Assessed by:                                             Signed:                                          Date:                        ]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="106" y="743" width="120" height="18" uuid="1fa74ab9-93a3-4627-a088-9b3561ad3ada"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("tb_assessed_b")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="442" y="744" width="67" height="16" uuid="645612c5-d04b-4aa2-b136-e6ccff2f1079"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("dt_date_1a")]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Transparent" x="442" y="304" width="15" height="15" uuid="74c559c6-bdfe-40af-bc01-ef36d6560b6f">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="444" y="304" width="15" height="15" uuid="7ceab317-1020-45e6-b875-04e6219992c4">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_normal_painp").toString().equals("1")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="466" y="304" width="32" height="15" uuid="20964e20-ce21-4bb6-b1c3-57d0910aa304">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="509" y="304" width="15" height="15" uuid="bb45778c-ef9c-469c-a7c9-fed873d8a54a">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<image>
+				<reportElement x="511" y="304" width="15" height="15" uuid="3c5d09d4-722f-4cfe-bd1b-46bef053c804">
+					<printWhenExpression><![CDATA[$P{data}.get("rd_normal_painp").toString().equals("2")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="529" y="304" width="32" height="15" uuid="2c8507fe-46e2-4ca3-8f45-ecd13eb34c62">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="11" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image scaleImage="FillFrame">
+				<reportElement mode="Opaque" x="283" y="726" width="118" height="41" uuid="852e7023-c901-4370-9dbb-a05719f8b0af"/>
+				<imageExpression><![CDATA[(java.awt.Image)$P{data}.get("signed_signature")]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="20" y="0" width="575" height="20" uuid="e4966eaf-ac30-42bc-8559-d82808264755"/>
+				<text><![CDATA[     ]]></text>
+			</staticText>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement x="386" y="34" width="166" height="49" uuid="593c4785-a4ad-4e77-91ea-7b25b7d712f2">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/Redimed_Logo.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement mode="Transparent" x="21" y="16" width="265" height="105" uuid="5da3dd43-aded-4a5d-bcab-ae2064e9985b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="25" y="15" width="55" height="15" uuid="127a8e99-900d-4a2c-a2b9-60ad0750501e">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fullname:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="81" y="45" width="205" height="15" uuid="ff6edd4f-69d6-4d20-b76d-38f1e22c55ac"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("eaddress")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="25" y="30" width="55" height="15" uuid="4a9d0c97-ecbf-400e-9672-107466e1022a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Gender:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="175" y="30" width="30" height="15" uuid="fbcc5920-b93f-4050-8133-8bc73d3fed33"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[DOB:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="25" y="45" width="55" height="15" uuid="c2536453-6ee9-40f9-9b05-94390f4df5e7">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Email:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="25" y="60" width="55" height="15" uuid="cc403fc9-d11e-4019-a4e7-d2ac1e6dd23a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Address:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="81" y="30" width="95" height="15" uuid="3796712f-5e9b-4f3e-9d73-6704d7b22c8e"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("sex")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="205" y="30" width="75" height="15" uuid="9bd73168-84d1-4a94-b21a-054302de6514"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("dob")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="80" y="15" width="200" height="15" uuid="94448eab-53f2-4b42-a840-d568af0f25bc">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("surname")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="81" y="60" width="205" height="15" uuid="52b046cb-fe60-4dfb-9b97-74b2a4c92102"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("homeaddress")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="25" y="75" width="55" height="15" uuid="88f508fe-25a8-4a05-aa97-e416fe29df41">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Phone:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement mode="Transparent" x="81" y="75" width="205" height="15" uuid="227d477f-8caf-43c4-9e09-025e73e840aa"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("cno")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<reportElement x="81" y="90" width="205" height="15" uuid="b12ab039-b980-4403-ba50-f04c2e627dd8">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("p_occupation")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<reportElement x="81" y="105" width="205" height="15" uuid="ac902a8e-f800-49c6-8979-95317e93ebe5"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("p_company")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="25" y="90" width="55" height="15" uuid="382e6ea7-9bc9-4ff2-ad86-6dada0c545f7">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Position:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="25" y="105" width="261" height="15" uuid="2c284397-7dc6-4242-b03d-b94616df40a8">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Company:]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

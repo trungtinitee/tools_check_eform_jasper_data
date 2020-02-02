@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.10.0.final using JasperReports Library version 6.10.0-unknown  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="minh" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="1bdd6d62-4fd8-40a6-9f36-beaa517d09ff">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<parameter name="realPath" class="java.lang.String"/>
+	<parameter name="data" class="java.util.Hashtable">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+	</parameter>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="122">
+			<image>
+				<reportElement x="72" y="30" width="184" height="55" uuid="b4a0ce01-5901-4965-b106-16a1cdd366ce"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<imageExpression><![CDATA[$P{realPath}+"resources/Skin_Cawa_Logo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement mode="Transparent" x="0" y="35" width="522" height="49" uuid="41411ae1-8ec6-4547-8615-92b62c1140f9">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="9" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[Skin Cancer WA
+Suite 1 and 2, 95 Monash Avenue, Nedlands 
+Phone Number:  1300 754 633
+admin@skincawa.com.au]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="41">
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="1" width="451" height="40" uuid="5ab5b251-17c6-4ef9-9a0d-9e8715b14a1b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="12" isBold="true"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="18.0" leftIndent="143"/>
+				</textElement>
+				<text><![CDATA[Skin Graft Information Sheet]]></text>
+			</staticText>
+		</band>
+		<band height="137">
+			<frame>
+				<reportElement x="0" y="0" width="595" height="137" uuid="0af26c6e-64be-4ba4-8a21-3d37601cf26c">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="9" width="451" height="15" uuid="67ece201-9fd3-4477-9cc0-a302c940a157">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom" markup="none">
+						<font fontName="Arial" size="10" isBold="true" isUnderline="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[What is a skin graft?]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="40" width="451" height="67" uuid="cc0c02d8-24fa-45bc-8c08-efc5c50ba3c7">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="11.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[Skin graft is a surgical procedure where a piece of healthy skin is taken from one area of the body and placed over where the cancer has been removed. The area where the skin is taken from is called a donor site. The graft may be held in place by stitches. The graft heals by taking up blood supply from the base of the wound thereby allowing the grafted skin to survive.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="107" width="451" height="30" uuid="2d22fb5a-b884-4ec3-89f4-a7b3b51c3593">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="11.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[If the area is fairly small, it will be possible to close the wound by bringing the edges of the skin together. Larger wounds may need a skin graft to cover the area.]]></text>
+				</staticText>
+			</frame>
+		</band>
+		<band height="284">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement x="0" y="0" width="595" height="148" uuid="c98d925f-6267-4d39-819c-d023aedc04bc">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="6" width="451" height="15" uuid="f649b6aa-c117-474e-8d3f-9b014cf15690">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom" markup="none">
+						<font fontName="Arial" size="10" isBold="true" isUnderline="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[What will the skin graft look like?]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="37" width="451" height="30" uuid="c4f9018b-bd1b-45ec-85ad-ad5fc2923f6c">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="11.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[With any skin graft, scar formation is inevitable. At first the graft will look a different colour to the 
+rest of your skin, usually dark reddish purple.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="77" width="451" height="30" uuid="4d187e7f-074d-4d15-b201-ff3a5054200f">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="11.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[This may take 18 months to 2 years to fade and become paler. Sometimes this takes longer and the graft may never be exactly the same colour as the rest of the skin.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="118" width="451" height="30" uuid="646b8a50-aff8-4f39-9d69-b3a3e02bb4cc">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="11.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[The skin graft may not feel as smooth as the rest of your skin, given time this may improve but will never be the same as the skin was before the grafting.]]></text>
+				</staticText>
+			</frame>
+			<image scaleImage="FillFrame">
+				<reportElement x="83" y="158" width="130" height="102" uuid="478b8a6c-36c4-4016-b568-2760420686f1"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<imageExpression><![CDATA[$P{realPath}+"resources/A_week_after_skin_graft.jpg"]]></imageExpression>
+			</image>
+			<image scaleImage="FillFrame">
+				<reportElement x="222" y="158" width="114" height="102" uuid="7c487448-6a70-421a-af40-55bf0cd55c99"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<imageExpression><![CDATA[$P{realPath}+"resources/10_weeks_after.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="269" width="451" height="15" uuid="a505f6ea-97b5-4720-8a36-45f44a98f936">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="11.0" leftIndent="22"/>
+				</textElement>
+				<text><![CDATA[ A week after skin graft]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="213" y="269" width="309" height="15" uuid="d758640d-8a8d-48ac-819e-36f0cb8ab089">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="11.0" leftIndent="30"/>
+				</textElement>
+				<text><![CDATA[10 weeks after]]></text>
+			</staticText>
+		</band>
+		<band height="104">
+			<frame>
+				<reportElement x="0" y="0" width="595" height="104" uuid="2234f4e2-600c-400b-b51e-4739e5d05169">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="15" width="451" height="15" uuid="815d604b-efb5-4aba-a65f-685911b46b3a">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom" markup="none">
+						<font fontName="Arial" size="10" isBold="true" isUnderline="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[Types of skin grafts]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="47" width="451" height="15" uuid="f711d886-d951-40c7-8982-672a996ec79d">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="11.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[The two most common are split skin grafts and full thickness skin grafts.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="93" y="74" width="428" height="30" uuid="f455f1a4-fc59-4b8e-9050-5cae3a2dce3a">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="11.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[<b>1.  Split skin grafts: </b> involves the top layer of skin (epidermis) and a small part of the 
+     underneath or deep layer (dermis).]]></text>
+				</staticText>
+				<break>
+					<reportElement x="0" y="104" width="70" height="1" uuid="55ce440b-4544-4ade-8a77-fb0db17527bb"/>
+				</break>
+			</frame>
+		</band>
+		<band height="608">
+			<image scaleImage="FillFrame">
+				<reportElement x="107" y="37" width="199" height="175" uuid="d3e9a4eb-9e20-4c48-84c0-fa370a49b164"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<imageExpression><![CDATA[$P{realPath}+"resources/Wound_immediately_post_op.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement mode="Transparent" x="107" y="213" width="414" height="30" uuid="77dad606-901d-4c51-b780-65acef1a9441">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="11.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[Top: Wound immediately post op    
+Bottom: Wound 10 days post op ]]></text>
+			</staticText>
+			<image scaleImage="FillFrame">
+				<reportElement x="107" y="251" width="199" height="117" uuid="44d58278-fb7f-4bc7-86c7-2ebf099df95c"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<imageExpression><![CDATA[$P{realPath}+"resources/Split_thickness_skin_graft.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement mode="Transparent" x="107" y="370" width="414" height="15" uuid="c6998c9b-da30-4207-a649-9286bbb30a4d">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="11.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[Split-thickness skin graft]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="92" y="396" width="430" height="15" uuid="e68954a5-8186-4b90-9af8-3eca22044810">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="11.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[<b>2.  Full thickness skin grafts:</b> involves all the layers of the skin and deeper tissues.]]></text>
+			</staticText>
+			<image scaleImage="FillFrame">
+				<reportElement x="107" y="449" width="122" height="130" uuid="5a1f4b44-0193-4bfb-a442-41861ced96ec"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<imageExpression><![CDATA[$P{realPath}+"resources/Full_thickness_skin_graft_harvested_left.jpg"]]></imageExpression>
+			</image>
+			<image scaleImage="FillFrame">
+				<reportElement x="251" y="449" width="124" height="130" uuid="80235e9d-86cc-40fc-9d75-382c737743d2"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<imageExpression><![CDATA[$P{realPath}+"resources/Full_thickness_skin_graft_harvested_right.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement mode="Transparent" x="107" y="593" width="488" height="15" uuid="49876d59-f630-437b-bbe6-001e104a3579">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="11.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[ Full thickness skin graft harvested from arm donor site]]></text>
+			</staticText>
+			<break>
+				<reportElement x="0" y="607" width="69" height="1" uuid="2ade2d07-fb5b-45f9-a1b0-f4d2a9a50e2b"/>
+			</break>
+		</band>
+		<band height="176">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement x="0" y="0" width="595" height="176" uuid="57876586-40bc-437f-ba90-b6250a16e91a"/>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="34" width="451" height="15" uuid="5a4d03bb-6f7a-459c-9d92-bf547c8902e0">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom" markup="none">
+						<font fontName="Arial" size="10" isBold="true" isUnderline="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[What are the benefits of having a skin graft?]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="66" width="451" height="30" uuid="8da3894c-64c2-48a6-b85d-088e484eb162">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[• An effective way to assist wound healing when there has been a loss of skin due to conditions that involve disease, injuries including burns, or surgical removal of skin cancer]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="105" width="451" height="15" uuid="f91030ed-6f1d-4f90-93e3-1d615df73d4e">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[• Reduced pain and discomfort when dressings are changed]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="133" width="451" height="15" uuid="fef020d9-059d-4ad9-952f-6d58f4126811">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[• Risk of infection is reduced]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="161" width="451" height="15" uuid="214112ec-e933-4d0c-a9d4-248fbd7488c8">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[• Chance of scarring is reduced]]></text>
+				</staticText>
+			</frame>
+		</band>
+		<band height="174">
+			<frame>
+				<reportElement x="0" y="0" width="595" height="174" uuid="6c5db15c-7fd4-4e55-a95c-3e88e8cc6c33"/>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="6" width="451" height="15" uuid="6e86fdb0-94f9-4cb9-b9ae-dcc47fb5a200">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom" markup="none">
+						<font fontName="Arial" size="10" isBold="true" isUnderline="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[Risk or complications of skin grafts]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="37" width="451" height="15" uuid="1ae8db4f-fbb8-4d45-9d9a-09faaafd869d">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[• Skin grafts may become infected or bleed like any other skin procedure.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="64" width="451" height="30" uuid="abd88794-80f3-4345-9f15-1fae917eea76">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[• Occasionally the skin graft may breakdown. This results in prolonged healing time and can result in increased scarring.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="144" width="451" height="30" uuid="d12c3028-e5d9-4c18-8651-852bdab869f1">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[• It is common for the area around the surgery site to feel numb or hypersensitive to touch but should improve with time.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="104" width="451" height="30" uuid="da545f3c-618d-4b76-92fe-f29bf5808ddf">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[• You will have some discomfort in the next 24-48 hours after the procedure. Take pain medication as prescribed by your doctor.]]></text>
+				</staticText>
+			</frame>
+		</band>
+		<band height="147">
+			<frame>
+				<reportElement x="0" y="0" width="595" height="147" uuid="018f7cf9-3ff1-47aa-b88c-25b3975be868"/>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="6" width="451" height="15" uuid="82f09338-11e7-4be6-8629-0d1fa00f8d4f">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Bottom" markup="none">
+						<font fontName="Arial" size="10" isBold="true" isUnderline="true"/>
+						<paragraph lineSpacing="Single" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[Note on donor sites]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="37" width="451" height="43" uuid="be530750-62ac-4b80-a193-88fcb9edc32c">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="12.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[• The common areas used as donor sites are the buttocks, thighs and upper arms. The donor site is dressed in the clinic with fixomull and the dressing will sometimes be left in place for 7–10 days and will need to be kept dry for that period.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="132" width="451" height="15" uuid="19bb5752-d26d-4b63-b685-1c7f4d08cfa9">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[• Regular pain killers will need to be given to ease the discomfort.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="71" y="91" width="451" height="30" uuid="741f5d71-5b95-4ef7-936f-15d4630daeb3">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="10" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.0" leftIndent="0"/>
+					</textElement>
+					<text><![CDATA[• The donor site area is usually more painful than the grafted area as the top layers of the skin are removed exposing the nerve endings.]]></text>
+				</staticText>
+			</frame>
+		</band>
+		<band height="81">
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="20" width="451" height="18" uuid="d93fced8-cc27-4661-b60e-7f5319b187d8">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.spacingBefore" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="true" isUnderline="true"/>
+					<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="4"/>
+				</textElement>
+				<text><![CDATA[Follow-up care]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="51" width="451" height="30" uuid="660898cc-fb75-40e1-9f29-242683957b1f">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[We normally like to see all patients who have had a skin flap 5-7 days after the operation. The stitches are usually removed and the doctor will check that there are no problems.]]></text>
+			</staticText>
+		</band>
+		<band height="88">
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="7" width="451" height="18" uuid="1e7cd2b3-9cf8-42a1-9a72-f8f4e5186b1d">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.spacingBefore" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="true" isUnderline="false"/>
+					<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="4"/>
+				</textElement>
+				<text><![CDATA[Activities:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="38" width="451" height="15" uuid="9624667a-c379-4b29-9663-0da5aa7c0f39">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[• Take things gently for 2 weeks to allow the skin graft to heal properly.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="58" width="451" height="30" uuid="a44d1479-500f-4872-beb7-b161735599a7">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[• The grafted area is quite fragile, so it is important not to rub or brush against the graft or the 
+dressing, or put pressure on the area.]]></text>
+			</staticText>
+			<break>
+				<reportElement x="0" y="86" width="60" height="1" uuid="af67dc13-b483-4e4a-9f4a-d05876c946ce"/>
+			</break>
+		</band>
+		<band height="236">
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="38" width="451" height="15" uuid="d87d8295-5c85-46e5-a328-90f9e3bbd392">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[• Bandage or tubigrip (elastic stocking) is applied to put pressure and to prevent swelling.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="58" width="451" height="30" uuid="b65404a3-f21e-45f2-bbc8-1b1a7ebe53f1">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[• If the skin graft is anywhere other than your leg(s), you can start walking as soon as you feel up to 
+it.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="100" width="451" height="30" uuid="16ff8c31-0676-47da-9d8a-c17af0c31a21">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[• If it is on one or both of your legs, then we encourage limited mobility for around 2 days or until 
+the skin graft is secure enough for walking. <b>Please elevate when resting.</b>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="139" width="451" height="15" uuid="fed580e5-2b27-452e-a71e-72b980ea6a74">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[• If the skin graft is on your hand, you may have a sling to keep your arm raised as much as you can.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="159" width="451" height="30" uuid="b7bbfc65-6911-4d84-a157-76442f86c3e6">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[• Avoid vigorous activities that require pushing, pulling, stretching or heavy lifting. Strenuous activity 
+may cause bleeding particularly 24-48 hours after surgery.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="199" width="451" height="15" uuid="028abbd9-8bbf-4890-b867-afa65a65a75f">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[• You may need 3-4 weeks off work if you have had a skin graft to your leg.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="221" width="451" height="15" uuid="37423125-e282-40ff-9a16-d3a89fe89f2c">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[• When the skin graft has healed properly you should be able to carry on with your normal activities.]]></text>
+			</staticText>
+		</band>
+		<band height="326">
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="26" width="451" height="19" uuid="09f0c7ae-8bbf-4018-a1a4-18708758507a">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.spacingBefore" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="true" isUnderline="false"/>
+					<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="4"/>
+				</textElement>
+				<text><![CDATA[Wound Infection:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="53" width="451" height="15" uuid="17c69a52-9873-4f13-8f0a-ce27e7ab1b6a">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="11.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[If you experience any of the below, please get in contact with our team.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="89" y="76" width="433" height="14" uuid="ed8addb5-f624-428b-b0f0-124d4db836a7">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[•     Smelly discharge from dressing]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="89" y="90" width="433" height="14" uuid="3e0d999c-383d-4621-8800-c78a61b18821">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[•     High temperature]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="89" y="104" width="433" height="14" uuid="4a0d174c-ae8a-4c46-9e8f-9206617d7e35">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[•     Increased pain]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="89" y="118" width="433" height="14" uuid="8120b3de-24f0-4b2e-aab4-93b04fcdabd4">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[•     Redness and swelling around the skin flap]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="89" y="132" width="433" height="14" uuid="378349fa-c6a3-4eee-aa21-b6a30b889c27">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[•     Bleeding through the dressing caused by trauma or infection]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="89" y="146" width="433" height="14" uuid="1481c291-34ce-49df-a695-b16fbe60884b">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="false"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="13.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[•     Loss of the graft caused by trauma, friction or infection]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="71" y="226" width="451" height="15" uuid="4a8b2b01-89a8-4235-a471-296aa0503f12">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="none">
+					<font fontName="Arial" size="10" isBold="true"/>
+					<paragraph lineSpacing="Fixed" lineSpacingSize="11.0" leftIndent="0"/>
+				</textElement>
+				<text><![CDATA[If you need more information or have any concerns we are only a phone or email call away.]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="45">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement x="0" y="0" width="595" height="45" uuid="ecd0659d-16d2-4d1f-86f2-5a3fbfcdae32"/>
+				<textField>
+					<reportElement mode="Transparent" x="399" y="0" width="123" height="15" backcolor="#FFFFFF" uuid="edbd6271-03fa-47b8-911c-91ffd21eb564">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic" size="9"/>
+						<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="0"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "date" )!=null ? $P{data}.get( "date" ) : ""]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement mode="Transparent" x="71" y="0" width="123" height="15" backcolor="#FFFFFF" uuid="6a1ad72a-1a19-4bf7-8a84-6192a3afac36">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="OfficiaSans Basic" size="9"/>
+						<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="0"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get( "patient_name" )!=null ? $P{data}.get( "patient_name" ) : ""]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</pageFooter>
+</jasperReport>

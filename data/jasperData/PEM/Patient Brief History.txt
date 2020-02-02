@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.10.0.final using JasperReports Library version 6.10.0-unknown  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="NewPatientBriefHistory" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e3602c44-36a4-4cbf-9143-80fd7140a795">
+	<parameter name="data" class="java.util.Hashtable"/>
+	<parameter name="realPath" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<pageHeader>
+		<band height="121">
+			<staticText>
+				<reportElement x="245" y="56" width="59" height="19" uuid="d18a6af4-52a8-40c7-8a3e-afa8e6ac03e4"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Given Names:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="245" y="34" width="40" height="19" uuid="25bc9005-3364-4065-ada2-736c06fbc270"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[Surname:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="245" y="4" width="240" height="34" uuid="c1d94d60-df3a-42a7-9025-4aea871adfa5"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PATIENT BRIEF HISTORY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="38" width="215" height="21" uuid="6654c3f4-cad5-494d-b951-fa4730dce9f6"/>
+				<text><![CDATA[........................................................................................................................................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="245" y="77" width="59" height="19" uuid="bfa35de4-e59e-464c-97a8-93897e5da651"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Date Of Birth:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="304" y="80" width="90" height="21" uuid="586d586d-f779-49fb-95bd-ff276225844f"/>
+				<text><![CDATA[........................................................................................................................................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="394" y="76" width="30" height="19" uuid="03650d94-894d-4ee2-a6d0-5c5c8be76787"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Sex:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="415" y="80" width="90" height="21" uuid="124707b5-6024-47d6-a766-428c3c83a468"/>
+				<text><![CDATA[........................................................................................................................................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="304" y="60" width="201" height="21" uuid="c22a46cb-2a0b-42f5-8e77-3219df9b1814"/>
+				<text><![CDATA[........................................................................................................................................]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="305" y="52" width="215" height="18" uuid="151847e9-c1d6-422a-9b66-faa5fa7b5ad4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="10"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("firstname")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="291" y="31" width="200" height="18" uuid="a4039582-4309-4174-9e52-675c94b99e3e"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="10"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("lastname")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="304" y="73" width="87" height="18" uuid="6bd7bcdb-9607-4a33-bb8e-c63470efb1b6"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="10"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("dob")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="416" y="73" width="87" height="18" uuid="39359253-5df4-4450-8d72-2942978ab876"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="10"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("gender")]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="25" y="19" width="199" height="49" uuid="5f5e7440-f377-4d48-bbbd-3cc826ce2f92"/>
+				<imageExpression><![CDATA[$P{data}.get("client_logo_url")!=null ? $P{data}.get("client_logo_url") : ""]]></imageExpression>
+			</image>
+			<line>
+				<reportElement x="9" y="120" width="520" height="1" uuid="8e86991b-5c06-48d1-87c1-6fc7b41f7de7">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="606">
+			<staticText>
+				<reportElement x="10" y="11" width="508" height="19" uuid="7b8901e6-a981-4e04-8455-c045245078b8"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic" isBold="true"/>
+				</textElement>
+				<text><![CDATA[What is your usual daily exposure to the sun?]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="10" y="34" width="10" height="10" uuid="5497c207-c99d-453c-8117-267b97ca48bf">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="24" y="34" width="76" height="19" uuid="28cc90ac-0ddd-4909-ac50-9e75d8981c94"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[Less than 1 hour]]></text>
+			</staticText>
+			<image>
+				<reportElement x="10" y="34" width="10" height="10" uuid="55408cb6-6e7a-4082-8754-31e66e18949c">
+					<printWhenExpression><![CDATA[$P{data}.get("sun_exposure").equals("lessthan1")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="160" y="34" width="10" height="10" uuid="98f12b3e-17fe-43b1-928f-7e59b19f20c2">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="174" y="34" width="50" height="19" uuid="3c8ef7f9-eff3-47af-9bf6-d8bc1425f75b"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[1 - 2 hours]]></text>
+			</staticText>
+			<image>
+				<reportElement x="160" y="34" width="10" height="10" uuid="4361a777-950d-4f53-8a03-6a115de2c23f">
+					<printWhenExpression><![CDATA[$P{data}.get("sun_exposure").equals("1to2")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="281" y="34" width="10" height="10" uuid="01272397-3e67-4bd3-95cb-c0c7fc5ab887">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="295" y="34" width="46" height="19" uuid="ac173beb-0025-4eef-a3bf-67d808044005"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[2 - 4 hours]]></text>
+			</staticText>
+			<image>
+				<reportElement x="281" y="34" width="10" height="10" uuid="01dcabd8-2420-4f6f-a65e-05518414af6b">
+					<printWhenExpression><![CDATA[$P{data}.get("sun_exposure").equals("2to4")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="377" y="34" width="10" height="10" uuid="14c0c80f-7908-4ab3-95c9-6d65fa723338">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="391" y="34" width="76" height="19" uuid="a064587a-1c79-45f4-a022-5f8df9e481e6"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[More than 4 hours]]></text>
+			</staticText>
+			<image>
+				<reportElement x="377" y="34" width="10" height="10" uuid="35f38228-a40d-4f27-affa-623375a09686">
+					<printWhenExpression><![CDATA[$P{data}.get("sun_exposure").equals("morethan4")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="10" y="60" width="508" height="19" uuid="2d9d1c08-cc9b-4128-ae92-b2baa9f24dd0"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic" isBold="true"/>
+				</textElement>
+				<text><![CDATA[What is your usual choice of sun protection?]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="10" y="83" width="10" height="10" uuid="e5f742ad-07be-4554-be3c-1bc20ad50174">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="24" y="83" width="76" height="19" uuid="1ff73529-ef7d-48f4-95d0-23d35afd0bb7"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[Hat]]></text>
+			</staticText>
+			<image>
+				<reportElement x="10" y="83" width="10" height="10" uuid="5d8bffe0-d1a6-48a3-b779-a4474f6a0b4c">
+					<printWhenExpression><![CDATA[$P{data}.get("sun_protection_hat").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="160" y="83" width="10" height="10" uuid="2c94615a-1613-4fe6-80ca-af5b49b869b9">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="174" y="83" width="50" height="19" uuid="e41ddecf-dffb-49e9-abee-3d3a633db9b9"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[Sunglasses]]></text>
+			</staticText>
+			<image>
+				<reportElement x="160" y="83" width="10" height="10" uuid="cd20f082-bb7c-497c-b06e-4d00faffa023">
+					<printWhenExpression><![CDATA[$P{data}.get("sun_protection_sunglasses").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="281" y="83" width="10" height="10" uuid="084d0240-1a75-48ea-b4aa-4bd673e9eddd">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="295" y="83" width="74" height="19" uuid="172c9f39-6a98-4024-a1be-c2548f35fad8"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[Long sleeve shirt]]></text>
+			</staticText>
+			<image>
+				<reportElement x="281" y="83" width="10" height="10" uuid="01d1a3c7-5acd-4cc7-9df7-6e06b5e02f5f">
+					<printWhenExpression><![CDATA[$P{data}.get("sun_protection_longshirt").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="416" y="83" width="10" height="10" uuid="6fac879b-e618-46b5-b17a-46efdb3b7ae2">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="430" y="83" width="94" height="19" uuid="f913d557-c832-4196-afe8-754f7e2f2087"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[Sunscreen (SPF 30+)]]></text>
+			</staticText>
+			<image>
+				<reportElement x="416" y="83" width="10" height="10" uuid="0857da36-1617-48bf-976c-3552f497a794">
+					<printWhenExpression><![CDATA[$P{data}.get("sun_protection_sunscreen").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="10" y="107" width="508" height="19" uuid="4e730ea4-d2b0-475e-81d8-6b041089e7d8"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic" isBold="true"/>
+				</textElement>
+				<text><![CDATA[How often do you re-apply?]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="10" y="130" width="10" height="10" uuid="be393742-3a08-4061-94cf-d514ba219d95">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="24" y="130" width="76" height="19" uuid="e0151b1f-a983-4816-8d63-f4f99e7deaa1"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[Never re-apply]]></text>
+			</staticText>
+			<image>
+				<reportElement x="10" y="130" width="10" height="10" uuid="b001ff9e-0d52-4c87-975c-197581435a5a">
+					<printWhenExpression><![CDATA[$P{data}.get("re_apply").equals("never")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="160" y="130" width="10" height="10" uuid="a070dd65-ba40-49b9-bfab-1051aa22b9e6">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="174" y="130" width="70" height="19" uuid="75177bb3-ef42-488a-9a1f-31f1ad7f36a6"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[After 2 hours]]></text>
+			</staticText>
+			<image>
+				<reportElement x="160" y="130" width="10" height="10" uuid="f7e5dc59-6e12-4ec5-8cc8-ad068a664eef">
+					<printWhenExpression><![CDATA[$P{data}.get("re_apply").equals("2hours")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="281" y="130" width="10" height="10" uuid="c7caa9c4-e7a3-4a62-8415-0b680f677829">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="295" y="130" width="74" height="19" uuid="0ccb43d3-7fa5-47b0-93aa-ed682027e230"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[After 4 hours]]></text>
+			</staticText>
+			<image>
+				<reportElement x="281" y="130" width="10" height="10" uuid="934d5358-770c-45f9-a776-3ee7ab25bae0">
+					<printWhenExpression><![CDATA[$P{data}.get("re_apply").equals("4hours")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="416" y="130" width="10" height="10" uuid="396f7fc3-c249-4d50-be5a-a00ae8aa6b03">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="430" y="130" width="94" height="19" uuid="54c7676f-4851-4b80-93d0-018f0c5da243"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[After 6 or more hours]]></text>
+			</staticText>
+			<image>
+				<reportElement x="416" y="130" width="10" height="10" uuid="7936040d-de6a-4e87-b324-2bec7c9d7eee">
+					<printWhenExpression><![CDATA[$P{data}.get("re_apply").equals("6hoursormore")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="10" y="160" width="508" height="19" uuid="cdbba3ca-d061-476b-b501-266b55824f56"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Does your job require you to be in the sun between the hours of 10am and 3pm?]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="10" y="183" width="10" height="10" uuid="a9d37847-edbc-4b08-a426-76f3bbe73623">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="24" y="183" width="76" height="19" uuid="7465b553-632d-4dfb-9da6-b2c32d987747"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image>
+				<reportElement x="10" y="183" width="10" height="10" uuid="037d4270-9733-420c-9d87-70b6f1ed0918">
+					<printWhenExpression><![CDATA[$P{data}.get("sun_time").equals("Y")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="160" y="183" width="10" height="10" uuid="58a6c738-0c60-4a8f-8293-8b809b47a22e">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="174" y="183" width="70" height="19" uuid="74864da5-4f99-4819-b81f-c59c04333dcf"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image>
+				<reportElement x="160" y="183" width="10" height="10" uuid="19e2f81e-8a98-4e80-b63f-dcaa2bdac2ff">
+					<printWhenExpression><![CDATA[$P{data}.get("sun_time").equals("N")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="10" y="210" width="508" height="19" uuid="f9519fc9-ba68-4bd0-8c46-c7723f8e5489"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Do you currently take medication for any of the following?]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="10" y="233" width="10" height="10" uuid="95201506-3a69-4b9f-a5af-1622de2bcc84">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="24" y="233" width="86" height="19" uuid="e8c6be7b-9baf-4817-99eb-368589c814f9"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[High Blood Pressure]]></text>
+			</staticText>
+			<image>
+				<reportElement x="10" y="233" width="10" height="10" uuid="3c177720-83c1-4fb0-9a7c-81e9b6e95013">
+					<printWhenExpression><![CDATA[$P{data}.get("blood_medication").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="119" y="233" width="10" height="10" uuid="709b39ae-d2ce-4f5f-8c4f-8afaed7953b4">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="133" y="233" width="86" height="19" uuid="4d774515-6998-410f-bd83-d6de9fbb7d72"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[Elevated Cholesterol]]></text>
+			</staticText>
+			<image>
+				<reportElement x="119" y="233" width="10" height="10" uuid="21a14c4a-88f4-4e1e-9f6a-9ee6ffacf2ed">
+					<printWhenExpression><![CDATA[$P{data}.get("cholesterol_medication").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="230" y="233" width="10" height="10" uuid="e0f27cf7-c8c6-46a1-a960-e9b59421bbd0">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="244" y="233" width="36" height="19" uuid="cecf581e-8a33-469f-a704-6d8c5de2d98f"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[Diabetes]]></text>
+			</staticText>
+			<image>
+				<reportElement x="230" y="233" width="10" height="10" uuid="1b48f56f-8d66-4d11-b842-f783f196b998">
+					<printWhenExpression><![CDATA[$P{data}.get("diabetes_medication").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="286" y="233" width="10" height="10" uuid="bb39ccd7-974b-4bb5-b088-a33411c7e2cf">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="300" y="233" width="30" height="19" uuid="41dd986c-d7b8-4e0f-9e35-ede52a20e226"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[Cancer]]></text>
+			</staticText>
+			<image>
+				<reportElement x="286" y="233" width="10" height="10" uuid="e42aeaed-fd7a-4f6c-b978-792abe15340f">
+					<printWhenExpression><![CDATA[$P{data}.get("cancer_medication").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="340" y="233" width="10" height="10" uuid="1e63b575-d40c-4829-830f-ead5c7607c3a">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="354" y="233" width="96" height="19" uuid="b1f2eb4b-3c42-4e7d-b862-b26f2d770ae2"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[Coronary Heart Disease]]></text>
+			</staticText>
+			<image>
+				<reportElement x="340" y="233" width="10" height="10" uuid="e7e63438-bb46-4f7a-b785-2932684894bd">
+					<printWhenExpression><![CDATA[$P{data}.get("heart_medication").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="456" y="233" width="10" height="10" uuid="13ef8824-e020-4538-bf3f-94bde258d5a1">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="470" y="233" width="30" height="19" uuid="6f4d245c-531f-4092-a043-375a3faaaeea"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[Stroke]]></text>
+			</staticText>
+			<image>
+				<reportElement x="456" y="233" width="10" height="10" uuid="f507dec1-ccc8-4031-aa34-0a17bfc53666">
+					<printWhenExpression><![CDATA[$P{data}.get("stroke_medication").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="11" y="265" width="548" height="19" uuid="4c62084a-4407-4549-acf4-6fdb0691d25e"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Please select how many times a week you exercise for 30 minutes or more in the following categories? ]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="11" y="290" width="176" height="70" uuid="41b16803-2651-4425-8700-21755c78e091"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="187" y="290" width="181" height="70" uuid="6ee9590d-8838-4fc9-8e1f-3ae5aa8101a1">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="368" y="290" width="181" height="70" uuid="7608b633-81ec-4387-8ef0-e629825370a9">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="49" y="300" width="86" height="19" uuid="3d5ef460-0a48-4bab-81f4-bd952525d538"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LIGHT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="240" y="300" width="86" height="19" uuid="13c99ca0-4d81-4bf6-96b5-fe709638cd7a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MODERATE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="417" y="300" width="86" height="19" uuid="97afe46e-86fa-460b-a7ee-cc47c23fa6f8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" isBold="true"/>
+				</textElement>
+				<text><![CDATA[VIGOROUS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="324" width="120" height="19" uuid="33325871-aaee-4982-8bc9-bde74a128569"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="8"/>
+				</textElement>
+				<text><![CDATA[(takes little effort  eg - slow walk)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="197" y="325" width="160" height="19" uuid="58a8721f-85d2-42e2-a4f7-c0a104788f6e"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="8"/>
+				</textElement>
+				<text><![CDATA[(takes some effort eg - a brisk walk, recreational swimming, social tennis)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="380" y="324" width="160" height="19" uuid="4b06eec8-e1b7-4f6d-9660-150cf9f4c699"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="8"/>
+				</textElement>
+				<text><![CDATA[(requires more effort eg - running, fast cycling)]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="11" y="360" width="176" height="20" uuid="d65a2617-eb62-4e16-9ff5-2eff34a181f9"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="40" y="364" width="10" height="10" uuid="75b9605f-3f63-4748-8b64-447483f54c25">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="54" y="361" width="76" height="19" uuid="1a2e0b5e-a74f-483a-ab6b-240cdece21d9"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[0]]></text>
+			</staticText>
+			<image>
+				<reportElement x="40" y="364" width="10" height="10" uuid="eda01f00-508d-4131-bf5e-b141b1ff6706">
+					<printWhenExpression><![CDATA[$P{data}.get("light0").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement mode="Transparent" x="187" y="360" width="181" height="20" uuid="de4fe1b5-b30f-4e17-a899-3e8d6273a121"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="216" y="364" width="10" height="10" uuid="e2b2c83f-c638-4aa5-9e51-22a43e1c7a87">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="230" y="361" width="76" height="19" uuid="9252ba96-8862-469b-a687-6494c442da70"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[0]]></text>
+			</staticText>
+			<image>
+				<reportElement x="216" y="364" width="10" height="10" uuid="043dedab-732d-467d-a6bb-2a6dcb1fc9b7">
+					<printWhenExpression><![CDATA[$P{data}.get("moderate0").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement mode="Transparent" x="368" y="360" width="181" height="20" uuid="306c9e59-ec47-4c7e-a03d-ca36d1054e7a"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="397" y="364" width="10" height="10" uuid="7a5f33d3-218d-4b80-889b-7e15188a7f7b">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="411" y="361" width="76" height="19" uuid="67c807d3-c3a5-4d91-9727-9d61696d9ba0"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[0]]></text>
+			</staticText>
+			<image>
+				<reportElement x="397" y="364" width="10" height="10" uuid="985fee74-c26f-4c1e-85c5-633cfe76d9a1">
+					<printWhenExpression><![CDATA[$P{data}.get("vigorous0").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement mode="Transparent" x="11" y="380" width="176" height="20" uuid="2c0d03cd-702a-4279-8f1b-3d9f114979f5"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="40" y="384" width="10" height="10" uuid="5246f970-da18-4db9-8aa8-56ee27c556fd">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="54" y="381" width="76" height="19" uuid="f73921e2-4792-4f5a-b9e3-90d4ad7304df"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[1 - 2 times]]></text>
+			</staticText>
+			<image>
+				<reportElement x="40" y="384" width="10" height="10" uuid="794ec746-4c44-442d-91ad-6645572bba8e">
+					<printWhenExpression><![CDATA[$P{data}.get("light1to2").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement mode="Transparent" x="11" y="400" width="176" height="20" uuid="088c015c-dd0f-4c07-8213-6b47effde437"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="40" y="404" width="10" height="10" uuid="31073eae-52f2-4938-bd90-6adf551908a1">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="54" y="401" width="76" height="19" uuid="368a2514-d580-436f-a629-84eb2435b82e"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[3 - 5 times]]></text>
+			</staticText>
+			<image>
+				<reportElement x="40" y="404" width="10" height="10" uuid="0bd15c83-6926-4d54-aa34-0368e58c0b3d">
+					<printWhenExpression><![CDATA[$P{data}.get("light3to5").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement mode="Transparent" x="187" y="380" width="181" height="20" uuid="17e41b46-9c01-42c2-8aa3-11982c1bad9f"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="216" y="384" width="10" height="10" uuid="c8b1f950-4785-4966-a406-c73d0397556b">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="230" y="381" width="76" height="19" uuid="45358cb9-27e1-4c1e-8157-345afb1ee038"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[1 - 2 times]]></text>
+			</staticText>
+			<image>
+				<reportElement x="216" y="384" width="10" height="10" uuid="16ae28fa-f40d-49c6-9b03-c64c225f1c13">
+					<printWhenExpression><![CDATA[$P{data}.get("moderate1to2").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement mode="Transparent" x="187" y="400" width="181" height="20" uuid="78b28042-f700-4519-971c-e0c587ec7ae9"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="216" y="404" width="10" height="10" uuid="b75cce87-ea6d-4570-b667-ccc776563436">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="230" y="401" width="76" height="19" uuid="e28aa1cf-1886-45e8-a686-c6e501349ece"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[3 - 5 times]]></text>
+			</staticText>
+			<image>
+				<reportElement x="216" y="404" width="10" height="10" uuid="aa1e530a-9bf3-48de-9896-76cbc010b9da">
+					<printWhenExpression><![CDATA[$P{data}.get("moderate3to5").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement mode="Transparent" x="368" y="380" width="181" height="20" uuid="af6b88ac-8631-45a0-b7e3-ddf6f2e4ad47"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="397" y="384" width="10" height="10" uuid="bd1ee0d3-74f0-4f2c-bc1e-9c5fb70a22c1">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="411" y="381" width="76" height="19" uuid="14dfe1a3-e05b-4ae6-a622-44864db7048c"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[1 - 2 times]]></text>
+			</staticText>
+			<image>
+				<reportElement x="397" y="384" width="10" height="10" uuid="1339e698-597e-4736-9959-1b88e82268fb">
+					<printWhenExpression><![CDATA[$P{data}.get("vigorous1to2").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement mode="Transparent" x="368" y="400" width="181" height="20" uuid="82f96358-a273-4a02-bbe1-e441c98f8d2c"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="397" y="404" width="10" height="10" uuid="053b792d-8dcf-422b-98d7-59d2aba7225b">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="411" y="401" width="76" height="19" uuid="feba0d65-e042-4320-a0d9-c33954dcc54a"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[3 - 5 times]]></text>
+			</staticText>
+			<image>
+				<reportElement x="397" y="404" width="10" height="10" uuid="08dbf6e3-37a3-4213-92e1-b831f543e75e">
+					<printWhenExpression><![CDATA[$P{data}.get("vigorous3to5").equals("yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="11" y="427" width="508" height="19" uuid="75f8e75d-e30c-471a-852d-72824ade81ae"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Have you ever smoked?]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="10" y="450" width="10" height="10" uuid="6f8c098b-a092-482b-b5dd-ded49782c395">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="24" y="450" width="76" height="19" uuid="5599a7d9-2d53-4304-bc33-0ea6a71c4983"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[Yes, currently]]></text>
+			</staticText>
+			<image>
+				<reportElement x="10" y="450" width="10" height="10" uuid="66b8d5d4-8266-47b9-98a8-504284331bbe">
+					<printWhenExpression><![CDATA[$P{data}.get("smoked").equals("current")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="160" y="450" width="10" height="10" uuid="f324ad18-cf4f-48f4-bca8-ebe420082105">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="174" y="450" width="70" height="19" uuid="ba5e5fd5-4259-4409-b550-3504a3dc150d"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[Yes, ex-smoker]]></text>
+			</staticText>
+			<image>
+				<reportElement x="160" y="450" width="10" height="10" uuid="62d3eeb9-faca-42c1-b003-73f2b133ee5e">
+					<printWhenExpression><![CDATA[$P{data}.get("smoked").equals("ex")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="291" y="450" width="10" height="10" uuid="97c68ef9-af91-4579-840e-8de5fe3586af">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="305" y="450" width="85" height="19" uuid="7e0c24d2-3c5f-4487-885b-5eb76ff2c92e"/>
+				<textElement>
+					<font fontName="OfficiaSans Basic"/>
+				</textElement>
+				<text><![CDATA[No, non-smoker]]></text>
+			</staticText>
+			<image>
+				<reportElement x="291" y="450" width="10" height="10" uuid="89c143ec-82f0-402d-89f1-bde195cabc60">
+					<printWhenExpression><![CDATA[$P{data}.get("smoked").equals("non")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{realPath}+"resources/check.png"]]></imageExpression>
+			</image>
+			<line>
+				<reportElement x="10" y="478" width="520" height="1" uuid="a34efc77-dd92-4dcf-a0ef-ab7b0c0fd0fd">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="9" y="480" width="520" height="30" uuid="7ae8f05e-bf40-4915-a6dc-b564b4e300b5">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[This signature confirms that all of your details are true and correct to the best of your knowledge, and that your consent for Redimed to Bulk Bill your consultation fee to Medicare (only if you bring a valid Meditcare/DVA card)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="53" y="576" width="58" height="20" uuid="20394df3-0ea5-4c82-a81a-231dac12762b">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="OfficiaSans Basic" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Signature box]]></text>
+			</staticText>
+			<image scaleImage="FillFrame">
+				<reportElement x="9" y="516" width="154" height="59" uuid="18001cb8-742d-4b2c-8704-9657d308424d"/>
+				<imageExpression><![CDATA[(java.awt.Image)$P{data}.get("patientsignature")]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="251" y="576" width="58" height="20" uuid="8ca6411e-08b1-4838-96c8-11904172c168">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="OfficiaSans Basic" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="422" y="576" width="58" height="20" uuid="0da2a3cf-25e1-4c62-87fa-5272f421ccba">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="OfficiaSans Basic" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Date]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="207" y="536" width="154" height="18" uuid="be8d4cc1-075c-4c81-a97a-33440c598f49"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="10"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("patientfullname")]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="390" y="536" width="126" height="18" uuid="80c41b88-02ca-4fbd-90b8-5ce0f82c1eb1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="OfficiaSans Basic" size="10"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{data}.get("patientsigndate")]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

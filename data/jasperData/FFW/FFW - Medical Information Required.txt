@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.10.0.final using JasperReports Library version 6.10.0-unknown  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_1" pageWidth="595" pageHeight="841" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="00175384-4932-4a4c-b6db-511ee4217ea6">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="inch"/>
+	<parameter name="realPath" class="java.lang.String"/>
+	<parameter name="data" class="java.util.Hashtable">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+	</parameter>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="102" splitType="Stretch">
+			<frame>
+				<reportElement x="0" y="0" width="595" height="102" uuid="bf27a8e3-22d7-4561-8cf1-ae70d494d88d"/>
+				<staticText>
+					<reportElement x="258" y="60" width="274" height="25" uuid="458fa168-44b1-40b9-a34d-3919d28eb13c"/>
+					<textElement textAlignment="Right" verticalAlignment="Bottom">
+						<font fontName="Arial" size="15" isBold="true" isItalic="false"/>
+						<paragraph lineSpacing="Single" rightIndent="0"/>
+					</textElement>
+					<text><![CDATA[Fitness for Work
+]]></text>
+				</staticText>
+				<image>
+					<reportElement x="392" y="30" width="150" height="30" uuid="a2457bf6-3d5a-4fbf-b1b3-352f1baf4b2d"/>
+					<imageExpression><![CDATA[$P{data}.get("client_logo_url")!=null ? $P{data}.get("client_logo_url") : ""]]></imageExpression>
+				</image>
+				<frame>
+					<reportElement x="72" y="37" width="280" height="43" uuid="17aa82c6-0d6c-4000-bd13-01a062be1eaa"/>
+					<box>
+						<pen lineWidth="0.5"/>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#7A7A7A"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#7A7A7A"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#7A7A7A"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#7A7A7A"/>
+					</box>
+					<frame>
+						<reportElement x="0" y="0" width="277" height="20" uuid="412634b9-fee8-40da-bd81-259d7a11411d"/>
+						<staticText>
+							<reportElement mode="Transparent" x="0" y="0" width="277" height="20" uuid="3a5a7f7e-2dc2-4f19-ad1a-dbb18e74c90d">
+								<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+								<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							</reportElement>
+							<box>
+								<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+								<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							</box>
+							<textElement verticalAlignment="Middle">
+								<font fontName="Arial" size="11" isBold="false"/>
+								<paragraph lineSpacing="Single" leftIndent="2"/>
+							</textElement>
+							<text><![CDATA[Name:]]></text>
+						</staticText>
+						<textField>
+							<reportElement mode="Transparent" x="40" y="0" width="237" height="20" backcolor="#FFFFFF" uuid="2ec135ea-b7a1-4aab-a0a9-e6a888803070">
+								<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+								<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							</reportElement>
+							<box>
+								<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+								<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							</box>
+							<textElement textAlignment="Justified" verticalAlignment="Middle">
+								<font fontName="Arial" size="11"/>
+								<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="0"/>
+							</textElement>
+							<textFieldExpression><![CDATA[($P{data}.get( "p_first_name" )!=null ? $P{data}.get( "p_first_name" ) : "")+" "+($P{data}.get( "p_surname" )!=null ? $P{data}.get( "p_surname" ) : "")]]></textFieldExpression>
+						</textField>
+					</frame>
+					<frame>
+						<reportElement positionType="Float" x="0" y="20" width="277" height="20" uuid="e29933f0-4bf7-48da-b3e3-c86575b944f4"/>
+						<staticText>
+							<reportElement mode="Transparent" x="0" y="0" width="277" height="20" uuid="696c0d99-73f9-41e6-a63f-20e4e9294857">
+								<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+								<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							</reportElement>
+							<box>
+								<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+								<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							</box>
+							<textElement verticalAlignment="Middle">
+								<font fontName="Arial" size="11" isBold="false"/>
+								<paragraph lineSpacing="Single" leftIndent="2"/>
+							</textElement>
+							<text><![CDATA[Date of Birth:]]></text>
+						</staticText>
+						<textField>
+							<reportElement mode="Transparent" x="70" y="0" width="206" height="20" backcolor="#FFFFFF" uuid="7cd371fc-b6be-4991-b96d-0f66ff693f7a">
+								<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+								<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							</reportElement>
+							<box>
+								<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+								<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							</box>
+							<textElement textAlignment="Justified" verticalAlignment="Middle">
+								<font fontName="Arial" size="11"/>
+								<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="0"/>
+							</textElement>
+							<textFieldExpression><![CDATA[$P{data}.get( "p_dob" )!=null ? $P{data}.get( "p_dob" ) : ""]]></textFieldExpression>
+						</textField>
+					</frame>
+				</frame>
+				<staticText>
+					<reportElement x="258" y="85" width="274" height="17" uuid="a48e651e-3d04-4a00-97aa-f8aab10916bd"/>
+					<textElement textAlignment="Right" verticalAlignment="Top">
+						<font fontName="Arial" size="11" isBold="true" isItalic="false"/>
+						<paragraph lineSpacing="Single" rightIndent="0"/>
+					</textElement>
+					<text><![CDATA[Medical Information Required
+]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="343">
+			<frame>
+				<reportElement x="0" y="0" width="595" height="343" isRemoveLineWhenBlank="true" uuid="9793f22f-267d-4209-9ee8-60385b00310d"/>
+				<staticText>
+					<reportElement x="72" y="0" width="461" height="20" uuid="f2e06781-27fd-477c-a87b-7102a4f695b6"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
+						<font fontName="Arial" size="11"/>
+						<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="0"/>
+					</textElement>
+					<text><![CDATA[Dear Candidate,]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="72" y="93" width="461" height="40" uuid="bf8917aa-c350-4527-bdde-9c03864041a2"/>
+					<textElement textAlignment="Justified" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="11"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="17.0" spacingBefore="0"/>
+					</textElement>
+					<text><![CDATA[Please return to your treating practitioner to obtain the following information, where applicable;]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="72" y="31" width="461" height="62" uuid="25dff592-44f0-49e8-b37f-afd7fe4c49fd"/>
+					<textElement textAlignment="Justified" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="11"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="17.0" spacingBefore="0"/>
+					</textElement>
+					<text><![CDATA[In order to progress your Fitness for Work Assessment at Redimed Total Health Solutions, the assessing doctor requires further medical information to make a determination regarding your capacity for work.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="90" y="127" width="442" height="178" uuid="2867acb1-71e7-40c5-b453-c8dc24ce31df"/>
+					<textElement textAlignment="Justified" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="11" isBold="true"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="15.5" spacingBefore="0"/>
+					</textElement>
+					<text><![CDATA[-
+-
+-
+
+-
+-
+-
+-
+-]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="107" y="128" width="425" height="177" uuid="afb384bb-f60f-43cc-afaf-a25340c8ddb2"/>
+					<textElement textAlignment="Justified" verticalAlignment="Top" markup="none">
+						<font fontName="Arial" size="11"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="15.5" spacingBefore="0"/>
+					</textElement>
+					<text><![CDATA[Clearance Letter from treating Specialist 
+If no Specialist treatment has been sought, Clearance Letter from treating GP. 
+All Investigative Reports including: X-rays, CTs, Ultrasound, MRI, Echo Stress Test 
+and/ or ECG in the past 12 months
+Operative Notes or Reports
+Pathology Results 
+GP Management or Mental Health plan
+List of Current Medications 
+Any reports from other allied health professionals – e.g. Chiropractor, Physiotherapist, or Hand Therapist.
+]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="72" y="305" width="460" height="20" uuid="c0b3835d-320a-44bd-9125-0e81176d7690"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Arial" size="11" isBold="true"/>
+						<paragraph leftIndent="0" spacingBefore="0"/>
+					</textElement>
+					<text><![CDATA[Other:]]></text>
+				</staticText>
+				<frame>
+					<reportElement positionType="Float" x="72" y="323" width="460" height="20" isRemoveLineWhenBlank="true" uuid="850ed284-2286-4225-b8a0-9fb4d13233ee">
+						<printWhenExpression><![CDATA[$P{data}.get( "cmt" )!=""]]></printWhenExpression>
+					</reportElement>
+					<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+						<reportElement mode="Transparent" x="0" y="0" width="460" height="20" isRemoveLineWhenBlank="true" backcolor="#FFFFFF" uuid="780cd041-a186-4dd1-8842-ec6871a640e1">
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement textAlignment="Justified" verticalAlignment="Top">
+							<font fontName="Arial" size="11" isItalic="false"/>
+							<paragraph lineSpacing="Fixed" lineSpacingSize="15.5" firstLineIndent="0" leftIndent="0" spacingBefore="4" tabStopWidth="0"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$P{data}.get( "cmt" )!=null ? $P{data}.get( "cmt" ) : ""]]></textFieldExpression>
+					</textField>
+				</frame>
+			</frame>
+		</band>
+		<band height="160">
+			<frame>
+				<reportElement x="0" y="0" width="595" height="160" uuid="f949897b-332f-49e5-83e0-d86eafe30854"/>
+				<staticText>
+					<reportElement positionType="Float" x="72" y="10" width="460" height="75" uuid="a3f81530-b7aa-44db-8fce-3b1a79a3b863"/>
+					<textElement textAlignment="Justified" verticalAlignment="Top">
+						<font fontName="Arial" size="11" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="15.5" leftIndent="0" spacingBefore="0"/>
+					</textElement>
+					<text><![CDATA[Should this information be received within 3 business days of the scheduled appointment, your finalised report will be provided to your employer. If Redimed does not receive all required information within this time, a report will be provided to your employer which may not determine in full your capacity to return to work.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="72" y="85" width="460" height="35" uuid="1dcf6f9c-b594-4f90-9808-12cc4d4f9817"/>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+						<font fontName="Arial" size="11" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="15.5" leftIndent="0" spacingBefore="0"/>
+					</textElement>
+					<text><![CDATA[Please forward all medical reports and results to Redimed via email to <font color="blue"><u>medicolegal@redimed.com.au</u></font>, or fax on (08) 9230 0999.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="73" y="125" width="190" height="35" uuid="8fea1975-9e8c-452f-8f54-5511482a7e3a"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Arial" size="11" isBold="false"/>
+						<paragraph lineSpacing="Fixed" lineSpacingSize="15.5" leftIndent="0" spacingBefore="0"/>
+					</textElement>
+					<text><![CDATA[Thank you for your assistance,
+Redimed Medico-Legal Department]]></text>
+				</staticText>
+			</frame>
+		</band>
+		<band height="50">
+			<frame>
+				<reportElement x="72" y="0" width="459" height="50" uuid="91e5a402-a96b-4266-ba7c-ecb338130a67"/>
+				<box>
+					<pen lineWidth="0.5" lineColor="#7A7A7A"/>
+				</box>
+				<staticText>
+					<reportElement x="0" y="0" width="85" height="50" uuid="42c331b8-904b-4581-97be-2d304c528c43">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Arial" size="11" isBold="true" isUnderline="false"/>
+						<paragraph leftIndent="6" spacingBefore="3"/>
+					</textElement>
+					<text><![CDATA[Assessed by:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement x="86" y="0" width="143" height="50" uuid="58343b96-bae5-4183-9d08-f67da0af05b1"/>
+					<box>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#7A7A7A"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Arial" size="11" isBold="false" isUnderline="false"/>
+						<paragraph lineSpacing="Single" leftIndent="0" spacingBefore="4"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{data}.get("doctor_name")!=null ? $P{data}.get( "doctor_name" ) : ""]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="230" y="1" width="70" height="50" uuid="158bb5a0-5751-46b6-8e46-5b169d42164a">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Arial" isBold="true" isUnderline="false"/>
+						<paragraph leftIndent="6" spacingBefore="3"/>
+					</textElement>
+					<text><![CDATA[Signed:]]></text>
+				</staticText>
+				<image scaleImage="FillFrame">
+					<reportElement x="280" y="0" width="179" height="50" uuid="2dcd4214-60dd-43de-8f14-a0604ccd1808"/>
+					<graphicElement fill="Solid"/>
+					<imageExpression><![CDATA[(java.awt.Image)$P{data}.get("signature")]]></imageExpression>
+				</image>
+			</frame>
+		</band>
+	</detail>
+</jasperReport>

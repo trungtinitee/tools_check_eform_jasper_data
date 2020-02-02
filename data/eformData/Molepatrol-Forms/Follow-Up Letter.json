@@ -1,0 +1,3007 @@
+{
+  "toastr": {
+    "toastrs": [],
+    "confirm": null
+  },
+  "eform": {
+    "template": {
+      "roles": {
+        "edit": [
+          {
+            "id": 1,
+            "ref": "edit_ADMIN",
+            "value": "no"
+          },
+          {
+            "id": 2,
+            "ref": "edit_ASSISTANT",
+            "value": "no"
+          },
+          {
+            "id": 3,
+            "ref": "edit_PATIENT",
+            "value": "no"
+          },
+          {
+            "id": 4,
+            "ref": "edit_EXTERTAL_PRACTITIONER",
+            "value": "no"
+          },
+          {
+            "id": 5,
+            "ref": "edit_INTERNAL_PRACTITIONER",
+            "value": "no"
+          },
+          {
+            "id": 6,
+            "ref": "edit_ORGANIZATION",
+            "value": "no"
+          }
+        ],
+        "view": {
+          "list": [
+            {
+              "id": 1,
+              "ref": "view_ADMIN",
+              "value": "no"
+            },
+            {
+              "id": 2,
+              "ref": "view_ASSISTANT",
+              "value": "no"
+            },
+            {
+              "id": 3,
+              "ref": "view_PATIENT",
+              "value": "no"
+            },
+            {
+              "id": 4,
+              "ref": "view_EXTERTAL_PRACTITIONER",
+              "value": "no"
+            },
+            {
+              "id": 5,
+              "ref": "view_INTERNAL_PRACTITIONER",
+              "value": "no"
+            },
+            {
+              "id": 6,
+              "ref": "view_ORGANIZATION",
+              "value": "no"
+            }
+          ],
+          "option": "hide"
+        }
+      },
+      "eformName": "Follow-Up Letter",
+      "arrViewRoleCode": [],
+      "arrEditRoleCode": [],
+      "arrSameRef": [],
+      "arrSameRefFields": [],
+      "isHaveSameRef": 0,
+      "idForm": 494,
+      "currentSectionIndex": 1,
+      "sections": [
+        {
+          "isComplete": false,
+          "isOpen": null,
+          "name": "FOLLOW UP LETTER",
+          "page": 1,
+          "ref": "section_0",
+          "rows": [
+            {
+              "currentFieldIndex": 4,
+              "ref": "row_0_0",
+              "size": 12,
+              "type": "row",
+              "fields": [
+                {
+                  "fieldPosition": {
+                    "sectionID": 0,
+                    "rowID": 0,
+                    "fieldID": 0,
+                    "sectionRef": "section_0",
+                    "rowRef": "row_0_0"
+                  },
+                  "preCal": "",
+                  "cal": "",
+                  "label": "Date",
+                  "labelPrefix": "",
+                  "labelSuffix": "",
+                  "name": "",
+                  "value": null,
+                  "size": 1,
+                  "ref": "field_0_0_2",
+                  "type": "eform_input_check_label",
+                  "isSelect": true,
+                  "rows": 2,
+                  "maxlength": 255,
+                  "isDisabled": false,
+                  "isReloadDisabled": false,
+                  "isUncheck": true,
+                  "isNumber": false,
+                  "isHidden": false,
+                  "isVisible": true,
+                  "groups": [
+                    {
+                      "fieldPosition": {
+                        "sectionID": 0,
+                        "rowID": 2,
+                        "fieldID": 0,
+                        "sectionRef": "section_0",
+                        "rowRef": "row_0_1"
+                      },
+                      "preCal": "",
+                      "cal": "",
+                      "label": "Our records of skin cancer pathology results show that you have pathology that requires further management. Please see attached results.",
+                      "labelPrefix": "",
+                      "labelSuffix": "",
+                      "name": "",
+                      "value": null,
+                      "size": 12,
+                      "ref": "field_0_1_0",
+                      "type": "eform_input_check_label",
+                      "isSelect": true,
+                      "rows": 2,
+                      "maxlength": 255,
+                      "isDisabled": false,
+                      "isVisible": true
+                    }
+                  ]
+                },
+                {
+                  "fieldPosition": {
+                    "sectionID": 0,
+                    "rowID": 0,
+                    "fieldID": 1,
+                    "sectionRef": "section_0",
+                    "rowRef": "row_0_0"
+                  },
+                  "preCal": "DEFAULT(TODAYSHORT)",
+                  "cal": "",
+                  "label": "",
+                  "labelPrefix": "",
+                  "labelSuffix": "",
+                  "name": "date_current",
+                  "value": "25/12/2019",
+                  "size": 2,
+                  "ref": "field_0_0_3",
+                  "type": "eform_input_date",
+                  "isSelect": true,
+                  "rows": 2,
+                  "maxlength": 255,
+                  "isDisabled": false,
+                  "isReloadDisabled": false,
+                  "isUncheck": true,
+                  "isNumber": false,
+                  "isHidden": false,
+                  "oldValue": null,
+                  "isVisible": true
+                }
+              ]
+            },
+            {
+              "currentFieldIndex": 4,
+              "ref": "row_0_2",
+              "size": 12,
+              "type": "row",
+              "fields": [
+                {
+                  "fieldPosition": {
+                    "sectionID": 0,
+                    "rowID": 1,
+                    "fieldID": 0,
+                    "sectionRef": "section_0",
+                    "rowRef": "row_0_2"
+                  },
+                  "label": "Dear",
+                  "size": 1,
+                  "ref": "field_0_2_0",
+                  "type": "eform_input_check_label",
+                  "isSelect": true,
+                  "rows": 2,
+                  "maxlength": 255,
+                  "isDisabled": false,
+                  "isReloadDisabled": false,
+                  "isUncheck": true,
+                  "isNumber": false,
+                  "isHidden": false,
+                  "isVisible": true,
+                  "groups": [
+                    {
+                      "fieldPosition": {
+                        "sectionID": 0,
+                        "rowID": 3,
+                        "fieldID": 0,
+                        "sectionRef": "section_0",
+                        "rowRef": "row_0_3"
+                      },
+                      "label": "We strongly advise that you have a follow-up appointment with us or another doctor as soon as possible to discuss the results.",
+                      "size": 12,
+                      "ref": "field_0_3_1",
+                      "type": "eform_input_check_label",
+                      "isSelect": true,
+                      "rows": 2,
+                      "maxlength": 255,
+                      "isDisabled": false,
+                      "isVisible": true
+                    },
+                    {
+                      "fieldPosition": {
+                        "sectionID": 0,
+                        "rowID": 4,
+                        "fieldID": 0,
+                        "sectionRef": "section_0",
+                        "rowRef": "row_0_4"
+                      },
+                      "label": "Kind regards,",
+                      "size": 12,
+                      "ref": "field_0_4_1",
+                      "type": "eform_input_check_label",
+                      "isSelect": true,
+                      "rows": 2,
+                      "maxlength": 255,
+                      "isDisabled": false,
+                      "isVisible": true
+                    },
+                    {
+                      "fieldPosition": {
+                        "sectionID": 0,
+                        "rowID": 8,
+                        "fieldID": 0,
+                        "sectionRef": "section_0",
+                        "rowRef": "row_0_5"
+                      },
+                      "label": "Doctor at Mole Patrol",
+                      "size": 12,
+                      "ref": "field_0_5_1",
+                      "type": "eform_input_check_label",
+                      "isSelect": true,
+                      "rows": 2,
+                      "maxlength": 255,
+                      "isDisabled": false,
+                      "isVisible": true
+                    }
+                  ]
+                },
+                {
+                  "fieldPosition": {
+                    "sectionID": 0,
+                    "rowID": 1,
+                    "fieldID": 1,
+                    "sectionRef": "section_0",
+                    "rowRef": "row_0_2"
+                  },
+                  "preCal": "CONCAT(PatientAppointment.FirstName,PatientAppointment.MiddleName,PatientAppointment.LastName)",
+                  "name": "dear_name",
+                  "size": 5,
+                  "ref": "field_0_2_1",
+                  "type": "eform_input_text",
+                  "isSelect": true,
+                  "rows": 2,
+                  "maxlength": 255,
+                  "isDisabled": false,
+                  "isReloadDisabled": false,
+                  "isUncheck": true,
+                  "isNumber": false,
+                  "isHidden": false,
+                  "oldValue": null,
+                  "isVisible": true,
+                  "value": "Hao TRAN"
+                }
+              ]
+            },
+            {
+              "currentFieldIndex": 4,
+              "ref": "row_0_1",
+              "size": 12,
+              "type": "row",
+              "fields": [
+                {
+                  "fieldPosition": {
+                    "sectionID": 0,
+                    "rowID": 2,
+                    "fieldID": 0,
+                    "sectionRef": "section_0",
+                    "rowRef": "row_0_1"
+                  },
+                  "preCal": "",
+                  "cal": "",
+                  "label": "Our records of skin cancer pathology results show that you have pathology that requires further management. Please see attached results.",
+                  "labelPrefix": "",
+                  "labelSuffix": "",
+                  "name": "",
+                  "value": null,
+                  "size": 12,
+                  "ref": "field_0_1_0",
+                  "type": "eform_input_check_label",
+                  "isSelect": true,
+                  "rows": 2,
+                  "maxlength": 255,
+                  "isDisabled": false,
+                  "isVisible": true
+                }
+              ]
+            },
+            {
+              "currentFieldIndex": 4,
+              "ref": "row_0_3",
+              "size": 12,
+              "type": "row",
+              "fields": [
+                {
+                  "fieldPosition": {
+                    "sectionID": 0,
+                    "rowID": 3,
+                    "fieldID": 0,
+                    "sectionRef": "section_0",
+                    "rowRef": "row_0_3"
+                  },
+                  "label": "We strongly advise that you have a follow-up appointment with us or another doctor as soon as possible to discuss the results.",
+                  "size": 12,
+                  "ref": "field_0_3_1",
+                  "type": "eform_input_check_label",
+                  "isSelect": true,
+                  "rows": 2,
+                  "maxlength": 255,
+                  "isDisabled": false,
+                  "isVisible": true
+                }
+              ]
+            },
+            {
+              "currentFieldIndex": 4,
+              "ref": "row_0_4",
+              "size": 12,
+              "type": "row",
+              "fields": [
+                {
+                  "fieldPosition": {
+                    "sectionID": 0,
+                    "rowID": 4,
+                    "fieldID": 0,
+                    "sectionRef": "section_0",
+                    "rowRef": "row_0_4"
+                  },
+                  "label": "Kind regards,",
+                  "size": 12,
+                  "ref": "field_0_4_1",
+                  "type": "eform_input_check_label",
+                  "isSelect": true,
+                  "rows": 2,
+                  "maxlength": 255,
+                  "isDisabled": false,
+                  "isVisible": true
+                }
+              ]
+            },
+            {
+              "currentFieldIndex": 6,
+              "ref": "row_0_6",
+              "size": 12,
+              "type": "row",
+              "fields": [
+                {
+                  "fieldPosition": {
+                    "sectionID": 0,
+                    "rowID": 5,
+                    "fieldID": 0,
+                    "sectionRef": "section_0",
+                    "rowRef": "row_0_6"
+                  },
+                  "preCal": "SignatureType(Doctor)",
+                  "cal": "RELOAD(Doctor,Signature;field_0_6_4)",
+                  "label": "",
+                  "labelPrefix": "",
+                  "labelSuffix": "",
+                  "name": "healthcare_signature",
+                  "value": null,
+                  "size": 6,
+                  "roles": {
+                    "edit": [
+                      {
+                        "id": 1,
+                        "ref": "edit_ADMIN",
+                        "value": "no"
+                      },
+                      {
+                        "id": 2,
+                        "ref": "edit_ASSISTANT",
+                        "value": "no"
+                      },
+                      {
+                        "id": 3,
+                        "ref": "edit_PATIENT",
+                        "value": "no"
+                      },
+                      {
+                        "id": 4,
+                        "ref": "edit_EXTERTAL_PRACTITIONER",
+                        "value": "no"
+                      },
+                      {
+                        "id": 5,
+                        "ref": "edit_INTERNAL_PRACTITIONER",
+                        "value": "no"
+                      },
+                      {
+                        "id": 6,
+                        "ref": "edit_ORGANIZATION",
+                        "value": "no"
+                      }
+                    ],
+                    "view": {
+                      "list": [
+                        {
+                          "id": 1,
+                          "ref": "view_ADMIN",
+                          "value": "no"
+                        },
+                        {
+                          "id": 2,
+                          "ref": "view_ASSISTANT",
+                          "value": "no"
+                        },
+                        {
+                          "id": 3,
+                          "ref": "view_PATIENT",
+                          "value": "no"
+                        },
+                        {
+                          "id": 4,
+                          "ref": "view_EXTERTAL_PRACTITIONER",
+                          "value": "no"
+                        },
+                        {
+                          "id": 5,
+                          "ref": "view_INTERNAL_PRACTITIONER",
+                          "value": "no"
+                        },
+                        {
+                          "id": 6,
+                          "ref": "view_ORGANIZATION",
+                          "value": "no"
+                        }
+                      ],
+                      "option": "hide"
+                    }
+                  },
+                  "ref": "field_0_6_4",
+                  "type": "eform_input_image_doctor",
+                  "isSelect": true,
+                  "rows": 2,
+                  "maxlength": 255,
+                  "isDisabled": false,
+                  "isReloadDisabled": false,
+                  "isUncheck": true,
+                  "isNumber": false,
+                  "isHidden": false,
+                  "isVisible": true,
+                  "doctorType": "Doctor",
+                  "image": "",
+                  "valueSign": {
+                    "main": null,
+                    "sub": null
+                  },
+                  "isPrintDoctor": false,
+                  "isSign": 0,
+                  "isSignDone": 0,
+                  "uidSigner": ""
+                }
+              ]
+            },
+            {
+              "currentFieldIndex": 5,
+              "ref": "row_0_7",
+              "size": 12,
+              "type": "row",
+              "fields": [
+                {
+                  "fieldPosition": {
+                    "sectionID": 0,
+                    "rowID": 6,
+                    "fieldID": 0,
+                    "sectionRef": "section_0",
+                    "rowRef": "row_0_7"
+                  },
+                  "preCal": "GETINFOSTAFF(Medical Practitioner,FirstName;LastName)",
+                  "cal": "RELOAD(Medical Practitioner,FirstName;LastName;field_0_6_4)",
+                  "label": "",
+                  "labelPrefix": "",
+                  "labelSuffix": "",
+                  "name": "provider_fullname",
+                  "value": "Doctor Test 1 NOAH ",
+                  "size": 6,
+                  "roles": {
+                    "edit": [
+                      {
+                        "id": 1,
+                        "ref": "edit_ADMIN",
+                        "value": "no"
+                      },
+                      {
+                        "id": 2,
+                        "ref": "edit_ASSISTANT",
+                        "value": "no"
+                      },
+                      {
+                        "id": 3,
+                        "ref": "edit_PATIENT",
+                        "value": "no"
+                      },
+                      {
+                        "id": 4,
+                        "ref": "edit_EXTERTAL_PRACTITIONER",
+                        "value": "no"
+                      },
+                      {
+                        "id": 5,
+                        "ref": "edit_INTERNAL_PRACTITIONER",
+                        "value": "no"
+                      },
+                      {
+                        "id": 6,
+                        "ref": "edit_ORGANIZATION",
+                        "value": "no"
+                      }
+                    ],
+                    "view": {
+                      "list": [
+                        {
+                          "id": 1,
+                          "ref": "view_ADMIN",
+                          "value": "no"
+                        },
+                        {
+                          "id": 2,
+                          "ref": "view_ASSISTANT",
+                          "value": "no"
+                        },
+                        {
+                          "id": 3,
+                          "ref": "view_PATIENT",
+                          "value": "no"
+                        },
+                        {
+                          "id": 4,
+                          "ref": "view_EXTERTAL_PRACTITIONER",
+                          "value": "no"
+                        },
+                        {
+                          "id": 5,
+                          "ref": "view_INTERNAL_PRACTITIONER",
+                          "value": "no"
+                        },
+                        {
+                          "id": 6,
+                          "ref": "view_ORGANIZATION",
+                          "value": "no"
+                        }
+                      ],
+                      "option": "hide"
+                    }
+                  },
+                  "ref": "field_0_7_4",
+                  "type": "eform_input_text",
+                  "isSelect": true,
+                  "rows": 2,
+                  "maxlength": 255,
+                  "isDisabled": true,
+                  "isReloadDisabled": false,
+                  "isUncheck": true,
+                  "isNumber": false,
+                  "isHidden": false,
+                  "oldValue": null,
+                  "isVisible": true
+                }
+              ]
+            },
+            {
+              "currentFieldIndex": 5,
+              "ref": "row_0_8",
+              "size": 12,
+              "type": "row",
+              "fields": [
+                {
+                  "fieldPosition": {
+                    "sectionID": 0,
+                    "rowID": 7,
+                    "fieldID": 0,
+                    "sectionRef": "section_0",
+                    "rowRef": "row_0_8"
+                  },
+                  "preCal": "GETINFOSTAFF(Medical Practitioner,qualification;0)",
+                  "cal": "RELOAD(Medical Practitioner,qualification;0;field_0_6_4)",
+                  "label": "",
+                  "labelPrefix": "",
+                  "labelSuffix": "",
+                  "name": "provider_qualification",
+                  "value": "12121212 ",
+                  "size": 6,
+                  "roles": {
+                    "edit": [
+                      {
+                        "id": 1,
+                        "ref": "edit_ADMIN",
+                        "value": "no"
+                      },
+                      {
+                        "id": 2,
+                        "ref": "edit_ASSISTANT",
+                        "value": "no"
+                      },
+                      {
+                        "id": 3,
+                        "ref": "edit_PATIENT",
+                        "value": "no"
+                      },
+                      {
+                        "id": 4,
+                        "ref": "edit_EXTERTAL_PRACTITIONER",
+                        "value": "no"
+                      },
+                      {
+                        "id": 5,
+                        "ref": "edit_INTERNAL_PRACTITIONER",
+                        "value": "no"
+                      },
+                      {
+                        "id": 6,
+                        "ref": "edit_ORGANIZATION",
+                        "value": "no"
+                      }
+                    ],
+                    "view": {
+                      "list": [
+                        {
+                          "id": 1,
+                          "ref": "view_ADMIN",
+                          "value": "no"
+                        },
+                        {
+                          "id": 2,
+                          "ref": "view_ASSISTANT",
+                          "value": "no"
+                        },
+                        {
+                          "id": 3,
+                          "ref": "view_PATIENT",
+                          "value": "no"
+                        },
+                        {
+                          "id": 4,
+                          "ref": "view_EXTERTAL_PRACTITIONER",
+                          "value": "no"
+                        },
+                        {
+                          "id": 5,
+                          "ref": "view_INTERNAL_PRACTITIONER",
+                          "value": "no"
+                        },
+                        {
+                          "id": 6,
+                          "ref": "view_ORGANIZATION",
+                          "value": "no"
+                        }
+                      ],
+                      "option": "hide"
+                    }
+                  },
+                  "ref": "field_0_8_4",
+                  "type": "eform_input_text",
+                  "isSelect": true,
+                  "rows": 2,
+                  "maxlength": 255,
+                  "isDisabled": true,
+                  "isReloadDisabled": false,
+                  "isUncheck": true,
+                  "isNumber": false,
+                  "isHidden": false,
+                  "oldValue": null,
+                  "isVisible": true
+                }
+              ]
+            },
+            {
+              "currentFieldIndex": 4,
+              "ref": "row_0_5",
+              "size": 12,
+              "type": "row",
+              "fields": [
+                {
+                  "fieldPosition": {
+                    "sectionID": 0,
+                    "rowID": 8,
+                    "fieldID": 0,
+                    "sectionRef": "section_0",
+                    "rowRef": "row_0_5"
+                  },
+                  "label": "Doctor at Mole Patrol",
+                  "size": 12,
+                  "ref": "field_0_5_1",
+                  "type": "eform_input_check_label",
+                  "isSelect": true,
+                  "rows": 2,
+                  "maxlength": 255,
+                  "isDisabled": false,
+                  "isVisible": true
+                }
+              ]
+            }
+          ],
+          "viewType": "static",
+          "currentRowIndex": 9
+        }
+      ],
+      "PrintType": "jasper",
+      "UID": "23dc2443-4709-4d2c-93fd-0cae084d10a9",
+      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRDbGFpbSI6bnVsbCwiY2xpZW50SWQiOjEsImVmb3JtQ2xhaW0iOm51bGwsImV4cCI6MTU3MjMyMTg3NCwiaWQiOjQwODYzLCJwcm9maWxlSWQiOjczMCwidG9rZW5UeXBlIjowLCJ1c2VybmFtZSI6IkRvY3Rlc3QxIn0.418OwDmivXJ_N-PoBevSA89rL87pdN2e3B9UbTguRYo",
+      "ListPrintFile": null,
+      "userRole": {
+        "Email": "outsource.redimed@infomedtech.com.au",
+        "ID": 40863,
+        "PhoneNumber": "03349193945",
+        "RoleVs": [
+          {
+            "ID": 342,
+            "RoleCode": null,
+            "RoleName": "Doctor",
+            "UID": null
+          },
+          {
+            "ID": 343,
+            "RoleCode": null,
+            "RoleName": "All",
+            "UID": null
+          }
+        ],
+        "UID": "594e73c5-2168-450b-8c04-497cc58c8a48",
+        "UserName": "Doctest1",
+        "FullName": "Doctor Test 1 NOAH",
+        "Doctor": {
+          "FirstName": "Doctor Test 1",
+          "ID": 730,
+          "LastName": "NOAH",
+          "Type": "Medical Practitioner",
+          "providerNumbers": [
+            {
+              "id": 571,
+              "uuid": "3679448d-d420-fae8-2eee-7897b80d3527",
+              "companyId": 1004,
+              "companyObject": {
+                "key": 1004,
+                "label": "NOAH"
+              },
+              "companySiteId": 1004,
+              "companySiteObject": {
+                "key": 1004,
+                "label": "NOAH Site - NOAH"
+              },
+              "providerNumber": "040404",
+              "specialtyId": 1,
+              "email": "",
+              "companyName": "NOAH",
+              "companySiteName": "NOAH Site",
+              "companySiteAddress": "Add 1",
+              "specialtyName": "Medical Practitioner",
+              "onlineServices": null,
+              "onlineServiceObjects": null
+            },
+            {
+              "id": 573,
+              "uuid": "43195d08-ed82-ad3f-0599-f832ce503136",
+              "companyId": 1004,
+              "companyObject": {
+                "key": 1004,
+                "label": "NOAH"
+              },
+              "companySiteId": 1005,
+              "companySiteObject": {
+                "key": 1005,
+                "label": "NOAH Site 1 - NOAH"
+              },
+              "providerNumber": "030303",
+              "specialtyId": 1,
+              "email": "",
+              "companyName": "NOAH",
+              "companySiteName": "NOAH Site 1",
+              "companySiteAddress": "123 Test",
+              "specialtyName": "Medical Practitioner",
+              "onlineServices": null,
+              "onlineServiceObjects": null
+            },
+            {
+              "id": 613,
+              "uuid": "a027c205-5d53-62c4-871d-223e55405823",
+              "companyId": 4,
+              "companyObject": {
+                "key": 4,
+                "label": "Citic Pacific Mining"
+              },
+              "companySiteId": 9,
+              "companySiteObject": {
+                "key": 9,
+                "label": "Citic Pacific Mining Site - Citic Pacific Mining"
+              },
+              "providerNumber": "020202",
+              "specialtyId": 1,
+              "email": "",
+              "companyName": "Citic Pacific Mining",
+              "companySiteName": "Citic Pacific Mining Site",
+              "companySiteAddress": "",
+              "specialtyName": "Medical Practitioner",
+              "onlineServices": null,
+              "onlineServiceObjects": null
+            },
+            {
+              "id": 616,
+              "uuid": "30517f1c-993a-b1f8-4611-301159f1a9a6",
+              "companyId": 1,
+              "companyObject": {
+                "key": 1,
+                "label": "REDIMED"
+              },
+              "companySiteId": 1,
+              "companySiteObject": {
+                "key": 1,
+                "label": "REDiMED Belmont - REDIMED"
+              },
+              "providerNumber": "010101",
+              "specialtyId": 1,
+              "email": "",
+              "companyName": "REDIMED",
+              "companySiteName": "REDiMED Belmont",
+              "companySiteAddress": "1 Frederick St",
+              "specialtyName": "Medical Practitioner",
+              "onlineServices": null,
+              "onlineServiceObjects": null
+            },
+            {
+              "id": 636,
+              "uuid": "41b4ef22-9eea-bb26-142d-9aa160afbeb2",
+              "companyId": 1030,
+              "companyObject": {
+                "key": 1030,
+                "label": "AMC360TEST"
+              },
+              "companySiteId": 1079,
+              "companySiteObject": {
+                "key": 1079,
+                "label": "Armadale Clinic - AMC360TEST"
+              },
+              "providerNumber": "113114115",
+              "specialtyId": 1,
+              "email": "",
+              "companyName": "AMC360TEST",
+              "companySiteName": "Armadale Clinic",
+              "companySiteAddress": "123 Fake Street",
+              "specialtyName": "Medical Practitioner",
+              "onlineServices": null,
+              "onlineServiceObjects": null
+            }
+          ],
+          "UID": "27013256-8efc-4921-9324-97b36a63b75d",
+          "AccountTypeId": 1,
+          "Mobile": "03349193945",
+          "specialtyId": 1,
+          "qualification": "12121212",
+          "HPII": "",
+          "prescriberNumber": "",
+          "registerNumber": "123123123",
+          "Email": "outsource.redimed@infomedtech.com.au",
+          "specialtyName": "Medical Practitioner",
+          "Signature": "file/staff/signatures/0148de80-4ff6-acd1-85f7-16e232823b87.png",
+          "ProviderNoInClinic": "040404",
+          "isAllowedReloadSignature": true
+        }
+      },
+      "jsonName": "",
+      "PatientAppointment": {
+        "Address1": null,
+        "Address2": null,
+        "DOB": "10/07/2019",
+        "Email1": "havatran92@yopmail.com",
+        "Email2": null,
+        "FaxNumber": null,
+        "POBoxNo": "",
+        "FirstName": "Hao",
+        "Gender": "Male",
+        "HomePhoneNumber": null,
+        "LastName": "TRAN",
+        "MiddleName": null,
+        "Occupation": null,
+        "PhoneNumber": "0386063195",
+        "Postcode": null,
+        "State": null,
+        "Suburb": null,
+        "Title": null,
+        "WorkPhoneNumber": null,
+        "RaceEthnicityId": 4,
+        "RaceEthnicity": "Aboriginal and Torres Strait Islander",
+        "MedicareExpiryDate": null,
+        "MedicareNumber": null,
+        "MedicareReferenceNumber": null,
+        "DVANumber": null,
+        "DVACardColour": null,
+        "PensionNumber": null,
+        "PensionExpiryDate": null,
+        "DVADisability": null,
+        "PrivateHealthFund": 0,
+        "MembershipNumber": null,
+        "PHFRefNo": null,
+        "PatientKinFirstName": null,
+        "PatientKinHomePhoneNumber": null,
+        "PatientKinLastName": null,
+        "PatientKinMiddleName": null,
+        "PatientKinMobilePhoneNumber": null,
+        "PatientKinRelationship": null,
+        "PatientKinWorkPhoneNumber": null,
+        "ID": 54906,
+        "UID": "d99b855b-3068-48fd-a27e-09e077afe95f",
+        "CaseID": 41682,
+        "PatientID": 43376
+      },
+      "isAllowedEditForm": 1,
+      "PatientSignature": null,
+      "arrSignatures": [
+        {
+          "ref": "field_0_6_4",
+          "isSignDone": 0
+        }
+      ],
+      "arrFieldReload": [
+        {
+          "fieldPosition": {
+            "sectionID": 0,
+            "rowID": 5,
+            "fieldID": 0,
+            "sectionRef": "section_0",
+            "rowRef": "row_0_6"
+          },
+          "preCal": "SignatureType(Doctor)",
+          "cal": "RELOAD(Doctor,Signature;field_0_6_4)",
+          "label": "",
+          "labelPrefix": "",
+          "labelSuffix": "",
+          "name": "healthcare_signature",
+          "value": null,
+          "size": 6,
+          "roles": {
+            "edit": [
+              {
+                "id": 1,
+                "ref": "edit_ADMIN",
+                "value": "no"
+              },
+              {
+                "id": 2,
+                "ref": "edit_ASSISTANT",
+                "value": "no"
+              },
+              {
+                "id": 3,
+                "ref": "edit_PATIENT",
+                "value": "no"
+              },
+              {
+                "id": 4,
+                "ref": "edit_EXTERTAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 5,
+                "ref": "edit_INTERNAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 6,
+                "ref": "edit_ORGANIZATION",
+                "value": "no"
+              }
+            ],
+            "view": {
+              "list": [
+                {
+                  "id": 1,
+                  "ref": "view_ADMIN",
+                  "value": "no"
+                },
+                {
+                  "id": 2,
+                  "ref": "view_ASSISTANT",
+                  "value": "no"
+                },
+                {
+                  "id": 3,
+                  "ref": "view_PATIENT",
+                  "value": "no"
+                },
+                {
+                  "id": 4,
+                  "ref": "view_EXTERTAL_PRACTITIONER",
+                  "value": "no"
+                },
+                {
+                  "id": 5,
+                  "ref": "view_INTERNAL_PRACTITIONER",
+                  "value": "no"
+                },
+                {
+                  "id": 6,
+                  "ref": "view_ORGANIZATION",
+                  "value": "no"
+                }
+              ],
+              "option": "hide"
+            }
+          },
+          "ref": "field_0_6_4",
+          "type": "eform_input_image_doctor",
+          "isSelect": true,
+          "rows": 2,
+          "maxlength": 255,
+          "isDisabled": false,
+          "isReloadDisabled": false,
+          "isUncheck": true,
+          "isNumber": false,
+          "isHidden": false,
+          "isVisible": true,
+          "doctorType": "Doctor",
+          "image": "",
+          "valueSign": {
+            "main": null,
+            "sub": null
+          },
+          "isPrintDoctor": false,
+          "isSign": 0,
+          "isSignDone": 0,
+          "uidSigner": ""
+        },
+        {
+          "fieldPosition": {
+            "sectionID": 0,
+            "rowID": 6,
+            "fieldID": 0,
+            "sectionRef": "section_0",
+            "rowRef": "row_0_7"
+          },
+          "preCal": "GETINFOSTAFF(Medical Practitioner,FirstName;LastName)",
+          "cal": "RELOAD(Medical Practitioner,FirstName;LastName;field_0_6_4)",
+          "label": "",
+          "labelPrefix": "",
+          "labelSuffix": "",
+          "name": "provider_fullname",
+          "value": "Doctor Test 1 NOAH ",
+          "size": 6,
+          "roles": {
+            "edit": [
+              {
+                "id": 1,
+                "ref": "edit_ADMIN",
+                "value": "no"
+              },
+              {
+                "id": 2,
+                "ref": "edit_ASSISTANT",
+                "value": "no"
+              },
+              {
+                "id": 3,
+                "ref": "edit_PATIENT",
+                "value": "no"
+              },
+              {
+                "id": 4,
+                "ref": "edit_EXTERTAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 5,
+                "ref": "edit_INTERNAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 6,
+                "ref": "edit_ORGANIZATION",
+                "value": "no"
+              }
+            ],
+            "view": {
+              "list": [
+                {
+                  "id": 1,
+                  "ref": "view_ADMIN",
+                  "value": "no"
+                },
+                {
+                  "id": 2,
+                  "ref": "view_ASSISTANT",
+                  "value": "no"
+                },
+                {
+                  "id": 3,
+                  "ref": "view_PATIENT",
+                  "value": "no"
+                },
+                {
+                  "id": 4,
+                  "ref": "view_EXTERTAL_PRACTITIONER",
+                  "value": "no"
+                },
+                {
+                  "id": 5,
+                  "ref": "view_INTERNAL_PRACTITIONER",
+                  "value": "no"
+                },
+                {
+                  "id": 6,
+                  "ref": "view_ORGANIZATION",
+                  "value": "no"
+                }
+              ],
+              "option": "hide"
+            }
+          },
+          "ref": "field_0_7_4",
+          "type": "eform_input_text",
+          "isSelect": true,
+          "rows": 2,
+          "maxlength": 255,
+          "isDisabled": true,
+          "isReloadDisabled": false,
+          "isUncheck": true,
+          "isNumber": false,
+          "isHidden": false,
+          "oldValue": null,
+          "isVisible": true
+        },
+        {
+          "fieldPosition": {
+            "sectionID": 0,
+            "rowID": 7,
+            "fieldID": 0,
+            "sectionRef": "section_0",
+            "rowRef": "row_0_8"
+          },
+          "preCal": "GETINFOSTAFF(Medical Practitioner,qualification;0)",
+          "cal": "RELOAD(Medical Practitioner,qualification;0;field_0_6_4)",
+          "label": "",
+          "labelPrefix": "",
+          "labelSuffix": "",
+          "name": "provider_qualification",
+          "value": "12121212 ",
+          "size": 6,
+          "roles": {
+            "edit": [
+              {
+                "id": 1,
+                "ref": "edit_ADMIN",
+                "value": "no"
+              },
+              {
+                "id": 2,
+                "ref": "edit_ASSISTANT",
+                "value": "no"
+              },
+              {
+                "id": 3,
+                "ref": "edit_PATIENT",
+                "value": "no"
+              },
+              {
+                "id": 4,
+                "ref": "edit_EXTERTAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 5,
+                "ref": "edit_INTERNAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 6,
+                "ref": "edit_ORGANIZATION",
+                "value": "no"
+              }
+            ],
+            "view": {
+              "list": [
+                {
+                  "id": 1,
+                  "ref": "view_ADMIN",
+                  "value": "no"
+                },
+                {
+                  "id": 2,
+                  "ref": "view_ASSISTANT",
+                  "value": "no"
+                },
+                {
+                  "id": 3,
+                  "ref": "view_PATIENT",
+                  "value": "no"
+                },
+                {
+                  "id": 4,
+                  "ref": "view_EXTERTAL_PRACTITIONER",
+                  "value": "no"
+                },
+                {
+                  "id": 5,
+                  "ref": "view_INTERNAL_PRACTITIONER",
+                  "value": "no"
+                },
+                {
+                  "id": 6,
+                  "ref": "view_ORGANIZATION",
+                  "value": "no"
+                }
+              ],
+              "option": "hide"
+            }
+          },
+          "ref": "field_0_8_4",
+          "type": "eform_input_text",
+          "isSelect": true,
+          "rows": 2,
+          "maxlength": 255,
+          "isDisabled": true,
+          "isReloadDisabled": false,
+          "isUncheck": true,
+          "isNumber": false,
+          "isHidden": false,
+          "oldValue": null,
+          "isVisible": true
+        }
+      ],
+      "arrFieldsTransfer": [],
+      "arrFieldsTable": []
+    },
+    "userRole": {
+      "Email": "outsource.redimed@infomedtech.com.au",
+      "ID": 40863,
+      "PhoneNumber": "03349193945",
+      "RoleVs": [
+        {
+          "ID": 342,
+          "RoleCode": null,
+          "RoleName": "Doctor",
+          "UID": null
+        },
+        {
+          "ID": 343,
+          "RoleCode": null,
+          "RoleName": "All",
+          "UID": null
+        }
+      ],
+      "UID": "594e73c5-2168-450b-8c04-497cc58c8a48",
+      "UserName": "Doctest1",
+      "FullName": "Doctor Test 1 NOAH",
+      "Doctor": {
+        "FirstName": "Doctor Test 1",
+        "ID": 730,
+        "LastName": "NOAH",
+        "Type": "Medical Practitioner",
+        "providerNumbers": [
+          {
+            "id": 571,
+            "uuid": "3679448d-d420-fae8-2eee-7897b80d3527",
+            "companyId": 1004,
+            "companyObject": {
+              "key": 1004,
+              "label": "NOAH"
+            },
+            "companySiteId": 1004,
+            "companySiteObject": {
+              "key": 1004,
+              "label": "NOAH Site - NOAH"
+            },
+            "providerNumber": "040404",
+            "specialtyId": 1,
+            "email": "",
+            "companyName": "NOAH",
+            "companySiteName": "NOAH Site",
+            "companySiteAddress": "Add 1",
+            "specialtyName": "Medical Practitioner",
+            "onlineServices": null,
+            "onlineServiceObjects": null
+          },
+          {
+            "id": 573,
+            "uuid": "43195d08-ed82-ad3f-0599-f832ce503136",
+            "companyId": 1004,
+            "companyObject": {
+              "key": 1004,
+              "label": "NOAH"
+            },
+            "companySiteId": 1005,
+            "companySiteObject": {
+              "key": 1005,
+              "label": "NOAH Site 1 - NOAH"
+            },
+            "providerNumber": "030303",
+            "specialtyId": 1,
+            "email": "",
+            "companyName": "NOAH",
+            "companySiteName": "NOAH Site 1",
+            "companySiteAddress": "123 Test",
+            "specialtyName": "Medical Practitioner",
+            "onlineServices": null,
+            "onlineServiceObjects": null
+          },
+          {
+            "id": 613,
+            "uuid": "a027c205-5d53-62c4-871d-223e55405823",
+            "companyId": 4,
+            "companyObject": {
+              "key": 4,
+              "label": "Citic Pacific Mining"
+            },
+            "companySiteId": 9,
+            "companySiteObject": {
+              "key": 9,
+              "label": "Citic Pacific Mining Site - Citic Pacific Mining"
+            },
+            "providerNumber": "020202",
+            "specialtyId": 1,
+            "email": "",
+            "companyName": "Citic Pacific Mining",
+            "companySiteName": "Citic Pacific Mining Site",
+            "companySiteAddress": "",
+            "specialtyName": "Medical Practitioner",
+            "onlineServices": null,
+            "onlineServiceObjects": null
+          },
+          {
+            "id": 616,
+            "uuid": "30517f1c-993a-b1f8-4611-301159f1a9a6",
+            "companyId": 1,
+            "companyObject": {
+              "key": 1,
+              "label": "REDIMED"
+            },
+            "companySiteId": 1,
+            "companySiteObject": {
+              "key": 1,
+              "label": "REDiMED Belmont - REDIMED"
+            },
+            "providerNumber": "010101",
+            "specialtyId": 1,
+            "email": "",
+            "companyName": "REDIMED",
+            "companySiteName": "REDiMED Belmont",
+            "companySiteAddress": "1 Frederick St",
+            "specialtyName": "Medical Practitioner",
+            "onlineServices": null,
+            "onlineServiceObjects": null
+          },
+          {
+            "id": 636,
+            "uuid": "41b4ef22-9eea-bb26-142d-9aa160afbeb2",
+            "companyId": 1030,
+            "companyObject": {
+              "key": 1030,
+              "label": "AMC360TEST"
+            },
+            "companySiteId": 1079,
+            "companySiteObject": {
+              "key": 1079,
+              "label": "Armadale Clinic - AMC360TEST"
+            },
+            "providerNumber": "113114115",
+            "specialtyId": 1,
+            "email": "",
+            "companyName": "AMC360TEST",
+            "companySiteName": "Armadale Clinic",
+            "companySiteAddress": "123 Fake Street",
+            "specialtyName": "Medical Practitioner",
+            "onlineServices": null,
+            "onlineServiceObjects": null
+          }
+        ],
+        "UID": "27013256-8efc-4921-9324-97b36a63b75d",
+        "AccountTypeId": 1,
+        "Mobile": "03349193945",
+        "specialtyId": 1,
+        "qualification": "12121212",
+        "HPII": "",
+        "prescriberNumber": "",
+        "registerNumber": "123123123",
+        "Email": "outsource.redimed@infomedtech.com.au",
+        "specialtyName": "Medical Practitioner",
+        "Signature": "file/staff/signatures/0148de80-4ff6-acd1-85f7-16e232823b87.png",
+        "ProviderNoInClinic": "040404",
+        "isAllowedReloadSignature": true
+      }
+    },
+    "PatientAppointment": {
+      "Address1": null,
+      "Address2": null,
+      "DOB": "10/07/2019",
+      "Email1": "havatran92@yopmail.com",
+      "Email2": null,
+      "FaxNumber": null,
+      "POBoxNo": "",
+      "FirstName": "Hao",
+      "Gender": "Male",
+      "HomePhoneNumber": null,
+      "LastName": "TRAN",
+      "MiddleName": null,
+      "Occupation": null,
+      "PhoneNumber": "0386063195",
+      "Postcode": null,
+      "State": null,
+      "Suburb": null,
+      "Title": null,
+      "WorkPhoneNumber": null,
+      "RaceEthnicityId": 4,
+      "RaceEthnicity": "Aboriginal and Torres Strait Islander",
+      "MedicareExpiryDate": null,
+      "MedicareNumber": null,
+      "MedicareReferenceNumber": null,
+      "DVANumber": null,
+      "DVACardColour": null,
+      "PensionNumber": null,
+      "PensionExpiryDate": null,
+      "DVADisability": null,
+      "PrivateHealthFund": 0,
+      "MembershipNumber": null,
+      "PHFRefNo": null,
+      "PatientKinFirstName": null,
+      "PatientKinHomePhoneNumber": null,
+      "PatientKinLastName": null,
+      "PatientKinMiddleName": null,
+      "PatientKinMobilePhoneNumber": null,
+      "PatientKinRelationship": null,
+      "PatientKinWorkPhoneNumber": null,
+      "ID": 54906,
+      "UID": "d99b855b-3068-48fd-a27e-09e077afe95f",
+      "CaseID": 41682,
+      "PatientID": 43376
+    },
+    "Appointment": {
+      "FromTime": "10:01",
+      "ID": 56082,
+      "SiteID": 0,
+      "SiteName": null,
+      "ToTime": "10:01",
+      "UID": "99566049-0af5-44d9-9424-adae049fa8c5",
+      "clinicIdList": [
+        0,
+        0
+      ],
+      "Date": "31/07/2019",
+      "appointmentTypeObject": {
+        "key": 1,
+        "label": "AMC360"
+      },
+      "recallData": []
+    },
+    "Patient": {},
+    "Doctor": {},
+    "DoctorTemp": [
+      {
+        "Address1": "Address for Doctor account - FDA",
+        "Address2": null,
+        "DoctorType": null,
+        "Email": "outsource.redimed@infomedtech.com.au",
+        "FaxNumber": null,
+        "FirstName": "Doctor Test 1",
+        "HomePhoneNumber": null,
+        "LastName": "NOAH",
+        "MiddleName": "",
+        "Postcode": "0407",
+        "Signature": "file/staff/signatures/0148de80-4ff6-acd1-85f7-16e232823b87.png",
+        "State": "South Australia",
+        "Suburb": "SuburbFDA",
+        "UID": "27013256-8efc-4921-9324-97b36a63b75d",
+        "WorkPhoneNumber": null,
+        "ID": 730,
+        "Mobile": "03349193945",
+        "specialtyId": 1,
+        "qualification": "12121212",
+        "HPII": "",
+        "prescriberNumber": "",
+        "registerNumber": "123123123",
+        "specialtyName": "Medical Practitioner",
+        "ProviderNoInClinic": null,
+        "isAllowedReloadSignature": false
+      }
+    ],
+    "eformData": {},
+    "isShowUID": {},
+    "updatingFields": [],
+    "radioGroups": {},
+    "fieldsByName": {
+      "": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 0,
+          "fieldID": 0,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_0"
+        },
+        "preCal": "",
+        "cal": "",
+        "label": "Date",
+        "labelPrefix": "",
+        "labelSuffix": "",
+        "name": "",
+        "value": null,
+        "size": 1,
+        "ref": "field_0_0_2",
+        "type": "eform_input_check_label",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": false,
+        "isReloadDisabled": false,
+        "isUncheck": true,
+        "isNumber": false,
+        "isHidden": false,
+        "isVisible": true,
+        "groups": [
+          {
+            "fieldPosition": {
+              "sectionID": 0,
+              "rowID": 2,
+              "fieldID": 0,
+              "sectionRef": "section_0",
+              "rowRef": "row_0_1"
+            },
+            "preCal": "",
+            "cal": "",
+            "label": "Our records of skin cancer pathology results show that you have pathology that requires further management. Please see attached results.",
+            "labelPrefix": "",
+            "labelSuffix": "",
+            "name": "",
+            "value": null,
+            "size": 12,
+            "ref": "field_0_1_0",
+            "type": "eform_input_check_label",
+            "isSelect": true,
+            "rows": 2,
+            "maxlength": 255,
+            "isDisabled": false,
+            "isVisible": true
+          }
+        ]
+      },
+      "date_current": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 0,
+          "fieldID": 1,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_0"
+        },
+        "preCal": "DEFAULT(TODAYSHORT)",
+        "cal": "",
+        "label": "",
+        "labelPrefix": "",
+        "labelSuffix": "",
+        "name": "date_current",
+        "value": "25/12/2019",
+        "size": 2,
+        "ref": "field_0_0_3",
+        "type": "eform_input_date",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": false,
+        "isReloadDisabled": false,
+        "isUncheck": true,
+        "isNumber": false,
+        "isHidden": false,
+        "oldValue": null,
+        "isVisible": true
+      },
+      "undefined": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 1,
+          "fieldID": 0,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_2"
+        },
+        "label": "Dear",
+        "size": 1,
+        "ref": "field_0_2_0",
+        "type": "eform_input_check_label",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": false,
+        "isReloadDisabled": false,
+        "isUncheck": true,
+        "isNumber": false,
+        "isHidden": false,
+        "isVisible": true,
+        "groups": [
+          {
+            "fieldPosition": {
+              "sectionID": 0,
+              "rowID": 3,
+              "fieldID": 0,
+              "sectionRef": "section_0",
+              "rowRef": "row_0_3"
+            },
+            "label": "We strongly advise that you have a follow-up appointment with us or another doctor as soon as possible to discuss the results.",
+            "size": 12,
+            "ref": "field_0_3_1",
+            "type": "eform_input_check_label",
+            "isSelect": true,
+            "rows": 2,
+            "maxlength": 255,
+            "isDisabled": false,
+            "isVisible": true
+          },
+          {
+            "fieldPosition": {
+              "sectionID": 0,
+              "rowID": 4,
+              "fieldID": 0,
+              "sectionRef": "section_0",
+              "rowRef": "row_0_4"
+            },
+            "label": "Kind regards,",
+            "size": 12,
+            "ref": "field_0_4_1",
+            "type": "eform_input_check_label",
+            "isSelect": true,
+            "rows": 2,
+            "maxlength": 255,
+            "isDisabled": false,
+            "isVisible": true
+          },
+          {
+            "fieldPosition": {
+              "sectionID": 0,
+              "rowID": 8,
+              "fieldID": 0,
+              "sectionRef": "section_0",
+              "rowRef": "row_0_5"
+            },
+            "label": "Doctor at Mole Patrol",
+            "size": 12,
+            "ref": "field_0_5_1",
+            "type": "eform_input_check_label",
+            "isSelect": true,
+            "rows": 2,
+            "maxlength": 255,
+            "isDisabled": false,
+            "isVisible": true
+          }
+        ]
+      },
+      "dear_name": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 1,
+          "fieldID": 1,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_2"
+        },
+        "preCal": "CONCAT(PatientAppointment.FirstName,PatientAppointment.MiddleName,PatientAppointment.LastName)",
+        "name": "dear_name",
+        "size": 5,
+        "ref": "field_0_2_1",
+        "type": "eform_input_text",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": false,
+        "isReloadDisabled": false,
+        "isUncheck": true,
+        "isNumber": false,
+        "isHidden": false,
+        "oldValue": null,
+        "isVisible": true,
+        "value": "Hao TRAN"
+      },
+      "healthcare_signature": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 5,
+          "fieldID": 0,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_6"
+        },
+        "preCal": "SignatureType(Doctor)",
+        "cal": "RELOAD(Doctor,Signature;field_0_6_4)",
+        "label": "",
+        "labelPrefix": "",
+        "labelSuffix": "",
+        "name": "healthcare_signature",
+        "value": null,
+        "size": 6,
+        "roles": {
+          "edit": [
+            {
+              "id": 1,
+              "ref": "edit_ADMIN",
+              "value": "no"
+            },
+            {
+              "id": 2,
+              "ref": "edit_ASSISTANT",
+              "value": "no"
+            },
+            {
+              "id": 3,
+              "ref": "edit_PATIENT",
+              "value": "no"
+            },
+            {
+              "id": 4,
+              "ref": "edit_EXTERTAL_PRACTITIONER",
+              "value": "no"
+            },
+            {
+              "id": 5,
+              "ref": "edit_INTERNAL_PRACTITIONER",
+              "value": "no"
+            },
+            {
+              "id": 6,
+              "ref": "edit_ORGANIZATION",
+              "value": "no"
+            }
+          ],
+          "view": {
+            "list": [
+              {
+                "id": 1,
+                "ref": "view_ADMIN",
+                "value": "no"
+              },
+              {
+                "id": 2,
+                "ref": "view_ASSISTANT",
+                "value": "no"
+              },
+              {
+                "id": 3,
+                "ref": "view_PATIENT",
+                "value": "no"
+              },
+              {
+                "id": 4,
+                "ref": "view_EXTERTAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 5,
+                "ref": "view_INTERNAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 6,
+                "ref": "view_ORGANIZATION",
+                "value": "no"
+              }
+            ],
+            "option": "hide"
+          }
+        },
+        "ref": "field_0_6_4",
+        "type": "eform_input_image_doctor",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": false,
+        "isReloadDisabled": false,
+        "isUncheck": true,
+        "isNumber": false,
+        "isHidden": false,
+        "isVisible": true,
+        "doctorType": "Doctor",
+        "image": "",
+        "valueSign": {
+          "main": null,
+          "sub": null
+        },
+        "isPrintDoctor": false,
+        "isSign": 0,
+        "isSignDone": 0,
+        "uidSigner": ""
+      },
+      "provider_fullname": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 6,
+          "fieldID": 0,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_7"
+        },
+        "preCal": "GETINFOSTAFF(Medical Practitioner,FirstName;LastName)",
+        "cal": "RELOAD(Medical Practitioner,FirstName;LastName;field_0_6_4)",
+        "label": "",
+        "labelPrefix": "",
+        "labelSuffix": "",
+        "name": "provider_fullname",
+        "value": "Doctor Test 1 NOAH ",
+        "size": 6,
+        "roles": {
+          "edit": [
+            {
+              "id": 1,
+              "ref": "edit_ADMIN",
+              "value": "no"
+            },
+            {
+              "id": 2,
+              "ref": "edit_ASSISTANT",
+              "value": "no"
+            },
+            {
+              "id": 3,
+              "ref": "edit_PATIENT",
+              "value": "no"
+            },
+            {
+              "id": 4,
+              "ref": "edit_EXTERTAL_PRACTITIONER",
+              "value": "no"
+            },
+            {
+              "id": 5,
+              "ref": "edit_INTERNAL_PRACTITIONER",
+              "value": "no"
+            },
+            {
+              "id": 6,
+              "ref": "edit_ORGANIZATION",
+              "value": "no"
+            }
+          ],
+          "view": {
+            "list": [
+              {
+                "id": 1,
+                "ref": "view_ADMIN",
+                "value": "no"
+              },
+              {
+                "id": 2,
+                "ref": "view_ASSISTANT",
+                "value": "no"
+              },
+              {
+                "id": 3,
+                "ref": "view_PATIENT",
+                "value": "no"
+              },
+              {
+                "id": 4,
+                "ref": "view_EXTERTAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 5,
+                "ref": "view_INTERNAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 6,
+                "ref": "view_ORGANIZATION",
+                "value": "no"
+              }
+            ],
+            "option": "hide"
+          }
+        },
+        "ref": "field_0_7_4",
+        "type": "eform_input_text",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": true,
+        "isReloadDisabled": false,
+        "isUncheck": true,
+        "isNumber": false,
+        "isHidden": false,
+        "oldValue": null,
+        "isVisible": true
+      },
+      "provider_qualification": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 7,
+          "fieldID": 0,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_8"
+        },
+        "preCal": "GETINFOSTAFF(Medical Practitioner,qualification;0)",
+        "cal": "RELOAD(Medical Practitioner,qualification;0;field_0_6_4)",
+        "label": "",
+        "labelPrefix": "",
+        "labelSuffix": "",
+        "name": "provider_qualification",
+        "value": "12121212 ",
+        "size": 6,
+        "roles": {
+          "edit": [
+            {
+              "id": 1,
+              "ref": "edit_ADMIN",
+              "value": "no"
+            },
+            {
+              "id": 2,
+              "ref": "edit_ASSISTANT",
+              "value": "no"
+            },
+            {
+              "id": 3,
+              "ref": "edit_PATIENT",
+              "value": "no"
+            },
+            {
+              "id": 4,
+              "ref": "edit_EXTERTAL_PRACTITIONER",
+              "value": "no"
+            },
+            {
+              "id": 5,
+              "ref": "edit_INTERNAL_PRACTITIONER",
+              "value": "no"
+            },
+            {
+              "id": 6,
+              "ref": "edit_ORGANIZATION",
+              "value": "no"
+            }
+          ],
+          "view": {
+            "list": [
+              {
+                "id": 1,
+                "ref": "view_ADMIN",
+                "value": "no"
+              },
+              {
+                "id": 2,
+                "ref": "view_ASSISTANT",
+                "value": "no"
+              },
+              {
+                "id": 3,
+                "ref": "view_PATIENT",
+                "value": "no"
+              },
+              {
+                "id": 4,
+                "ref": "view_EXTERTAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 5,
+                "ref": "view_INTERNAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 6,
+                "ref": "view_ORGANIZATION",
+                "value": "no"
+              }
+            ],
+            "option": "hide"
+          }
+        },
+        "ref": "field_0_8_4",
+        "type": "eform_input_text",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": true,
+        "isReloadDisabled": false,
+        "isUncheck": true,
+        "isNumber": false,
+        "isHidden": false,
+        "oldValue": null,
+        "isVisible": true
+      }
+    },
+    "fieldsByRef": {
+      "field_0_0_2": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 0,
+          "fieldID": 0,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_0"
+        },
+        "preCal": "",
+        "cal": "",
+        "label": "Date",
+        "labelPrefix": "",
+        "labelSuffix": "",
+        "name": "",
+        "value": null,
+        "size": 1,
+        "ref": "field_0_0_2",
+        "type": "eform_input_check_label",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": false,
+        "isReloadDisabled": false,
+        "isUncheck": true,
+        "isNumber": false,
+        "isHidden": false,
+        "isVisible": true,
+        "groups": [
+          {
+            "fieldPosition": {
+              "sectionID": 0,
+              "rowID": 2,
+              "fieldID": 0,
+              "sectionRef": "section_0",
+              "rowRef": "row_0_1"
+            },
+            "preCal": "",
+            "cal": "",
+            "label": "Our records of skin cancer pathology results show that you have pathology that requires further management. Please see attached results.",
+            "labelPrefix": "",
+            "labelSuffix": "",
+            "name": "",
+            "value": null,
+            "size": 12,
+            "ref": "field_0_1_0",
+            "type": "eform_input_check_label",
+            "isSelect": true,
+            "rows": 2,
+            "maxlength": 255,
+            "isDisabled": false,
+            "isVisible": true
+          }
+        ]
+      },
+      "field_0_0_3": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 0,
+          "fieldID": 1,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_0"
+        },
+        "preCal": "DEFAULT(TODAYSHORT)",
+        "cal": "",
+        "label": "",
+        "labelPrefix": "",
+        "labelSuffix": "",
+        "name": "date_current",
+        "value": "25/12/2019",
+        "size": 2,
+        "ref": "field_0_0_3",
+        "type": "eform_input_date",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": false,
+        "isReloadDisabled": false,
+        "isUncheck": true,
+        "isNumber": false,
+        "isHidden": false,
+        "oldValue": null,
+        "isVisible": true
+      },
+      "field_0_2_0": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 1,
+          "fieldID": 0,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_2"
+        },
+        "label": "Dear",
+        "size": 1,
+        "ref": "field_0_2_0",
+        "type": "eform_input_check_label",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": false,
+        "isReloadDisabled": false,
+        "isUncheck": true,
+        "isNumber": false,
+        "isHidden": false,
+        "isVisible": true,
+        "groups": [
+          {
+            "fieldPosition": {
+              "sectionID": 0,
+              "rowID": 3,
+              "fieldID": 0,
+              "sectionRef": "section_0",
+              "rowRef": "row_0_3"
+            },
+            "label": "We strongly advise that you have a follow-up appointment with us or another doctor as soon as possible to discuss the results.",
+            "size": 12,
+            "ref": "field_0_3_1",
+            "type": "eform_input_check_label",
+            "isSelect": true,
+            "rows": 2,
+            "maxlength": 255,
+            "isDisabled": false,
+            "isVisible": true
+          },
+          {
+            "fieldPosition": {
+              "sectionID": 0,
+              "rowID": 4,
+              "fieldID": 0,
+              "sectionRef": "section_0",
+              "rowRef": "row_0_4"
+            },
+            "label": "Kind regards,",
+            "size": 12,
+            "ref": "field_0_4_1",
+            "type": "eform_input_check_label",
+            "isSelect": true,
+            "rows": 2,
+            "maxlength": 255,
+            "isDisabled": false,
+            "isVisible": true
+          },
+          {
+            "fieldPosition": {
+              "sectionID": 0,
+              "rowID": 8,
+              "fieldID": 0,
+              "sectionRef": "section_0",
+              "rowRef": "row_0_5"
+            },
+            "label": "Doctor at Mole Patrol",
+            "size": 12,
+            "ref": "field_0_5_1",
+            "type": "eform_input_check_label",
+            "isSelect": true,
+            "rows": 2,
+            "maxlength": 255,
+            "isDisabled": false,
+            "isVisible": true
+          }
+        ]
+      },
+      "field_0_2_1": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 1,
+          "fieldID": 1,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_2"
+        },
+        "preCal": "CONCAT(PatientAppointment.FirstName,PatientAppointment.MiddleName,PatientAppointment.LastName)",
+        "name": "dear_name",
+        "size": 5,
+        "ref": "field_0_2_1",
+        "type": "eform_input_text",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": false,
+        "isReloadDisabled": false,
+        "isUncheck": true,
+        "isNumber": false,
+        "isHidden": false,
+        "oldValue": null,
+        "isVisible": true,
+        "value": "Hao TRAN"
+      },
+      "field_0_1_0": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 2,
+          "fieldID": 0,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_1"
+        },
+        "preCal": "",
+        "cal": "",
+        "label": "Our records of skin cancer pathology results show that you have pathology that requires further management. Please see attached results.",
+        "labelPrefix": "",
+        "labelSuffix": "",
+        "name": "",
+        "value": null,
+        "size": 12,
+        "ref": "field_0_1_0",
+        "type": "eform_input_check_label",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": false,
+        "isVisible": true
+      },
+      "field_0_3_1": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 3,
+          "fieldID": 0,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_3"
+        },
+        "label": "We strongly advise that you have a follow-up appointment with us or another doctor as soon as possible to discuss the results.",
+        "size": 12,
+        "ref": "field_0_3_1",
+        "type": "eform_input_check_label",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": false,
+        "isVisible": true
+      },
+      "field_0_4_1": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 4,
+          "fieldID": 0,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_4"
+        },
+        "label": "Kind regards,",
+        "size": 12,
+        "ref": "field_0_4_1",
+        "type": "eform_input_check_label",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": false,
+        "isVisible": true
+      },
+      "field_0_6_4": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 5,
+          "fieldID": 0,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_6"
+        },
+        "preCal": "SignatureType(Doctor)",
+        "cal": "RELOAD(Doctor,Signature;field_0_6_4)",
+        "label": "",
+        "labelPrefix": "",
+        "labelSuffix": "",
+        "name": "healthcare_signature",
+        "value": null,
+        "size": 6,
+        "roles": {
+          "edit": [
+            {
+              "id": 1,
+              "ref": "edit_ADMIN",
+              "value": "no"
+            },
+            {
+              "id": 2,
+              "ref": "edit_ASSISTANT",
+              "value": "no"
+            },
+            {
+              "id": 3,
+              "ref": "edit_PATIENT",
+              "value": "no"
+            },
+            {
+              "id": 4,
+              "ref": "edit_EXTERTAL_PRACTITIONER",
+              "value": "no"
+            },
+            {
+              "id": 5,
+              "ref": "edit_INTERNAL_PRACTITIONER",
+              "value": "no"
+            },
+            {
+              "id": 6,
+              "ref": "edit_ORGANIZATION",
+              "value": "no"
+            }
+          ],
+          "view": {
+            "list": [
+              {
+                "id": 1,
+                "ref": "view_ADMIN",
+                "value": "no"
+              },
+              {
+                "id": 2,
+                "ref": "view_ASSISTANT",
+                "value": "no"
+              },
+              {
+                "id": 3,
+                "ref": "view_PATIENT",
+                "value": "no"
+              },
+              {
+                "id": 4,
+                "ref": "view_EXTERTAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 5,
+                "ref": "view_INTERNAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 6,
+                "ref": "view_ORGANIZATION",
+                "value": "no"
+              }
+            ],
+            "option": "hide"
+          }
+        },
+        "ref": "field_0_6_4",
+        "type": "eform_input_image_doctor",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": false,
+        "isReloadDisabled": false,
+        "isUncheck": true,
+        "isNumber": false,
+        "isHidden": false,
+        "isVisible": true,
+        "doctorType": "Doctor",
+        "image": "",
+        "valueSign": {
+          "main": null,
+          "sub": null
+        },
+        "isPrintDoctor": false,
+        "isSign": 0,
+        "isSignDone": 0,
+        "uidSigner": ""
+      },
+      "field_0_7_4": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 6,
+          "fieldID": 0,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_7"
+        },
+        "preCal": "GETINFOSTAFF(Medical Practitioner,FirstName;LastName)",
+        "cal": "RELOAD(Medical Practitioner,FirstName;LastName;field_0_6_4)",
+        "label": "",
+        "labelPrefix": "",
+        "labelSuffix": "",
+        "name": "provider_fullname",
+        "value": "Doctor Test 1 NOAH ",
+        "size": 6,
+        "roles": {
+          "edit": [
+            {
+              "id": 1,
+              "ref": "edit_ADMIN",
+              "value": "no"
+            },
+            {
+              "id": 2,
+              "ref": "edit_ASSISTANT",
+              "value": "no"
+            },
+            {
+              "id": 3,
+              "ref": "edit_PATIENT",
+              "value": "no"
+            },
+            {
+              "id": 4,
+              "ref": "edit_EXTERTAL_PRACTITIONER",
+              "value": "no"
+            },
+            {
+              "id": 5,
+              "ref": "edit_INTERNAL_PRACTITIONER",
+              "value": "no"
+            },
+            {
+              "id": 6,
+              "ref": "edit_ORGANIZATION",
+              "value": "no"
+            }
+          ],
+          "view": {
+            "list": [
+              {
+                "id": 1,
+                "ref": "view_ADMIN",
+                "value": "no"
+              },
+              {
+                "id": 2,
+                "ref": "view_ASSISTANT",
+                "value": "no"
+              },
+              {
+                "id": 3,
+                "ref": "view_PATIENT",
+                "value": "no"
+              },
+              {
+                "id": 4,
+                "ref": "view_EXTERTAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 5,
+                "ref": "view_INTERNAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 6,
+                "ref": "view_ORGANIZATION",
+                "value": "no"
+              }
+            ],
+            "option": "hide"
+          }
+        },
+        "ref": "field_0_7_4",
+        "type": "eform_input_text",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": true,
+        "isReloadDisabled": false,
+        "isUncheck": true,
+        "isNumber": false,
+        "isHidden": false,
+        "oldValue": null,
+        "isVisible": true
+      },
+      "field_0_8_4": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 7,
+          "fieldID": 0,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_8"
+        },
+        "preCal": "GETINFOSTAFF(Medical Practitioner,qualification;0)",
+        "cal": "RELOAD(Medical Practitioner,qualification;0;field_0_6_4)",
+        "label": "",
+        "labelPrefix": "",
+        "labelSuffix": "",
+        "name": "provider_qualification",
+        "value": "12121212 ",
+        "size": 6,
+        "roles": {
+          "edit": [
+            {
+              "id": 1,
+              "ref": "edit_ADMIN",
+              "value": "no"
+            },
+            {
+              "id": 2,
+              "ref": "edit_ASSISTANT",
+              "value": "no"
+            },
+            {
+              "id": 3,
+              "ref": "edit_PATIENT",
+              "value": "no"
+            },
+            {
+              "id": 4,
+              "ref": "edit_EXTERTAL_PRACTITIONER",
+              "value": "no"
+            },
+            {
+              "id": 5,
+              "ref": "edit_INTERNAL_PRACTITIONER",
+              "value": "no"
+            },
+            {
+              "id": 6,
+              "ref": "edit_ORGANIZATION",
+              "value": "no"
+            }
+          ],
+          "view": {
+            "list": [
+              {
+                "id": 1,
+                "ref": "view_ADMIN",
+                "value": "no"
+              },
+              {
+                "id": 2,
+                "ref": "view_ASSISTANT",
+                "value": "no"
+              },
+              {
+                "id": 3,
+                "ref": "view_PATIENT",
+                "value": "no"
+              },
+              {
+                "id": 4,
+                "ref": "view_EXTERTAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 5,
+                "ref": "view_INTERNAL_PRACTITIONER",
+                "value": "no"
+              },
+              {
+                "id": 6,
+                "ref": "view_ORGANIZATION",
+                "value": "no"
+              }
+            ],
+            "option": "hide"
+          }
+        },
+        "ref": "field_0_8_4",
+        "type": "eform_input_text",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": true,
+        "isReloadDisabled": false,
+        "isUncheck": true,
+        "isNumber": false,
+        "isHidden": false,
+        "oldValue": null,
+        "isVisible": true
+      },
+      "field_0_5_1": {
+        "fieldPosition": {
+          "sectionID": 0,
+          "rowID": 8,
+          "fieldID": 0,
+          "sectionRef": "section_0",
+          "rowRef": "row_0_5"
+        },
+        "label": "Doctor at Mole Patrol",
+        "size": 12,
+        "ref": "field_0_5_1",
+        "type": "eform_input_check_label",
+        "isSelect": true,
+        "rows": 2,
+        "maxlength": 255,
+        "isDisabled": false,
+        "isVisible": true
+      }
+    },
+    "trigerFields": {},
+    "params": {
+      "caseId": "41682",
+      "accessCode": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRDbGFpbSI6bnVsbCwiY2xpZW50SWQiOjEsImVmb3JtQ2xhaW0iOm51bGwsImV4cCI6MTU3NzY5NzY0MCwiaWQiOjQwODYzLCJwcm9maWxlSWQiOjczMCwidG9rZW5UeXBlIjowLCJ1c2VybmFtZSI6IkRvY3Rlc3QxIn0.jKQNfQ8DQw-9iDgPVnhqiDu8vs8rSedMOts3-wTuT20",
+      "clientId": "1",
+      "appointmentUID": "99566049-0af5-44d9-9424-adae049fa8c5",
+      "patientAppointmentUID": "d99b855b-3068-48fd-a27e-09e077afe95f",
+      "patientUID": "9d4b179d-6d85-4010-bff1-ef01abd8768b",
+      "templateUID": "23dc2443-4709-4d2c-93fd-0cae084d10a9",
+      "userUID": "594e73c5-2168-450b-8c04-497cc58c8a48",
+      "tokenPatient": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRDbGFpbSI6bnVsbCwiY2xpZW50SWQiOjEsImVmb3JtQ2xhaW0iOnsicGF0aWVudElkIjo0MzM3NiwicGF0aWVudFV1aWQiOiI5ZDRiMTc5ZC02ZDg1LTQwMTAtYmZmMS1lZjAxYWJkODc2OGIifSwiZXhwIjoxNTc3MzI3MDY3LCJpZCI6NDA4NjMsInByb2ZpbGVJZCI6NzMwLCJ0b2tlblR5cGUiOjEsInVzZXJuYW1lIjoiRG9jdGVzdDEifQ.zkRnFO8iL5RYxdFqU9410zzBD0FD6bq_0ahkXdCQT9A",
+      "UserAccountID": 40863,
+      "formUID": "8c7286fb-d9bb-3c18-0a62-3eac98554391",
+      "eformID": 3481,
+      "EFormDataID": 3481,
+      "PatientID": 43376,
+      "MD5": null,
+      "printType": "jasper",
+      "printApi": "print",
+      "printSkin": null,
+      "eformTemplateName": "Follow-Up Letter",
+      "eformTemplateID": 494,
+      "eformTemplateUID": "23dc2443-4709-4d2c-93fd-0cae084d10a9",
+      "ListPrintFile": null,
+      "eformTypeId": 494,
+      "appointmentId": 56082,
+      "apptFrom": "10:01",
+      "toFrom": "10:01",
+      "PatientName": "HaoTRAN",
+      "PatientAppointmentID": 54906,
+      "PatientAppointmentUID": "d99b855b-3068-48fd-a27e-09e077afe95f",
+      "CaseID": 41682,
+      "Token": ""
+    },
+    "listDiagnosis": [],
+    "listInjury": [],
+    "finishSaved": null,
+    "blockForm": null,
+    "tokenCheckCode": null,
+    "emergencyContacts": {
+      "id": 241,
+      "patientId": 43376,
+      "eformDataId": null,
+      "firstName": "a",
+      "lastName": "b",
+      "phone": "1123",
+      "relationship": "Spouse",
+      "relationshipId": 3,
+      "updateAt": "2019-08-07T13:24:04Z"
+    },
+    "dataFeatures": [
+      {
+        "id": 4,
+        "parentId": null,
+        "name": "Scheduler",
+        "child": null
+      },
+      {
+        "id": 16,
+        "parentId": 4,
+        "name": "Current User",
+        "child": null
+      },
+      {
+        "id": 17,
+        "parentId": 4,
+        "name": "All",
+        "child": null
+      },
+      {
+        "id": 11,
+        "parentId": 6,
+        "name": "Eform - Access",
+        "child": null
+      },
+      {
+        "id": 12,
+        "parentId": 6,
+        "name": "Clinical Notes",
+        "child": null
+      },
+      {
+        "id": 13,
+        "parentId": 6,
+        "name": "Documentation",
+        "child": null
+      },
+      {
+        "id": 14,
+        "parentId": 6,
+        "name": "Medical Records",
+        "child": null
+      },
+      {
+        "id": 15,
+        "parentId": 6,
+        "name": "Eform - Access List",
+        "child": null
+      },
+      {
+        "id": 7,
+        "parentId": null,
+        "name": "Correspondence",
+        "child": null
+      },
+      {
+        "id": 10,
+        "parentId": null,
+        "name": "Roster",
+        "child": null
+      },
+      {
+        "id": 36,
+        "parentId": null,
+        "name": "FAQ",
+        "child": null
+      },
+      {
+        "id": 3,
+        "parentId": null,
+        "name": "Patient",
+        "child": null
+      },
+      {
+        "id": 1,
+        "parentId": 55,
+        "name": "System",
+        "child": null
+      },
+      {
+        "id": 2,
+        "parentId": null,
+        "name": "Role",
+        "child": null
+      },
+      {
+        "id": 3,
+        "parentId": null,
+        "name": "Patient",
+        "child": null
+      },
+      {
+        "id": 4,
+        "parentId": null,
+        "name": "Scheduler",
+        "child": null
+      },
+      {
+        "id": 16,
+        "parentId": 4,
+        "name": "Current User",
+        "child": null
+      },
+      {
+        "id": 17,
+        "parentId": 4,
+        "name": "All",
+        "child": null
+      },
+      {
+        "id": 5,
+        "parentId": null,
+        "name": "Organisation",
+        "child": null
+      },
+      {
+        "id": 7,
+        "parentId": null,
+        "name": "Correspondence",
+        "child": null
+      },
+      {
+        "id": 11,
+        "parentId": 6,
+        "name": "Eform - Access",
+        "child": null
+      },
+      {
+        "id": 13,
+        "parentId": 6,
+        "name": "Documentation",
+        "child": null
+      },
+      {
+        "id": 14,
+        "parentId": 6,
+        "name": "Medical Records",
+        "child": null
+      },
+      {
+        "id": 15,
+        "parentId": 6,
+        "name": "Eform - Access List",
+        "child": null
+      },
+      {
+        "id": 10,
+        "parentId": null,
+        "name": "Roster",
+        "child": null
+      },
+      {
+        "id": 38,
+        "parentId": 10,
+        "name": "Current User",
+        "child": null
+      },
+      {
+        "id": 39,
+        "parentId": 10,
+        "name": "All",
+        "child": null
+      },
+      {
+        "id": 23,
+        "parentId": null,
+        "name": "Eform Template",
+        "child": null
+      },
+      {
+        "id": 22,
+        "parentId": 18,
+        "name": "Project Identification",
+        "child": null
+      },
+      {
+        "id": 24,
+        "parentId": 18,
+        "name": "PO Booking",
+        "child": null
+      },
+      {
+        "id": 29,
+        "parentId": 18,
+        "name": "New Booking - PEM",
+        "child": null
+      },
+      {
+        "id": 30,
+        "parentId": 18,
+        "name": "New Booking - AMC360",
+        "child": null
+      },
+      {
+        "id": 31,
+        "parentId": 18,
+        "name": "Manage Bookings",
+        "child": null
+      },
+      {
+        "id": 32,
+        "parentId": 18,
+        "name": "Organisation Candidate/Patient Management",
+        "child": null
+      },
+      {
+        "id": 33,
+        "parentId": 18,
+        "name": "Packages",
+        "child": null
+      },
+      {
+        "id": 34,
+        "parentId": 18,
+        "name": "Positions",
+        "child": null
+      },
+      {
+        "id": 37,
+        "parentId": 18,
+        "name": "Candidate/Patient Management",
+        "child": null
+      },
+      {
+        "id": 42,
+        "parentId": 18,
+        "name": "Manage Logins",
+        "child": null
+      },
+      {
+        "id": 36,
+        "parentId": null,
+        "name": "FAQ",
+        "child": null
+      },
+      {
+        "id": 44,
+        "parentId": null,
+        "name": "Public Online Booking",
+        "child": null
+      },
+      {
+        "id": 40,
+        "parentId": 44,
+        "name": "Current User",
+        "child": null
+      },
+      {
+        "id": 41,
+        "parentId": 44,
+        "name": "New User Booking",
+        "child": null
+      },
+      {
+        "id": 43,
+        "parentId": null,
+        "name": "Telehealth Booking Apps",
+        "child": null
+      },
+      {
+        "id": 56,
+        "parentId": 55,
+        "name": "Internal Staff",
+        "child": null
+      },
+      {
+        "id": 55,
+        "parentId": null,
+        "name": "Staff",
+        "child": null
+      },
+      {
+        "id": 58,
+        "parentId": 4,
+        "name": "Ignore Multiple Booking",
+        "child": null
+      },
+      {
+        "id": 53,
+        "parentId": 6,
+        "name": "Eform - Print Document",
+        "child": null
+      },
+      {
+        "id": 35,
+        "parentId": 18,
+        "name": "Manage Companies",
+        "child": null
+      },
+      {
+        "id": 18,
+        "parentId": null,
+        "name": "Medical Online Booking",
+        "child": null
+      },
+      {
+        "id": 63,
+        "parentId": 6,
+        "name": "Eform - Add Signatures",
+        "child": null
+      }
+    ],
+    "dataMOB": {
+      "appointmentDate": "0001-01-01T00:00:00Z",
+      "appointmentId": null,
+      "appointmentTime": 0,
+      "appointmentUuid": null,
+      "bookingComments": "",
+      "bookingData": null,
+      "bookingEmailReceivingInvoices": null,
+      "bookingEmailReceivingResult": null,
+      "bookingPerson": "staff  07311903",
+      "bookingPosition": null,
+      "bookingProjectIdentification": "",
+      "bookingPurchaseOrderNumber": "",
+      "bookingRedimedCanCall": false,
+      "bookingReference": null,
+      "bookingStatus": 0,
+      "caseId": 41682,
+      "caseName": "",
+      "contactEmail": "staff07311903@yopmail.com",
+      "contactNumber": "0386063195",
+      "fittest": {
+        "caseId": 0,
+        "caseName": "",
+        "package": null,
+        "packageGroup": null,
+        "packageType": 0,
+        "paperwork": null,
+        "preferredSite": {
+          "key": 0,
+          "label": ""
+        },
+        "preferredSiteAddress": "",
+        "preferredSiteTimeZone": "",
+        "profileSlots": null,
+        "timeSlotDuration": null
+      },
+      "generalCandidateId": 43376,
+      "generalCandidatePatientName": {
+        "key": 43376,
+        "label": "Hao Tran"
+      },
+      "generalContactEmail": "havatran92@yopmail.com",
+      "generalDob": "2019-07-10T00:00:00Z",
+      "generalGender": 1,
+      "generalMobilePhone": "0386063195",
+      "generalRedimedCanEmail": false,
+      "organisationId": 2,
+      "organisationName": {
+        "key": 2,
+        "label": "KOYA"
+      },
+      "organisationSiteId": 7,
+      "package": null,
+      "packageGroup": null,
+      "packageRequest": null,
+      "paperwork": null,
+      "preferredSite": {
+        "key": 0,
+        "label": ""
+      },
+      "preferredSiteAddress": "",
+      "preferredSiteTimeZone": "",
+      "profileSlots": null,
+      "projectIdentificationDetail": null,
+      "projectIdentificationDetails": null,
+      "service": {
+        "key": 1,
+        "label": "PEM"
+      },
+      "siteName": {
+        "key": 7,
+        "label": "KOYA Site"
+      },
+      "timeSlotDuration": null,
+      "type": "amc360"
+    },
+    "otherEformDatas": {}
+  }
+}
