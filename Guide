@@ -1,0 +1,37 @@
+LỮ TRUNG TÍN - 0334919392 - trungtinitee1999@gmail.com
+
+Đây là file hướng dẫn sử dụng tool hỗ trợ làm eform và jasper (so sánh tính thống nhất giữa chúng):
+
+Một số thành phần yêu cầu:
+- NodeJs version căn bản, khuyến khích sử dụng bản cài đặt tại https://nodejs.org/en/
+- Biết căn bản về code JSON data
+- Biết đọc lỗi trong Command Prompt của Windows
+- Biết thao tác trong Windows
+
+Ok, bắt đầu thôi:
+- Lấy dữ liệu so sánh cho eform:
+  B1: Mở eform cần kiểm tra;
+  B2: Sau khi form loaded, nhấn f12;
+  B3: Tại thẻ Console, tại dòng Next state (màu xanh, cuối cùng), phải chuột vào mũi tên phía sau và chọn Store as global variable;
+  B4: Biến temp sẽ được tạo ra (chú ý tên biến được tạo để copy cho đúng). Nhập vào copy(temp) (ví dụ ở đây biến tên temp được tạo ra);
+  B5: Sau khi thực hiện bước 4, code sẽ được copy vào clipboard của Windows;
+  B6: Mở thư mục giải nén, vào đường dẫn data -> eformData. Tạo thư mục tương ứng với tên thẻ trong Consultation,
+      lấy file mẫu có phần mở rộng là .json mở bằng Notepad và paste giá trị copy vào đổi tên tương ứng với form cần check;
+  B7: Xong cho eform.
+- Lấy dữ liệu cho jasper
+  B1: Vào eform template, mở form cần check và tải jasper file mới nhất về.
+  B2: Mở jasper file bằng phần mềm Jaspe report studio, chuyển sang thẻ sources và copy all code trong đó.
+  B3: Mở thư mục giải nén, vào đường dẫn data -> jasperData. Tạo thư mục tương ứng với tên thẻ trong Consultation (tương tự eform),
+      lấy file mẫu có phần mở rộng là .txt mở bằng Notepad và paste giá trị copy vào đổi tên tương ứng với form cần check;
+  B4: Xong cho jasper.
+- Chỉnh sửa dữ liệu nguồn:
+  B1: Trong thư mục giải nén, mở file firstDataSources.json
+  B2: Chỉnh sửa các field sau: groupName và eformName cho phù hợp
+- Ok, bắt đầu kiểm tra thôi mở thư mục giải nén và chạy file Run test.bat
+
+Chú ý:
+- Nếu muốn kiểm tra eform khác vui lòng lặp lại các thao tác trên, chú ý đừng bỏ lỡ thao tác nào để quy trình kiểm tra được thành công nhất.
+- Sau khi chương trình chạy xong sẽ thực hiện kiểm tra, nếu có phát hiện lỗi sẽ được liệt kê ngay tại màng hình chính của chương trình.
+- Đọc kỹ phần note để hiểu thông báo lỗi là gì.
+
+Mọi thắc mắc xin liên hệ về Trung Tín : 0334919392
